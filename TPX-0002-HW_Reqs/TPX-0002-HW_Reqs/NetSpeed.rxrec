@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e437616a-7cee-41d8-81fd-f22139b1b622"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NetSpeed"
+	namespace="TPX_0002_HW_Reqs">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="HDS_Computer_Min_Ethernet_Speed"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="c41d4594-5c3e-4d55-94cf-4f38357b9bd3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="The ethernet port speed will be at least 1 Gbps"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="575c2b48-6aea-46e1-8836-55b8b1c91127">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="1fd4859f-1417-43ba-ac4a-9a4fc8a67499"
+		similarity="0.999">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5e40434c-0610-49b1-a51b-25e15d0c829c"
+			sourcename="ElementTree">
+				<element
+				capabilities="uiautomation, uiautomationvalue"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="2"
+				prefcap="text"
+				rect="425,935,95,18"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						Connection type:
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						Connection type:
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Connection type:
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						Connection type:
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						netType_label
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						Element
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						DirectUI
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Connection type:
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.15, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						7400
+					</attribute>
+					<attribute
+					name="uiautomationvalueisreadonly"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="uiautomationvaluevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='netType_label']
+				</path>
+				<robustPath>
+					/form[@name='Task Manager']//text[@automationid='netType_label']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="377950e9-b0a2-415f-9069-8fe99b2e663a">
+				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
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Connection type:
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="328a849b-a671-4ae4-b652-eccbeed5ac95"
+		similarity="0.999">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d4e5d09a-0dd3-4e5b-973a-706b365d2ef7"
+			sourcename="ElementTree">
+				<element
+				capabilities="uiautomation, uiautomationvalue"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="3"
+				prefcap="text"
+				rect="530,935,48,18"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						Ethernet
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Ethernet
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						Ethernet
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						netType
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						Element
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						DirectUI
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						edit
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Ethernet
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.15, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						7400
+					</attribute>
+					<attribute
+					name="uiautomationvalueisreadonly"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="uiautomationvaluevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='netType']
+				</path>
+				<robustPath>
+					/form[@name='Task Manager']//text[@automationid='netType']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="a809fa6a-da4d-4977-9c63-441be1872a7d">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAByAK4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDb8u4/
+uR/99n/CmSQXDtGdsY2Nu++eeCPT3q5RQVzMreXcf3I/++z/AIUeXcf3I/8Avs/4VZooFzMrQpcR
+GQ7Izvbd988cAentUmbjP+rj/wC/h/8AialooBu5FuuP+eUf/fw//E0brj/nlH/38P8A8TUtFAiL
+dcf88o/+/h/+JozcZ/1cf/fw/wDxNS0UAV5luJYZI9kQ3qVzvPGR9KaI7gADZF/32f8ACrVFA7tF
+by7j+5H/AN9n/CkWK4E6ybI+FK43nuR7e1WqKA5mRbrj/nlH/wB/D/8AE0brj/nlH/38P/xNS0UC
+KccFwm/5Yzuct989z9Kf5dxn7kf/AH2f8Ks0UFczKU9tNPHsZY8ZBPznsfpVjdcf88o/+/h/+JqW
+igTbZUSG4Xd8sZ3MW++e/wCFO8u4z9yP/vs/4VZooDmYUUUUCCiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigCJ5mS3EjIN2R8ob1OOtMNyyo25FDq23buJzxnjAz+lTMisu1hk
+cfpTWgjckkHJOchiDnGP5UAQm7bbuWLIEYkbLYwOeP0pWuigffHggKVAOc5OB2qUQRBSoXgrsIye
+np+tK0Mb53LnICnnsKAGwyvJjdEVHOSc9fxANS0xIURgw3EgEZZif50+gAooqte30Vls81XO/ONo
+Hb/9dJuwm0tWV0LtqNyQkzlGGw+aRGvyA4Iz6+x61HBc3biycqryPE5K+ZhW+7yePr2NR/2lYfaD
+MI7kOxycOQDxjkbsURalp8JUpDONgIXJzgHGQMn2FLnXcXtI9yydUyYvKt3feiyNgMdoP0B54PXF
+O+3SnG23U7pjCuZMZI3cnjgcf570vt+m/JthuE8tdqlGKnHocNz+NPGqWA24hm+VzIOn3jnJ6+5o
+54i549yw+psqIFty0rFwUG4gbTg8qpP6VJZTzzXFwJECxqw2jPIyoOCMe9UH1DTnAzDcAhiwKttI
+J68hs80+PVbGORpEjuAzAA5Oc49s9fejniHPHubFFQWd3HeRGSMMAG2/MP8APrU9UncpO4UUUUDC
+iiigAooooAgFyrNIvKbGAyynBzj/ABp4njMmwMc5x0OM+melMa3Zmf5xh2Vsbe4x7+1C25Dj5wYw
+xcLt5yff8aAHxXEUpwjEkjI4IyKatyhleMhl2sFBKnB/SiODy/K+bPlqV6den+FNmjKiU5LeZjAC
+5IbHHP4UAPa4iU4LHOSMBSc46/zpTcRDb82dwyCATx6n0qExSLJCEbBCtuYrkZOKDZLuQjY21Qp8
+xN3TuPSgCyjq67lORkis3Vf+P7T/APrp/Va0kDBcM245POMVm6r/AMf2n/8AXT+q1M9iJ/CSi8b7
+fNE08KrGeItpMjjaDxz/AEpqaorC3dlZElRmI2MWyMdOOep7VOlvMl1JIkqeXIwZlMZJ6AcHPt6U
+23smhMG6UMIUZFwmMg468+1UWSNeW42fOSHAYFVJGD0JwOB9aab+2XOXbh9nCMctzwOOTwelV/7K
+UGEgwuY4xGfNh35x3HPB5qdbPb5f7z7kzS9Ouc8frQA431uIlk3MQ+cBUYnjrwBkYotrxLieaNVY
+eWQNxU4bgHrjHf8ArVeXS1fa26JmV3bEsW9cMc9M9R65qxb27QSyNvTY+DtCYwQAOOenHSgCp4f/
+AOPF/wDrof5CtOszw/8A8eL/APXQ/wAhWnUw+FEQ+FBRRRVFhRRRQAUUUUANEgMpj5yFDf5/KnVR
++zs2/bB5asEG3I7Nk9Kcbci6LbH2gjYU24UY6c8j8KALlFUPs7CHaLfo2VBVeeP4ucH+dW4VK7so
+EJOeDnPA5oAkooooAKztVguJZbaS2jDmJi3JA9MfyrRopNXVhNXVjI+26oJvKNtEHwW5GBgY75x3
+FEd9qcpAS2iJZA47ZB/Gr80LSXSMB8nlOpPoTtx/I1DAtwrI7W+GjjEWN4+bkZI9sDvzS5fMnl8y
+sl7qjyvGtrHvTqCMevqeeho+26oJvKNtEHwW5GBgY75x3FX2WVLmeZI9+YlCjIG4gsce3UUSxPJc
+xtjC+U6k56E7f8DRy+Y+TXcoR32pykBLaIlkDjtkH8aGvdUVgptY9xBIGOoHXv71ZgW4VkdrfDRx
+iLG8fNyMke2B35p9v5rXLPPbyq3KqxK7VXPbBzzgdqOXzFy+ZV0hjbaeS8blnlIVAOScYxz06Hr6
+VqISyAlSpI+6cZH5VnyWjNCnmQecEndzFkfMCWx147g81bs42itY0cYIHTOdvoPw6U0rKxSVtCai
+iimMKKKKACiiigAyN23IzjOKKz/NO+Ro5/MO1BvwO7flUhllF0YzKihSAA7AFhjrjHP4EUAXKKof
+aG8nJuPut8zBk546KcY/OrcLbt3zlsHoRjbwOKAJKKKKACiiigBnnRed5Pmp5uM7Nw3Y+lJ9ogzI
+POjzH9/5h8v19KqSTwzXgiEsSPE+QpYbmfb2HpzVSGUrDEhn82KPY0wIA8ohhwcDj1OfSgDVN1bh
+UYzxBZPuEuMN9PWnSzRQJvmkSNc4y7ACsyaWP7JPiWJUlZyit1kUjkKfc55wetWXuFWKQtdRRkPg
+eauAnA+XqMn396ALTTxK6I0qBn+4Cwy309aEmieRo0lRnT7yhgSPqKyQyLbmMrskkhjEKNyTjOMe
+uDz04qc3KTTM9s0TyxKyRwq67icjJIzwOKANFXViQrA7Tg4PQ00zRKrsZECp98lhhfr6Vn2DFJnj
+IeHMxyrhSZDsBPIJwe9PEcCpeozrbxCVfmGFC/Kp78daALf2q38tZPPi2OcK28YY+gNO86LzvJ8x
+PMxnZuG7HriswTqfnuXDxtHIkbsP9ZyPwJI9OuKbGds6LI6iQOpaMjLk7Mb/APd/w69qANV5okkV
+HkRXf7qlgC30pBcQtK0SzRmRRlkDDI+orMnkVnUmVWLRxnlcNPg5G30/Xr26064YBp4beczqyu0s
+Ywdh49BnnkYNAGh9qt/J87z4vKzjfvG386lBBAIIIPQisszQ/bhciRPs24Zkz8u7aRnPT0H6VJZu
+Ui25ZwACsQXBQEtg/ljjtik3ZXBamhRRRTAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//9k=
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Ethernet
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="HDS_Computer_Min_Ethernet_Speed"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="3cd2671a-d250-4e9b-9af0-2102721c4ba2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="5034dc89-9c66-4bc4-932c-e6a5c7435478"
+	name="TPX_0002_HW_ReqsRepository"
+	relativepath="TPX_0002_HW_ReqsRepository.rxrep">
+		<codegen
+		classname="TPX_0002_HW_ReqsRepository"
+		namespace="TPX_0002_HW_Reqs">
+		</codegen>
+		<rootfolder
+		id="b58a0807-2ad5-4205-9493-60812f60f5a6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NetSpeed.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

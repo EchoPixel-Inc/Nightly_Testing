@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c53d590d-c987-4966-b933-733b7796153f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="fps"
+	namespace="TPX_0002_HW_Reqs">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="HDS_Display_Stereo_FPS"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="5cba2dd7-4af7-4d04-87dc-eeff5d41174f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5bdd1117-53a9-4f52-b37d-5ed4d3607484"
+		similarity="0.999">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="78d19949-bd6d-4e50-bdd1-e828fc1a074b"
+			sourcename="ElementTree">
+				<element
+				capabilities="uiautomation, uiautomationscrollitem"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="456,524,132,19"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						Choose a refresh rate
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						Choose a refresh rate
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Choose a refresh rate
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						Choose a refresh rate
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						XAML
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Choose a refresh rate
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.15, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						17288
+					</attribute>
+				</element>
+				<path>
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']/container[@name='Refresh rate']/button[@automationid='EntityItemButton']/text[@name='Choose a refresh rate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="ee846b8b-f026-4f82-a065-02bfdeba92af">
+				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
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Choose a refresh rate
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="0952fe80-4e50-4e6a-9f0a-c704d87ddc2b"
+		similarity="0.999">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="aea6b914-7de9-4795-8acc-a8b971583a85"
+			sourcename="ElementTree">
+				<element
+				capabilities="uiautomation, uiautomationscrollitem"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1097,532,80,19"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						119.98 Hz
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						119.98 Hz
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						119.98 Hz
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						119.98 Hz
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						XAML
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						119.98 Hz
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.15, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						17288
+					</attribute>
+				</element>
+				<path>
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']/container[@name='Refresh rate']/button[@automationid='EntityItemButton']/combobox[@automationid='SystemSettings_Display_AdvancedDisplaySettingsRefreshRate_ComboBox']/listitem[@automationid='ContentPresenter']/text[@name='119.98 Hz']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="f53def8d-59e2-4367-97e8-f14a9bb34634">
+				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
+QAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				119.98 Hz
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="HDS_Display_Stereo_FPS"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="5cba2dd7-4af7-4d04-87dc-eeff5d41174f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="5034dc89-9c66-4bc4-932c-e6a5c7435478"
+	name="TPX_0002_HW_ReqsRepository"
+	relativepath="TPX_0002_HW_ReqsRepository.rxrep">
+		<codegen
+		classname="TPX_0002_HW_ReqsRepository"
+		namespace="TPX_0002_HW_Reqs">
+		</codegen>
+		<rootfolder
+		id="b58a0807-2ad5-4205-9493-60812f60f5a6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		fps.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

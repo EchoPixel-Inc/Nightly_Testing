@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{DC39AC2C-9258-4944-A511-07823903B1B6}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TPX_0002_HW_Reqs</RootNamespace>
+    <AssemblyName>TPX-0002-HW_Reqs</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>63d77b2e-6630-4eb7-8847-d5a6819be58f</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>bef6ffb2-62f2-4b82-b166-90b0e60075b8</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>dda53001-e08e-4d0f-a6d0-206b11b84517</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9e1b236e-7310-412a-92e4-4e01da75b251</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>dda53001-e08e-4d0f-a6d0-206b11b84517</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>971d32a2-a373-4b3d-b6c0-24da5fb888e7</id>
+    </Compile>
+    <Compile Include="CloseDrivers.cs">
+      <BoundTo>62142812-482a-439d-beca-10e0a5a8dbaf</BoundTo>
+      <DependentUpon>CloseDrivers.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3a247ba1-a77f-4ddd-93d1-a926fc610d94</id>
+    </Compile>
+    <Compile Include="CloseDrivers.UserCode.cs">
+      <BoundTo>62142812-482a-439d-beca-10e0a5a8dbaf</BoundTo>
+      <DependentUpon>CloseDrivers.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c2fee3a8-1ae2-4fd7-9efd-163aac90ba21</id>
+    </Compile>
+    <Compile Include="CloseOS.cs">
+      <BoundTo>dfb64840-67c1-432b-aa49-4af9dd40d51e</BoundTo>
+      <DependentUpon>CloseOS.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a0c81161-d65b-46c5-8fd7-94e0e04a5204</id>
+    </Compile>
+    <Compile Include="CloseOS.UserCode.cs">
+      <BoundTo>dfb64840-67c1-432b-aa49-4af9dd40d51e</BoundTo>
+      <DependentUpon>CloseOS.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>13857465-3863-4f7c-a3a6-59876cc9035a</id>
+    </Compile>
+    <Compile Include="CloseSettings.cs">
+      <BoundTo>3c5a3bb2-b43a-4b76-b10f-043cd77c03cc</BoundTo>
+      <DependentUpon>CloseSettings.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d6299528-0fe9-4072-93d0-23804fbe2764</id>
+    </Compile>
+    <Compile Include="CloseSettings.UserCode.cs">
+      <BoundTo>3c5a3bb2-b43a-4b76-b10f-043cd77c03cc</BoundTo>
+      <DependentUpon>CloseSettings.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e00eef09-c9ad-464d-a2ee-7c253abc85a4</id>
+    </Compile>
+    <Compile Include="CloseStereoSettings.cs">
+      <BoundTo>143f6486-39e4-49ce-bb17-a7f9cc9b43dd</BoundTo>
+      <DependentUpon>CloseStereoSettings.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b54e9ab0-db13-4f72-8789-a766827ee034</id>
+    </Compile>
+    <Compile Include="CloseStereoSettings.UserCode.cs">
+      <BoundTo>143f6486-39e4-49ce-bb17-a7f9cc9b43dd</BoundTo>
+      <DependentUpon>CloseStereoSettings.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>67c4d56e-889a-4694-86ef-e0da63a54016</id>
+    </Compile>
+    <Compile Include="CloseUSB.cs">
+      <BoundTo>de52f62c-199e-48b2-8a2e-a5d7ddfd0800</BoundTo>
+      <DependentUpon>CloseUSB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>50544329-5544-443d-be5e-77287b1d6781</id>
+    </Compile>
+    <Compile Include="CloseUSB.UserCode.cs">
+      <BoundTo>de52f62c-199e-48b2-8a2e-a5d7ddfd0800</BoundTo>
+      <DependentUpon>CloseUSB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d14062cd-e28a-480a-a2fe-692678cbaab8</id>
+    </Compile>
+    <Compile Include="CPUClock.cs">
+      <BoundTo>6bef51ef-43d6-4249-b315-4250571e0424</BoundTo>
+      <DependentUpon>CPUClock.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8081200a-4280-4a96-ba42-26870423c392</id>
+    </Compile>
+    <Compile Include="CPUClock.UserCode.cs">
+      <BoundTo>6bef51ef-43d6-4249-b315-4250571e0424</BoundTo>
+      <DependentUpon>CPUClock.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f6c06b3f-c2fe-4884-acfb-daaf5000e2e8</id>
+    </Compile>
+    <Compile Include="CPUCore.cs">
+      <BoundTo>1967d599-e88e-4b1d-8bfa-54355c689558</BoundTo>
+      <DependentUpon>CPUCore.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8e300d4c-84ef-4a13-9719-11a8b1a18154</id>
+    </Compile>
+    <Compile Include="CPUCore.UserCode.cs">
+      <BoundTo>1967d599-e88e-4b1d-8bfa-54355c689558</BoundTo>
+      <DependentUpon>CPUCore.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>605928d4-e4a2-4f07-9ccf-6d556a3edd32</id>
+    </Compile>
+    <Compile Include="Display.cs">
+      <BoundTo>8350d5a7-bb2e-4bec-ac3b-b10ef8b10810</BoundTo>
+      <DependentUpon>Display.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b3537aca-a2c8-48b4-b678-a25caddd33ca</id>
+    </Compile>
+    <Compile Include="Display.UserCode.cs">
+      <BoundTo>8350d5a7-bb2e-4bec-ac3b-b10ef8b10810</BoundTo>
+      <DependentUpon>Display.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1502db73-8d23-4694-8728-3bbf1451f467</id>
+    </Compile>
+    <Compile Include="fps.cs">
+      <BoundTo>20f8d6f7-58ef-4503-8fdd-3290cb1c9896</BoundTo>
+      <DependentUpon>fps.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>34e315b3-ecff-4637-83ec-e6c3bc6cd8b8</id>
+    </Compile>
+    <Compile Include="fps.UserCode.cs">
+      <BoundTo>20f8d6f7-58ef-4503-8fdd-3290cb1c9896</BoundTo>
+      <DependentUpon>fps.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9b0034f6-5e83-41c1-a808-aafda7532a35</id>
+    </Compile>
+    <Compile Include="GEapi.cs">
+      <BoundTo>c955a74a-d9b1-4bd2-bf19-042ff4b0ab0c</BoundTo>
+      <DependentUpon>GEapi.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>685390a5-be46-4123-b52b-2cdf821a8f9c</id>
+    </Compile>
+    <Compile Include="GEapi.UserCode.cs">
+      <BoundTo>c955a74a-d9b1-4bd2-bf19-042ff4b0ab0c</BoundTo>
+      <DependentUpon>GEapi.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9ab4fa00-234d-4b98-b042-8d825cd0ff97</id>
+    </Compile>
+    <Compile Include="GPUDriver.cs">
+      <BoundTo>4d9358dd-ea6a-458e-9006-a03d4ecfcea1</BoundTo>
+      <DependentUpon>GPUDriver.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9cca88c2-c4d3-4975-afce-7b3612dd36c6</id>
+    </Compile>
+    <Compile Include="GPUDriver.UserCode.cs">
+      <BoundTo>4d9358dd-ea6a-458e-9006-a03d4ecfcea1</BoundTo>
+      <DependentUpon>GPUDriver.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c89c05da-ecad-4cd9-9838-ca156e2f1905</id>
+    </Compile>
+    <Compile Include="GPUmem.cs">
+      <BoundTo>55b8a16a-4dd3-400d-8895-23117f768ed7</BoundTo>
+      <DependentUpon>GPUmem.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>00c7cb4c-1239-4411-941e-9d5bcf47564a</id>
+    </Compile>
+    <Compile Include="GPUmem.UserCode.cs">
+      <BoundTo>55b8a16a-4dd3-400d-8895-23117f768ed7</BoundTo>
+      <DependentUpon>GPUmem.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>56247fd6-2a37-4a8c-b9d2-8534c8f55fdd</id>
+    </Compile>
+    <Compile Include="GPUmin.cs">
+      <BoundTo>6f614999-d885-403b-9263-cc33b3ae7f7b</BoundTo>
+      <DependentUpon>GPUmin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>be21fbce-7bd5-490f-8754-9e30c53261ac</id>
+    </Compile>
+    <Compile Include="GPUmin.UserCode.cs">
+      <BoundTo>6f614999-d885-403b-9263-cc33b3ae7f7b</BoundTo>
+      <DependentUpon>GPUmin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>28999ffe-d227-4cdd-bfa2-4934470a169c</id>
+    </Compile>
+    <Compile Include="GPUtype.cs">
+      <BoundTo>1ec343aa-2a79-469d-a136-ba6396b22d75</BoundTo>
+      <DependentUpon>GPUtype.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>66020771-6fdf-43f1-8417-1fceac2f2869</id>
+    </Compile>
+    <Compile Include="GPUtype.UserCode.cs">
+      <BoundTo>1ec343aa-2a79-469d-a136-ba6396b22d75</BoundTo>
+      <DependentUpon>GPUtype.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e0fe7a72-8a1b-4631-998c-580676419efb</id>
+    </Compile>
+    <Compile Include="HDdata.cs">
+      <BoundTo>7ca1a4f7-d943-4f54-b19a-63e422aaac23</BoundTo>
+      <DependentUpon>HDdata.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>be79c266-1777-49ba-a1d6-19956c1d4cf2</id>
+    </Compile>
+    <Compile Include="HDdata.UserCode.cs">
+      <BoundTo>7ca1a4f7-d943-4f54-b19a-63e422aaac23</BoundTo>
+      <DependentUpon>HDdata.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>11929e52-b816-4b2f-9907-cf22ff831f2f</id>
+    </Compile>
+    <Compile Include="HDos.cs">
+      <BoundTo>3a7fb4cf-d425-40a7-b797-94a07c04999f</BoundTo>
+      <DependentUpon>HDos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>60629a7d-c3f2-40d6-bd9b-fb9968931e85</id>
+    </Compile>
+    <Compile Include="HDos.UserCode.cs">
+      <BoundTo>3a7fb4cf-d425-40a7-b797-94a07c04999f</BoundTo>
+      <DependentUpon>HDos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0cd5d2ea-de70-48ee-8129-95f29696d27f</id>
+    </Compile>
+    <Compile Include="NetPort.cs">
+      <BoundTo>0605e87b-90c8-489d-9d49-1cfc13f5ffd9</BoundTo>
+      <DependentUpon>NetPort.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>060d8106-d5ce-48db-9279-b897aaca8889</id>
+    </Compile>
+    <Compile Include="NetPort.UserCode.cs">
+      <BoundTo>0605e87b-90c8-489d-9d49-1cfc13f5ffd9</BoundTo>
+      <DependentUpon>NetPort.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>83b4a7e2-03ae-45bd-8cdb-c11594370f2c</id>
+    </Compile>
+    <Compile Include="NetSpeed.cs">
+      <BoundTo>069d12ed-c65d-4bd6-9ada-fa8617efa709</BoundTo>
+      <DependentUpon>NetSpeed.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>33b12499-6c63-433c-a705-1d983e4bdad1</id>
+    </Compile>
+    <Compile Include="NetSpeed.UserCode.cs">
+      <BoundTo>069d12ed-c65d-4bd6-9ada-fa8617efa709</BoundTo>
+      <DependentUpon>NetSpeed.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>93b16fbd-7cb2-47a4-85b7-051f000226d4</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>2d5ed77c-632d-4442-b69d-4040fe4d0468</id>
+    </Compile>
+    <Compile Include="CPUMin.cs">
+      <BoundTo>bc766154-bcbc-4cfe-92c2-638043eb9405</BoundTo>
+      <DependentUpon>CPUMin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>acc50207-dbdc-4459-80d7-59a0621c451c</id>
+    </Compile>
+    <Compile Include="CPUMin.UserCode.cs">
+      <BoundTo>bc766154-bcbc-4cfe-92c2-638043eb9405</BoundTo>
+      <DependentUpon>CPUMin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3fa202d5-7fc9-472b-84b0-003300a9ab2b</id>
+    </Compile>
+    <Compile Include="RAM.cs">
+      <BoundTo>4fd689a9-63ae-4a9f-8bc7-ede187369e0c</BoundTo>
+      <DependentUpon>RAM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>895927f4-eb1b-401c-956e-0954b8ded33c</id>
+    </Compile>
+    <Compile Include="RAM.UserCode.cs">
+      <BoundTo>4fd689a9-63ae-4a9f-8bc7-ede187369e0c</BoundTo>
+      <DependentUpon>RAM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d95bd427-5bb7-44c3-9870-387f21c49eba</id>
+    </Compile>
+    <Compile Include="Resolution.cs">
+      <BoundTo>8e918d1c-d54d-466d-b3f2-dd09fa052c69</BoundTo>
+      <DependentUpon>Resolution.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f0e93a49-7432-4777-80d1-8141247b6ea5</id>
+    </Compile>
+    <Compile Include="Resolution.UserCode.cs">
+      <BoundTo>8e918d1c-d54d-466d-b3f2-dd09fa052c69</BoundTo>
+      <DependentUpon>Resolution.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>51d5b76a-28ae-41b1-a1e4-f1f92603cde9</id>
+    </Compile>
+    <Compile Include="StartAUT.cs">
+      <BoundTo>8493a5f5-fdb1-4a94-a102-78ec48ff9036</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b189ee53-e8bf-4047-82e1-f5b68b557ee6</id>
+    </Compile>
+    <Compile Include="StartAUT.UserCode.cs">
+      <BoundTo>8493a5f5-fdb1-4a94-a102-78ec48ff9036</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f0dda135-2d04-4970-a75a-8e37598b5231</id>
+    </Compile>
+    <Compile Include="StartDrivers.cs">
+      <BoundTo>d7c766d4-7809-4702-915a-400302ba5f68</BoundTo>
+      <DependentUpon>StartDrivers.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8c540055-32fa-4849-b177-c978c52c5871</id>
+    </Compile>
+    <Compile Include="StartDrivers.UserCode.cs">
+      <BoundTo>d7c766d4-7809-4702-915a-400302ba5f68</BoundTo>
+      <DependentUpon>StartDrivers.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9717eeb1-1687-4df6-bea7-f00636049eba</id>
+    </Compile>
+    <Compile Include="StartOS.cs">
+      <BoundTo>90a28a70-732c-4b97-89b8-9ea1fd27bee7</BoundTo>
+      <DependentUpon>StartOS.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>61dbcb69-e471-42cd-b921-c592c5b7868d</id>
+    </Compile>
+    <Compile Include="StartOS.UserCode.cs">
+      <BoundTo>90a28a70-732c-4b97-89b8-9ea1fd27bee7</BoundTo>
+      <DependentUpon>StartOS.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1d2e698c-f459-4d3b-aaca-289a0cf988da</id>
+    </Compile>
+    <Compile Include="StartSettings.cs">
+      <BoundTo>23044d75-f4a6-462e-b33d-0bf17faf05c2</BoundTo>
+      <DependentUpon>StartSettings.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ea22a69d-1fa6-4723-a130-412d9b415d48</id>
+    </Compile>
+    <Compile Include="StartSettings.UserCode.cs">
+      <BoundTo>23044d75-f4a6-462e-b33d-0bf17faf05c2</BoundTo>
+      <DependentUpon>StartSettings.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b73e16d5-64ce-4dd8-9d1a-700ccf31bdf2</id>
+    </Compile>
+    <Compile Include="StartStereoSettings.cs">
+      <BoundTo>3500e83f-5d68-461f-824c-2153d6d41803</BoundTo>
+      <DependentUpon>StartStereoSettings.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>754154fa-f7d2-43e8-bf05-9d0b1393fc99</id>
+    </Compile>
+    <Compile Include="StartStereoSettings.UserCode.cs">
+      <BoundTo>3500e83f-5d68-461f-824c-2153d6d41803</BoundTo>
+      <DependentUpon>StartStereoSettings.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dfc1764e-ef92-426b-a4e2-b249a42dcdf4</id>
+    </Compile>
+    <Compile Include="StartUSB.cs">
+      <BoundTo>f9c3df95-e44f-4155-9b55-4f8525bc0263</BoundTo>
+      <DependentUpon>StartUSB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9487153c-d238-446e-8469-8f31453151bb</id>
+    </Compile>
+    <Compile Include="StartUSB.UserCode.cs">
+      <BoundTo>f9c3df95-e44f-4155-9b55-4f8525bc0263</BoundTo>
+      <DependentUpon>StartUSB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>819a80d6-e0b2-4a64-8a7d-49b5d7f28b21</id>
+    </Compile>
+    <Compile Include="Stereo.cs">
+      <BoundTo>6ce0e611-0680-4b50-9387-a44f0e8f979e</BoundTo>
+      <DependentUpon>Stereo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fe8b3ac4-7cae-42c6-b47c-dd859c642635</id>
+    </Compile>
+    <Compile Include="Stereo.UserCode.cs">
+      <BoundTo>6ce0e611-0680-4b50-9387-a44f0e8f979e</BoundTo>
+      <DependentUpon>Stereo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9615860f-80d9-4133-8d32-f167aaf0daab</id>
+    </Compile>
+    <Compile Include="StylusUSB.cs">
+      <BoundTo>5c7b6d0b-e813-4e33-8e06-5037555f655a</BoundTo>
+      <DependentUpon>StylusUSB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f1bc9b17-59ee-438c-93bd-00dc66cb51f4</id>
+    </Compile>
+    <Compile Include="StylusUSB.UserCode.cs">
+      <BoundTo>5c7b6d0b-e813-4e33-8e06-5037555f655a</BoundTo>
+      <DependentUpon>StylusUSB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>754107f6-0c15-49e5-8614-4d711d889205</id>
+    </Compile>
+    <Compile Include="TPX_0002_HW_ReqsRepository.cs">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <DependentUpon>TPX_0002_HW_ReqsRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>53c53f1a-85b9-45fe-b62f-d20c8410f514</id>
+    </Compile>
+    <Compile Include="TrackerCamUSB.cs">
+      <BoundTo>ebb3d0e3-6a7b-4a17-b8a4-b95cd818de35</BoundTo>
+      <DependentUpon>TrackerCamUSB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a4c2886c-2e47-4fe6-9411-551d2ac12810</id>
+    </Compile>
+    <Compile Include="TrackerCamUSB.UserCode.cs">
+      <BoundTo>ebb3d0e3-6a7b-4a17-b8a4-b95cd818de35</BoundTo>
+      <DependentUpon>TrackerCamUSB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4c0bac08-f8e2-48e0-ae07-88c5cfd465e6</id>
+    </Compile>
+    <Compile Include="TrackerDriver.cs">
+      <BoundTo>3eadb6b0-2efd-4cae-8ff9-84d56c36e851</BoundTo>
+      <DependentUpon>TrackerDriver.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ba47a6dc-e586-4f4d-b1cc-2008b36087d9</id>
+    </Compile>
+    <Compile Include="TrackerDriver.UserCode.cs">
+      <BoundTo>3eadb6b0-2efd-4cae-8ff9-84d56c36e851</BoundTo>
+      <DependentUpon>TrackerDriver.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0fa72c59-85ed-4fc4-8cdc-f7ec9a464d75</id>
+    </Compile>
+    <Compile Include="WindowsOS.cs">
+      <BoundTo>ce48f494-e9f3-483b-b676-5dad85fb4c50</BoundTo>
+      <DependentUpon>WindowsOS.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>448f4e21-3a4d-4b0b-bca1-38abca036663</id>
+    </Compile>
+    <Compile Include="WindowsOS.UserCode.cs">
+      <BoundTo>ce48f494-e9f3-483b-b676-5dad85fb4c50</BoundTo>
+      <DependentUpon>WindowsOS.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f812c448-b653-4d82-a28b-7e5e2b8b8b88</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>ccf2adbb-51ea-4cee-afb0-b13214d11005</id>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>dda53001-e08e-4d0f-a6d0-206b11b84517</id>
+      <recordtableid>3f23781e-ef07-4015-8899-e716062f7bae</recordtableid>
+    </None>
+    <None Include="CloseDrivers.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>62142812-482a-439d-beca-10e0a5a8dbaf</id>
+      <recordtableid>0fef93ce-50e1-4e9a-9edf-9d49070b50e4</recordtableid>
+    </None>
+    <None Include="CloseOS.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>dfb64840-67c1-432b-aa49-4af9dd40d51e</id>
+      <recordtableid>4a5b3f80-713e-45b6-91e9-e69d20701f7f</recordtableid>
+    </None>
+    <None Include="CloseSettings.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>3c5a3bb2-b43a-4b76-b10f-043cd77c03cc</id>
+      <recordtableid>512309db-300f-453b-a789-2603fac62c54</recordtableid>
+    </None>
+    <None Include="CloseStereoSettings.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>143f6486-39e4-49ce-bb17-a7f9cc9b43dd</id>
+      <recordtableid>eb474273-1146-44ea-b69e-3a6171289fd6</recordtableid>
+    </None>
+    <None Include="CloseUSB.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>de52f62c-199e-48b2-8a2e-a5d7ddfd0800</id>
+      <recordtableid>15aebf0d-8b69-491c-b224-65e6a64f56fa</recordtableid>
+    </None>
+    <None Include="CPUClock.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>6bef51ef-43d6-4249-b315-4250571e0424</id>
+      <recordtableid>2e7cb5a5-8865-43ac-9d18-1e2111b6d611</recordtableid>
+    </None>
+    <None Include="CPUCore.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>1967d599-e88e-4b1d-8bfa-54355c689558</id>
+      <recordtableid>16d4654e-46fd-4472-9d4f-86c605caa4b6</recordtableid>
+    </None>
+    <None Include="CPUMin.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>bc766154-bcbc-4cfe-92c2-638043eb9405</id>
+      <recordtableid>ad644d95-33b5-4f13-b68c-ea065aedd657</recordtableid>
+    </None>
+    <None Include="Display.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>8350d5a7-bb2e-4bec-ac3b-b10ef8b10810</id>
+      <recordtableid>8db908af-9025-4a86-b9da-e84f9b9aef4c</recordtableid>
+    </None>
+    <None Include="fps.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>20f8d6f7-58ef-4503-8fdd-3290cb1c9896</id>
+      <recordtableid>c53d590d-c987-4966-b933-733b7796153f</recordtableid>
+    </None>
+    <None Include="GEapi.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>c955a74a-d9b1-4bd2-bf19-042ff4b0ab0c</id>
+      <recordtableid>78f54e18-feb4-48e3-a395-a01e154496f6</recordtableid>
+    </None>
+    <None Include="GPUDriver.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>4d9358dd-ea6a-458e-9006-a03d4ecfcea1</id>
+      <recordtableid>cd2cdbb5-d04d-4ff0-aede-798e09c6c832</recordtableid>
+    </None>
+    <None Include="GPUmem.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>55b8a16a-4dd3-400d-8895-23117f768ed7</id>
+      <recordtableid>3c436b4b-c037-4a56-a852-fc06165f0847</recordtableid>
+    </None>
+    <None Include="GPUmin.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>6f614999-d885-403b-9263-cc33b3ae7f7b</id>
+      <recordtableid>08d2fbfe-57a7-4ef1-82cd-71dda7adebc8</recordtableid>
+    </None>
+    <None Include="GPUtype.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>1ec343aa-2a79-469d-a136-ba6396b22d75</id>
+      <recordtableid>c17ea987-c2a5-4abe-9084-66782fd99cd3</recordtableid>
+    </None>
+    <None Include="HDdata.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>7ca1a4f7-d943-4f54-b19a-63e422aaac23</id>
+      <recordtableid>a578f56c-d041-4b4c-a945-18dcc97e0a4f</recordtableid>
+    </None>
+    <None Include="HDos.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>3a7fb4cf-d425-40a7-b797-94a07c04999f</id>
+      <recordtableid>9c9773b2-7896-4e17-868e-1870e7412c8b</recordtableid>
+    </None>
+    <None Include="NetPort.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>0605e87b-90c8-489d-9d49-1cfc13f5ffd9</id>
+      <recordtableid>361607d0-9676-4d95-a8b7-4359daf9ed01</recordtableid>
+    </None>
+    <None Include="NetSpeed.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>069d12ed-c65d-4bd6-9ada-fa8617efa709</id>
+      <recordtableid>e437616a-7cee-41d8-81fd-f22139b1b622</recordtableid>
+    </None>
+    <None Include="RAM.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>4fd689a9-63ae-4a9f-8bc7-ede187369e0c</id>
+      <recordtableid>0c365551-681c-405e-aa7f-3e8cc34511a3</recordtableid>
+    </None>
+    <None Include="Resolution.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>8e918d1c-d54d-466d-b3f2-dd09fa052c69</id>
+      <recordtableid>e8bcf14e-ec84-4a00-b30a-51740763cefe</recordtableid>
+    </None>
+    <None Include="StartAUT.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>8493a5f5-fdb1-4a94-a102-78ec48ff9036</id>
+      <recordtableid>226fb4be-c189-4e69-a9ec-de4520780660</recordtableid>
+    </None>
+    <None Include="StartDrivers.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>d7c766d4-7809-4702-915a-400302ba5f68</id>
+      <recordtableid>902b9705-ae6b-421f-919c-57d2f598802d</recordtableid>
+    </None>
+    <None Include="StartOS.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>90a28a70-732c-4b97-89b8-9ea1fd27bee7</id>
+      <recordtableid>6c1dbe13-1ac5-4502-8d1c-38414fb7d052</recordtableid>
+    </None>
+    <None Include="StartSettings.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>23044d75-f4a6-462e-b33d-0bf17faf05c2</id>
+      <recordtableid>087a549b-3d62-4402-946a-f0c15982454e</recordtableid>
+    </None>
+    <None Include="StartStereoSettings.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>3500e83f-5d68-461f-824c-2153d6d41803</id>
+      <recordtableid>690ec3ff-841c-4a6b-b002-373aae1510bc</recordtableid>
+    </None>
+    <None Include="StartUSB.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>f9c3df95-e44f-4155-9b55-4f8525bc0263</id>
+      <recordtableid>090220dd-db9f-4350-a25a-058112dca6ae</recordtableid>
+    </None>
+    <None Include="Stereo.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>6ce0e611-0680-4b50-9387-a44f0e8f979e</id>
+      <recordtableid>95271e13-a850-424a-b5d2-b963ab7a982c</recordtableid>
+    </None>
+    <None Include="StylusUSB.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>5c7b6d0b-e813-4e33-8e06-5037555f655a</id>
+      <recordtableid>1160659a-2b17-4cbf-a328-235d5b269506</recordtableid>
+    </None>
+    <None Include="TPX-TRX_files\epx_logo.png">
+      <id>986f4942-7a01-4775-8ef1-3dcaa9bfb55c</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TPX_0002_HW_ReqsRepository.rximg">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <DependentUpon>TPX_0002_HW_ReqsRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>3d6cf499-f458-4ad7-ae78-13ac8d492370</id>
+    </None>
+    <None Include="TPX_0002_HW_ReqsRepository.rxrep">
+      <id>63d77b2e-6630-4eb7-8847-d5a6819be58f</id>
+      <repoid>5034dc89-9c66-4bc4-932c-e6a5c7435478</repoid>
+      <reporootid>b58a0807-2ad5-4205-9493-60812f60f5a6</reporootid>
+    </None>
+    <None Include="TrackerCamUSB.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>ebb3d0e3-6a7b-4a17-b8a4-b95cd818de35</id>
+      <recordtableid>c540b4d5-09bb-494b-9c7b-f7577bc53fd0</recordtableid>
+    </None>
+    <None Include="TrackerDriver.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>3eadb6b0-2efd-4cae-8ff9-84d56c36e851</id>
+      <recordtableid>9db5bd7e-234f-41d0-8f54-8be38f4250b9</recordtableid>
+    </None>
+    <None Include="WindowsOS.rxrec">
+      <BoundTo>63d77b2e-6630-4eb7-8847-d5a6819be58f</BoundTo>
+      <id>ce48f494-e9f3-483b-b676-5dad85fb4c50</id>
+      <recordtableid>ef11ddcd-b7c9-48c9-8f3b-a780e9cf7859</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TPX-TRX_files\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>40755a91-f74f-43a4-8af3-2da61c94e532</id>
+    </Content>
+    <Content Include="TPX-TRX_files\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e2ba0772-f05b-4bc8-90c1-e27b8c0aacea</id>
+    </Content>
+    <Content Include="TPX-TRX_files\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7c0673fc-45be-47ec-acc7-da43f4458395</id>
+    </Content>
+    <Content Include="TPX-TRX_files\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>cc9325bf-3d82-4ec9-90b2-ba48d219d69c</id>
+    </Content>
+    <Content Include="TPX-TRX_files\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>8a8fe919-c51d-4d2e-a419-7e06481bb5c9</id>
+    </Content>
+    <Content Include="TPX_0002_HW_Reqs.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>aca9efad-06a5-4b8d-92e0-19bef9ebee33</id>
+    </Content>
+    <Content Include="TPX_0002_HW_Reqs.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e6585354-44a8-40f8-bb29-e4c6627c205e</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TPX-TRX_files">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>07eb1b48-eb73-4913-87a0-7c615032ba7b</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

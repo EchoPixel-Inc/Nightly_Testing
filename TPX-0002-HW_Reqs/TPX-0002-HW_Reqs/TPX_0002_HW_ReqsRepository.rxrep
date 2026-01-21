@@ -1,0 +1,833 @@
+﻿<repository
+id="5034dc89-9c66-4bc4-932c-e6a5c7435478"
+name="TPX_0002_HW_ReqsRepository">
+	<codegen
+	classname="TPX_0002_HW_ReqsRepository"
+	namespace="TPX_0002_HW_Reqs">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b58a0807-2ad5-4205-9493-60812f60f5a6"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="da570ad6-ce81-485f-8741-a7ee2bbcba85"
+		isrooted="True"
+		name="TaskManager"
+		refpath="/form[@name='Task Manager']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			capname="button"
+			id="a3a84fa8-c22c-40e8-820c-26e31b9695f7"
+			name="DashSidebarCpuButton"
+			refimgid="e3a81a13-3f05-48a4-be7f-128fe7ddf46b"
+			refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='dashSidebarCpuButton']"
+			robustPath="/form[@name='Task Manager']//button[@automationid='dashSidebarCpuButton']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='dashSidebarCpuButton']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="44af36a3-7e15-4bb8-9451-6129f6fffc8f"
+			name="ResourceTitle"
+			refimgid="018e378a-57f1-4039-839b-b3066757068c"
+			refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/text[@automationid='resourceTitle']"
+			robustPath="/form[@name='Task Manager']//text[@automationid='resourceTitle']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_tables']/text[@automationid='resourceTitle']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="ca1edaaa-4916-4eda-b319-0d71c911ff77"
+			name="ResourceName"
+			refimgid="6a9a633d-abc2-4b96-a4cd-2755c8a7b33b"
+			refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/text[@automationid='resourceName']"
+			robustPath="/form[@name='Task Manager']//text[@automationid='resourceName']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_tables']/text[@automationid='resourceName']
+			</item>
+			<folder
+			addcaps="container,uiautomation,uiautomationvalue"
+			capname="container"
+			id="42b37304-a583-4f6f-9ac1-f60e03374a77"
+			isrooted="True"
+			name="StaticInfo"
+			refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="2b49eb43-c503-4171-a624-a4078d144844"
+				name="Core"
+				refimgid="fa4b1298-56c8-4afc-b289-b16dbf5ecb5b"
+				refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='core']"
+				robustPath="/form[@name='Task Manager']//text[@automationid='core']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='core']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="73841e59-b0f9-4f52-86ca-b7cf85e34716"
+				name="CoreLabel"
+				refimgid="c9de6c95-c82b-4c18-9b9f-9fa9b8aa3d0c"
+				refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='core_Label']"
+				robustPath="/form[@name='Task Manager']//text[@automationid='core_Label']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='core_Label']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="88faeaa8-bf5b-4ee7-aa42-711c7866768b"
+				name="Logicalproc"
+				refimgid="02175111-b29f-42f8-a9d5-b048703f3279"
+				refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='logicalproc']"
+				robustPath="/form[@name='Task Manager']//text[@automationid='logicalproc']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='logicalproc']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="1098c967-4da7-42ef-aaa2-6991f7f5a70a"
+				name="LogicalprocLabel"
+				refimgid="59991512-120f-4b8e-a9bd-913ced9a0f7d"
+				refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='logicalproc_label']"
+				robustPath="/form[@name='Task Manager']//text[@automationid='logicalproc_label']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='logicalproc_label']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="71fee016-f00d-403b-b583-e8d0dccc25bb"
+				name="Maxspeed"
+				refimgid="ffcc2e02-e270-4184-87ef-f3cdb3d56a5d"
+				refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='maxspeed']"
+				robustPath="/form[@name='Task Manager']//text[@automationid='maxspeed']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='maxspeed']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="9a6d1638-f410-4cc0-9467-8134f44a1c25"
+				name="MaxspeedLabel"
+				refimgid="c9368d60-646d-45e9-a4cb-bffbf5463958"
+				refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='maxspeed_label']"
+				robustPath="/form[@name='Task Manager']//text[@automationid='maxspeed_label']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='maxspeed_label']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="9e84de67-dcd7-49af-a7bc-6874bcab095b"
+				name="DiskCapacityLabel"
+				refimgid="6dc80790-04b9-4185-86db-af98b04e21cd"
+				refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='disk_capacity_Label']"
+				robustPath="/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='disk_capacity_Label']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="39fd437e-2543-4ccb-9fa0-105136ee80bc"
+				name="DiskCapacity"
+				refimgid="44c10408-f91c-4d29-90f3-356fdc4fed32"
+				refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='disk_capacity']"
+				robustPath="/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='disk_capacity']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="5e40434c-0610-49b1-a51b-25e15d0c829c"
+				name="NetTypeLabel"
+				refimgid="4e62aced-78fe-4f44-b519-20a27f362945"
+				refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='netType_label']"
+				robustPath="/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='netType_label']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="d4e5d09a-0dd3-4e5b-973a-706b365d2ef7"
+				name="NetType"
+				refimgid="4def1858-d56b-4baf-b604-52d63923f471"
+				refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='netType']"
+				robustPath="/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']/text[@automationid='netType']
+				</item>
+				<basepath>
+					/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='staticInfo']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			capname="button"
+			id="bcb617dc-5cad-47be-ad48-3fc03e0fdf48"
+			name="DashSidebarMemoryButton"
+			refimgid="5c1834e8-7cff-4a20-8390-30cc95a4fd16"
+			refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='dashSidebarMemoryButton']"
+			robustPath="/form[@name='Task Manager']//button[@automationid='dashSidebarMemoryButton']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='dashSidebarMemoryButton']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			capname="button"
+			id="8f701bce-f8be-428a-8f9b-24a321aeb626"
+			name="DiskEntry0"
+			refimgid="d93e560c-e8b1-4b18-9b51-a8a64e89f96c"
+			refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='disk_entry_0']"
+			robustPath="/form[@name='Task Manager']//button[@automationid='disk_entry_0']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='disk_entry_0']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			capname="button"
+			id="3d80e925-9d55-407a-b75e-a97e4f8dcd9b"
+			name="DiskEntry1"
+			refimgid="924f6801-fab4-4622-8cfb-812d4f36b256"
+			refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='disk_entry_1']"
+			robustPath="/form[@name='Task Manager']//button[@automationid='disk_entry_1']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='disk_entry_1']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			capname="button"
+			id="4efb4656-0c56-4e56-880a-5fb8e18cf1b2"
+			name="NetEntry0"
+			refimgid="be09b61c-1ed6-433e-87e4-1f4fe02f5adf"
+			refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='net_entry_0']"
+			robustPath="/form[@name='Task Manager']//button[@automationid='net_entry_0']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='net_entry_0']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="3349322e-de77-4c65-8e17-0dde48a195dc"
+			name="NetChartTitle"
+			refimgid="cc93202b-9f03-42dc-a254-42b90d792a0d"
+			refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='chartInfo']/text[@automationid='netChartTitle']"
+			robustPath="/form[@name='Task Manager']//text[@automationid='netChartTitle']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='chartInfo']/text[@automationid='netChartTitle']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="5ce81a89-c219-437f-a9b9-1192e0079c02"
+			name="NetChartMax"
+			refimgid="e3ab964b-0b01-4ec2-94f7-592a07ad8898"
+			refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='chartInfo']/text[@automationid='netChartMax']"
+			robustPath="/form[@name='Task Manager']//text[@automationid='netChartMax']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='chartInfo']/text[@automationid='netChartMax']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			capname="button"
+			id="b52b305a-d1ce-483a-8b3a-0bdd21be1763"
+			name="GpuEntry00703378"
+			refimgid="ea83bc0d-50eb-4801-948b-fb5a0a890691"
+			refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_703378']"
+			robustPath="/form[@name='Task Manager']//button[@automationid='gpu_entry_0_0_703378']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_703378']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="5cf389b6-1788-4653-a8b4-64ea13cc235a"
+			name="GpuDedicatedMemLabel"
+			refimgid="3ba3847c-14fd-420c-b958-bd3abf68b904"
+			refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='dynamicInfo']/text[@automationid='gpuDedicatedMemLabel']"
+			robustPath="/form[@name='Task Manager']//text[@automationid='gpuDedicatedMemLabel']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='dynamicInfo']/text[@automationid='gpuDedicatedMemLabel']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="355fc1ce-289c-4090-bd13-59365d7fdcb0"
+			name="MemValue"
+			refimgid="5c93c2be-f91c-474a-8057-5d3548f41fed"
+			refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='dynamicInfo']/text[@automationid='memValue' and @name='0.6/6.0 GB']"
+			robustPath="/form[@name='Task Manager']//text[@name='0.6/6.0 GB']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='dynamicInfo']/text[@name='0.6/6.0 GB']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="739b09c0-2d4a-46a4-b573-8e45809d6d84"
+			name="GpuMemUsageTitle"
+			refimgid="1b9f6518-b1c3-4678-b06d-111f879954fb"
+			refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='chartInfo']/text[@automationid='gpuMemUsageTitle']"
+			robustPath="/form[@name='Task Manager']//text[@automationid='gpuMemUsageTitle']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='chartInfo']/text[@automationid='gpuMemUsageTitle']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="f4b78d0f-844a-4bb7-a16e-ba6dc563a35c"
+			name="GpuMemoryMax"
+			refimgid="aa5c8e17-6401-4c9c-86b4-22eea15d3c30"
+			refpath="/form[@name='Task Manager']/container[@name='Task Manager']/container[@classname='TmWindow']/container[@automationid='performancetab_tables']/container[@automationid='chartInfo']/text[@automationid='gpuMemoryMax' and @name='6.0 GB']"
+			robustPath="/form[@name='Task Manager']//text[@name='6.0 GB']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_tables']/container[@automationid='chartInfo']/text[@name='6.0 GB']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			capname="button"
+			id="cdd47c8b-6671-45cb-8f96-0d161535510d"
+			name="GpuEntry00707163"
+			refimgid="eda6740c-affc-4441-a7dd-1449fc0cbc09"
+			refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_707163']"
+			robustPath="/form[@name='Task Manager']//button[@automationid='gpu_entry_0_0_707163']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_707163']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationvalue"
+			capname="button"
+			id="8cb6215f-6fa0-4585-bddc-d88d904c3215"
+			name="GpuEntry00705460"
+			refimgid="b8776cae-0768-463c-a26a-94d3d7d3ab62"
+			refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_705460']"
+			robustPath="/form[@name='Task Manager']//button[@automationid='gpu_entry_0_0_705460']"
+			searchtimeout="30000ms">
+				/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_705460']
+			</item>
+			<folder
+			capname="container"
+			id="b960f08d-4c5d-4b72-bf18-b6fa871b858a"
+			isrooted="True"
+			name="PerformancetabGraphs"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,uiautomation"
+				capname="container"
+				id="1503b286-f25e-4f8f-8fbd-2241d41f02c9"
+				name="DashSidebarGpuChart00698542"
+				refimgid="90d48f7e-087c-49e8-8190-552dc9785118"
+				refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_698542']/container[@automationid='dashSidebarGpuChart_0_0_698542']"
+				robustPath="/form[@name='Task Manager']//container[@automationid='dashSidebarGpuChart_0_0_698542']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_698542']/container[@automationid='dashSidebarGpuChart_0_0_698542']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="a239ef16-e299-41bf-8785-6e152b02e6a0"
+				name="SidebarGpuAdapter"
+				refimgid="1455bfe9-2d57-4988-8daf-885f20932a7b"
+				refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_698542']/text[@automationid='sidebar_gpu_adapter']"
+				robustPath="/form[@name='Task Manager']//text[@automationid='sidebar_gpu_adapter']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_698542']/text[@automationid='sidebar_gpu_adapter']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="6dfb1a3c-e813-47d0-8a87-9c420682743b"
+				name="SidebarGpuName"
+				refimgid="526dee36-1d78-4090-8948-7f97eff40716"
+				refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_698542']/text[@automationid='sidebar_gpu_name']"
+				robustPath="/form[@name='Task Manager']//text[@automationid='sidebar_gpu_name']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_698542']/text[@automationid='sidebar_gpu_name']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="2a2fc531-71e8-46cf-8e93-23409de359ea"
+				name="SidebarGpuAdapter1"
+				refimgid="191caca5-7c05-4d13-b9cb-36af4465520e"
+				refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_706120']/text[@automationid='sidebar_gpu_adapter']"
+				robustPath="/form[@name='Task Manager']//container[@automationid='performancetab_graphs']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_706120']/text[@automationid='sidebar_gpu_adapter']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="5a52734a-42e0-4294-8435-6fad8d2d3870"
+				name="SidebarGpuName1"
+				refimgid="e5fe450a-dd2b-4874-90b9-ebb8ef732d2b"
+				refpath="/form[@name='Task Manager']/container/container/container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_706120']/text[@automationid='sidebar_gpu_name']"
+				robustPath="/form[@name='Task Manager']//container[@automationid='performancetab_graphs']"
+				searchtimeout="30000ms">
+					/form[@name='Task Manager']//container[@automationid='performancetab_graphs']/button[@automationid='gpu_entry_0_0_706120']/text[@automationid='sidebar_gpu_name']
+				</item>
+				<basepath>
+					/form[@name='Task Manager']//container[@automationid='performancetab_graphs']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@name='Task Manager']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIHSURBVDhPxZO9T1NhFMbfxfbeEqKJCVroByCb
+G4l/gH+ATi7EqoR+DuruoqAummBMbI2UloJ8tNWglEKRDm4u4mJaJVjbWy9t0ckQXYjN/Zl72yJ0
+cdOT/PI85zznvNsrxH+vI4GsYgpkMQWymsmfxeRvqDnQwORf18w6eq/P/ev7mHyvFGH2ZjQdybeG
+5FnRJPcyki+D5G3DvYzsW9F3kLyrmD2rSJ5VhOxOoyNdTmrOJ5v0zZTpvJZBGkkhjyw3uLKIfWKL
+/oUdjl5fQx5Z0mQjTyHk4RfoHL/xmoHkV/oTO9iCH7C44liGF/VjrTOQoneuhnOuhvVhDotrQZNd
+CSyXkpqwXIxjGZrFESlxOlHlzPMqvfM1+uZrHLuapsOVoOv2GwbjFQbnFOzTFWyxCvZYhZ6wgnBO
+q43XZ6uMbewSyv/EESvjmKliHX9Px4UwPaEtxt5+J12pMxAt0R3ZpjuiYp1UEY6nVRwzFewRhenP
+e6RrcPaZim1qm55og1OTBRKlX0Z2Z2OXk6ECJwyKCHu0jC1c5PxLlYSKwd13P7A+LmCdKGMNq5xb
+qhH/Aslm3tJYsY4IbdWJliBahKnSYYYy3+h6kGc8v3coN/abiEefQCdYgGDTt3pD2/z+bnMm7m/C
+vU3QteUP9gdnBh//5LoXozlNuZWDFqMH/N+4mdOU9q/x7+s3u4AX4KY+sGMAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="fa0ff757-c7ef-4039-ba24-6e6d13c28718"
+		isrooted="True"
+		name="Settings"
+		refpath="/winapp[@packagename='windows.immersivecontrolpanel']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="button"
+			id="54a2f9ee-5a8b-4597-b7cb-111b5275b29d"
+			name="EntityItemButton"
+			refimgid="b8a1d84a-93a2-407c-8492-b88d64172bc5"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element/container[2]/container/container[@name='Related settings']/container[@automationid='SystemSettings_Display_AdvancedDisplaySettings_ButtonEntityItem']/button[@automationid='EntityItemButton']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//button[@name='Advanced display']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Related settings']/container[@automationid='SystemSettings_Display_AdvancedDisplaySettings_ButtonEntityItem']/button[@automationid='EntityItemButton']
+			</item>
+			<folder
+			addcaps="container,uiautomation,uiautomationscrollitem"
+			capname="container"
+			id="398e6c13-b2a0-4d6d-8e57-7a76706065ea"
+			isrooted="True"
+			name="DisplayInformation"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[@automationid='pageContent']/container[@automationid='ItemsControlScrollViewer']/container[@name='Display information']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="aea6b914-7de9-4795-8acc-a8b971583a85"
+				name="Text11998Hz"
+				refimgid="983b233c-9044-47f7-8cb6-9939ad9e2e8d"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[@automationid='pageContent']/container[@automationid='ItemsControlScrollViewer']/container[@name='Display information']/container[@name='Refresh rate']/button[@automationid='EntityItemButton']/combobox[@automationid='SystemSettings_Display_AdvancedDisplaySettingsRefreshRate_ComboBox']/listitem[@automationid='ContentPresenter']/text[@name='119.98 Hz']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name='119.98 Hz']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']/container[@name='Refresh rate']/button[@automationid='EntityItemButton']/combobox[@automationid='SystemSettings_Display_AdvancedDisplaySettingsRefreshRate_ComboBox']/listitem[@automationid='ContentPresenter']/text[@name='119.98 Hz']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="78d19949-bd6d-4e50-bdd1-e828fc1a074b"
+				name="ChooseARefreshRate"
+				refimgid="d739effa-35cf-4f12-9393-747ed05250e3"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[@automationid='pageContent']/container[@automationid='ItemsControlScrollViewer']/container[@name='Display information']/container[@name='Refresh rate']/button[@automationid='EntityItemButton']/text[@name='Choose a refresh rate']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name='Choose a refresh rate']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']/container[@name='Refresh rate']/button[@automationid='EntityItemButton']/text[@name='Choose a refresh rate']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="b2c8cd9a-e82b-468c-a348-bea466ae61e0"
+				name="ZStation"
+				refimgid="d65d9b43-b32e-4ae6-965d-a662a392ab05"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[@automationid='pageContent']/container[@automationid='ItemsControlScrollViewer']/container[@name='Display information']/container[@name='zStation']/button[@automationid='EntityItemButton']/text[@name='zStation']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name='zStation']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']/container[@name='zStation']/button[@automationid='EntityItemButton']/text[@name='zStation']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="6b29d281-d993-4f3d-98b1-1c79d2ee1952"
+				name="Display1ConnectedToNVIDIARTXA2000"
+				refimgid="f0f7fcb6-0682-4753-a089-265568cb04f3"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[@automationid='pageContent']/container[@automationid='ItemsControlScrollViewer']/container[@name='Display information']/container[@name='zStation']/button[@automationid='EntityItemButton']/text[@name='Display 1: Connected to NVIDIA RTX A2000']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name>'Display 1: Connected to NVIDIA']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']/container[@name='zStation']/button[@automationid='EntityItemButton']/text[@name&gt;'Display 1: Connected to NVIDIA']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="5d89fcaa-7ca7-42fb-913c-17aba6dc0cf1"
+				name="SystemSettingsDisplayAdvancedDisplaySe1"
+				refimgid="0bf9073c-f845-4ef6-b7c9-99cbb1f62bcd"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[@automationid='pageContent']/container[@automationid='ItemsControlScrollViewer']/container[@name='Display information']/container[@name='zStation']/text[2]"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='zStation']/text[2]"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']/container[@name='zStation']/text[2]
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="21283fb0-85af-474e-a3d3-dee651933044"
+				name="SystemSettingsDisplayAdvancedDisplaySe3"
+				refimgid="ef5f52f0-9ffb-4572-b4c7-9288ca04a50a"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[@automationid='pageContent']/container[@automationid='ItemsControlScrollViewer']/container[@name='Display information']/container[@name='zStation']/text[4]"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='zStation']/text[4]"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']/container[@name='zStation']/text[4]
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="3c222837-eac5-407d-9f7e-a25effd75d3b"
+				name="SystemSettingsDisplayAdvancedDisplaySe2"
+				refimgid="13e9d571-072a-45df-87f8-f53414e2d6ca"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[@automationid='pageContent']/container[@automationid='ItemsControlScrollViewer']/container[@name='Display information']/container[@name='zStation']/text[@automationid='SystemSettings_Display_AdvancedDisplaySettingsMonitorDetailsInfoAllTargets_DescriptionTextBlock' and @name='Active signal mode']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name='Active signal mode']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']/container[@name='zStation']/text[@name='Active signal mode']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="5a165caa-6ed4-40de-8acb-1ea2ba9a3080"
+				name="SystemSettingsDisplayAdvancedDisplaySe"
+				refimgid="a67fca0c-4b97-4107-8138-e74c094dc1a8"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[@automationid='pageContent']/container[@automationid='ItemsControlScrollViewer']/container[@name='Display information']/container[@name='zStation']/text[@automationid='SystemSettings_Display_AdvancedDisplaySettingsMonitorDetailsInfoAllTargets_DescriptionTextBlock' and @name='Desktop mode']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name='Desktop mode']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']/container[@name='zStation']/text[@name='Desktop mode']
+				</item>
+				<basepath>
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Display information']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,uiautomation,uiautomationscrollitem"
+			capname="unknown"
+			id="eb4abe55-f1f2-4827-be25-8406186cf91f"
+			name="PermanentNavigationView"
+			refimgid="69560305-c92c-4ab4-a446-50b2eb8d9dfb"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="f0337f3c-4d48-47f9-a6e1-806e1a2a9169"
+			name="Close"
+			refimgid="403bc8db-a9dd-471c-a166-bea7c0aac85d"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/titlebar/button[@automationid='Close']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']/?/?/button[@automationid='Close']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']/?/?/button[@automationid='Close']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationscrollitem"
+			capname="text"
+			id="0f37d6ef-570d-489b-bff6-dec4dbe5b76f"
+			name="Text3DDisplayMode"
+			refimgid="aca32805-0c83-4bb5-8ddf-33b148575901"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/container[@name='Multiple displays']/text[@name='3D display mode']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name='3D display mode']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/container[@name='Multiple displays']/text[@name='3D display mode']
+			</item>
+			<item
+			addcaps="indicator,uiautomation,uiautomationscrollitem"
+			capname="indicator"
+			id="9ff4d219-7738-4936-bbb0-5b3f49649964"
+			name="SwitchThumb"
+			refimgid="efa6e404-0d68-4236-9e83-f7c2a34d19f6"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/container[@name='Multiple displays']/button[@automationid='SystemSettings_Display_IsStereoEnabled_ToggleSwitch']/indicator[@automationid='SwitchThumb']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//indicator[@automationid='SwitchThumb']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Multiple displays']/button[@automationid='SystemSettings_Display_IsStereoEnabled_ToggleSwitch']/indicator[@automationid='SwitchThumb']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="button"
+			id="2525ac03-f356-4c34-b0f1-398d5286019c"
+			name="VerticalLargeIncrease"
+			refimgid="41353971-0b9e-47a0-9eac-ddd9e4ba51a3"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element/container[2]/container/scrollbar/button[@automationid='VerticalLargeIncrease']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//button[@automationid='VerticalLargeIncrease']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/scrollbar[@automationid='VerticalScrollBar']/button[@automationid='VerticalLargeIncrease']
+			</item>
+			<folder
+			addcaps="list,uiautomation,uiautomationscrollitem"
+			capname="list"
+			id="53438a7e-d1a4-4ff5-b3ec-7646b44bca43"
+			isrooted="True"
+			name="SystemSettingsDevicesOtherDeviceListS"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/container[@name='Other devices']/list[@automationid='SystemSettings_Devices_OtherDeviceList_SettingsListItemsRepeater']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="a8cae70c-53f8-4910-a649-51157b1254b1"
+				name="ZSpaceHubController"
+				refimgid="80d54e0f-e691-471a-8498-a7cd9ead8a5a"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/container[@name='Other devices']/list[@automationid='SystemSettings_Devices_OtherDeviceList_SettingsListItemsRepeater']/container[@automationid='ItemsRepeater']/container[@name='zSpace Hub Controller, Category Unknown device, Battery Unknown, State Unknown device state, ']/button[@automationid='EntityItemButton']/text[@name='zSpace Hub Controller']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name='zSpace Hub Controller']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Other devices']/list[@automationid='SystemSettings_Devices_OtherDeviceList_SettingsListItemsRepeater']/?/?/container[@name&gt;'zSpace Hub Controller, Category']/button[@automationid='EntityItemButton']/text[@name='zSpace Hub Controller']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="f31fffa2-53ca-4183-95b8-a30c35fc88f7"
+				name="SomeText"
+				refimgid="2647e95f-8536-4fd5-ae8c-01fd3c2b402a"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element/container[2]/container/container[@name='Other devices']/list/container/container[@name>'zSpace Hub Controller, Category']/button/text[@name='']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@name>'zSpace Hub Controller, Category']/button[@automationid='EntityItemButton']/text[@name='']"
+				searchtimeout="30000ms">
+					<image
+					guid="ae6e7d00-dcd2-4f6c-bc3c-433391e1010e"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAADFJREFUGFdj+P379//5J+f/d53hCsYgNkiMAcTgr+ZHwSAxBpAqdAmQ
+GG4JnEbhshwADKpSebGFpR0AAAAASUVORK5CYII=
+					</image>
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Other devices']/list[@automationid='SystemSettings_Devices_OtherDeviceList_SettingsListItemsRepeater']/?/?/container[@name&gt;'zSpace Hub Controller, Category']/button[@automationid='EntityItemButton']/text[@name='&#59963;']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="15fca20b-c32b-4c7a-baf3-c2e22babdecf"
+				name="SomeText1"
+				refimgid="66c8fb01-a9cd-4b28-ad5a-fd2b5723bd02"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/container[@name='Other devices']/list[@automationid='SystemSettings_Devices_OtherDeviceList_SettingsListItemsRepeater']/container[@automationid='ItemsRepeater']/container[@name='zSpace Remote NDIS connection #6, Category Network device, Battery Unknown, State Unknown device state, ']/button[@automationid='EntityItemButton']/text[@name='']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@name>'zSpace Remote NDIS connection']/button[@automationid='EntityItemButton']/text[@name='']"
+				searchtimeout="30000ms">
+					<image
+					guid="1eb15707-7e63-4405-b4eb-51ceefb70f50"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAADFJREFUGFdj+Pbt2/85x+b8d5nuAsYgNkiMAcTgr+ZHwSAxBpAqdAmQ
+GG4JnEbhshwA3plR3XYTI/UAAAAASUVORK5CYII=
+					</image>
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Other devices']/list[@automationid='SystemSettings_Devices_OtherDeviceList_SettingsListItemsRepeater']/?/?/container[@name&gt;'zSpace Remote NDIS connection']/button[@automationid='EntityItemButton']/text[@name='&#59963;']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="b4e4adff-29d3-42aa-a0ac-687fa5173deb"
+				name="ZSpaceRemoteNDISConnectionHash6"
+				refimgid="b98a6553-5629-4970-b5fe-73e948ed2359"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/container[@name='Other devices']/list[@automationid='SystemSettings_Devices_OtherDeviceList_SettingsListItemsRepeater']/container[@automationid='ItemsRepeater']/container[@name='zSpace Remote NDIS connection #6, Category Network device, Battery Unknown, State Unknown device state, ']/button[@automationid='EntityItemButton']/text[@name='zSpace Remote NDIS connection #6']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name>'zSpace Remote NDIS connection']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Other devices']/list[@automationid='SystemSettings_Devices_OtherDeviceList_SettingsListItemsRepeater']/?/?/container[@name&gt;'zSpace Remote NDIS connection']/button[@automationid='EntityItemButton']/text[@name&gt;'zSpace Remote NDIS connection']
+				</item>
+				<basepath>
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Other devices']/list[@automationid='SystemSettings_Devices_OtherDeviceList_SettingsListItemsRepeater']
+				</basepath>
+			</folder>
+			<item
+			addcaps="container,uiautomation,uiautomationscrollitem"
+			capname="container"
+			id="a79382e7-402e-4c79-9533-64cd0c6c6e2b"
+			name="ItemsControlScrollViewer"
+			refimgid="4ee64446-8a01-4171-8d5e-b4ccafca8fc1"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element/container[2]/container[@automationid='ItemsControlScrollViewer']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/?/?/container[@automationid='ItemsControlScrollViewer']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationscrollitem"
+			capname="text"
+			id="0e0ef543-ef1a-4a8d-acbc-3d1c58e61477"
+			name="WindowsInfo"
+			refimgid="807be9ab-2e92-43cb-a0df-e0fda62d00b4"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/container[@name='Windows info']/button[@automationid='EntityItemButton']/text[@name='Windows info']"
+			robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@name='Windows info']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='windows.immersivecontrolpanel']//container[@name='Windows info']/button[@automationid='EntityItemButton']/text[@name='Windows info']
+			</item>
+			<folder
+			addcaps="container,uiautomation,uiautomationscrollitem"
+			capname="container"
+			id="115905c9-cf23-4e64-b259-9b070419431d"
+			isrooted="True"
+			name="ItemsControlScrollViewer1"
+			refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="8c3c74e7-0f1e-493b-af77-f7d63314c10d"
+				name="SystemSettingsPCSystemWindowsVersionSt"
+				refimgid="11730867-cfb0-4288-b179-170a7ff8ec5e"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/container[@name='Windows info']/text[@automationid='SystemSettings_PCSystem_WindowsVersionStatus_DescriptionTextBlock']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@automationid='SystemSettings_PCSystem_WindowsVersionStatus_DescriptionTextBlock']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/container[@name='Windows info']/text[@automationid='SystemSettings_PCSystem_WindowsVersionStatus_DescriptionTextBlock']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="3456839b-f3c6-4a9e-90ef-be05261fbf1a"
+				name="SystemSettingsPCSystemWindowsVersionSt1"
+				refimgid="9f9a5524-1fce-4146-93d8-6372c5d1c16d"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/container[@name='Windows info']/text[@automationid='SystemSettings_PCSystem_WindowsVersionStatus_ValueTextBlock']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//text[@automationid='SystemSettings_PCSystem_WindowsVersionStatus_ValueTextBlock']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/container[@name='Windows info']/text[@automationid='SystemSettings_PCSystem_WindowsVersionStatus_ValueTextBlock']
+				</item>
+				<item
+				addcaps="indicator,uiautomation,uiautomationscrollitem"
+				capname="indicator"
+				id="8984b5b2-c948-4d89-ad4d-c66a69b7a411"
+				name="VerticalThumb"
+				refimgid="d62ec3bb-72a6-4ffa-b9cd-3fe0075c55ec"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element/container[2]/container/scrollbar/indicator[@automationid='VerticalThumb']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//indicator[@automationid='VerticalThumb']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/scrollbar[@automationid='VerticalScrollBar']/indicator[@automationid='VerticalThumb']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="6dfb74d9-3d93-4208-8a2b-9d264a1f8edf"
+				name="NVIDIAGraphicsDriver58142"
+				refimgid="6f72df18-6568-4fce-b08a-bfb5ce180b79"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name='NVIDIA Graphics Driver 581.42, 581.42, NVIDIA Corporation, 10/14/2025']/container[@automationid='{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_Display.Driver_ListItem']/text[@name='NVIDIA Graphics Driver 581.42']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name&gt;'NVIDIA Graphics Driver 581.42,']/container[@automationid='{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_Display.Driver_ListItem']/text[@name&gt;'NVIDIA Graphics Driver 58']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="4fd3f605-878b-4429-99f2-79942e529847"
+				name="TextB2FE1952018646C3BAECA80AA35AC5B"
+				refimgid="bb4a2747-233d-4779-82c7-684e24ea807a"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name='NVIDIA Graphics Driver 581.42, 581.42, NVIDIA Corporation, 10/14/2025']/container[@automationid='{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_Display.Driver_ListItem']/text[@automationid='{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_Display.Driver_SubtitleTextBlock' and @name='581.42']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name&gt;'NVIDIA Graphics Driver 581.42,']/container[@automationid='{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_Display.Driver_ListItem']/text[@name='581.42']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationvalue"
+				capname="text"
+				id="cba3e42f-f772-43b6-a4ac-10248150cdc9"
+				name="Search"
+				refimgid="73d5a269-0d83-461e-9f07-2492240d00e3"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element/container[2]/container/text[@automationid='SystemSettings_StorageSense_AppSizesListFilter_DisplayStringValue']/text[@name='Search']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/text[@automationid='SystemSettings_StorageSense_AppSizesListFilter_DisplayStringValue']/text[@name='Search']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="04e17c31-684d-46af-8569-e033c4d5f981"
+				name="ZSpaceSystem"
+				refimgid="de21acca-24e4-4f5e-9f7e-c66563f8c80a"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name='zSpace System, 4.4.2.27, zSpace, Inc., 11/29/2024']/container[@automationid='zSpace System_ListItem']/text[@name='zSpace System']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name&gt;'zSpace System, 4.4.2.27, zSpace,']/container[@automationid='zSpace System_ListItem']/text[@name='zSpace System']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="b9295be3-3d5b-4d3c-840e-5df818a37e54"
+				name="ZSpaceSystemSubtitleTextBlock"
+				refimgid="dcbba120-5f7f-48ba-b0a2-54757ad734c0"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name='zSpace System, 4.4.2.27, zSpace, Inc., 11/29/2024']/container[@automationid='zSpace System_ListItem']/text[@automationid='zSpace System_SubtitleTextBlock' and @name='4.4.2.27']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name&gt;'zSpace System, 4.4.2.27, zSpace,']/container[@automationid='zSpace System_ListItem']/text[@name='4.4.2.27']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="170333e1-48bd-4540-b4c4-ff155a4e70a8"
+				name="AppAPIAppSandbox6AndStreamingRuntim"
+				refimgid="66d31014-6881-4067-af61-47f892741d6f"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name='AppAPI AppSandbox 6 and streaming runtime, 6.9.3.15, GE HealthCare Ultrasound, 10/14/2025']/container[@automationid='{AB56D220-2BF2-4443-9D9A-AEA2B6865E86}_ListItem']/text[@name='AppAPI AppSandbox 6 and streaming runtime']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name&gt;'AppAPI AppSandbox 6 and streaming']/container[@automationid='{AB56D220-2BF2-4443-9D9A-AEA2B6865E86}_ListItem']/text[@name&gt;'AppAPI AppSandbox 6 and streaming']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="a19028f7-5611-4a8b-897c-4509fae942b2"
+				name="TextAB56D2202BF244439D9AAEA2B6865E8"
+				refimgid="9d0ef020-7923-417b-9127-9ee824342ffb"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name='AppAPI AppSandbox 6 and streaming runtime, 6.9.3.15, GE HealthCare Ultrasound, 10/14/2025']/container[@automationid='{AB56D220-2BF2-4443-9D9A-AEA2B6865E86}_ListItem']/text[@automationid='{AB56D220-2BF2-4443-9D9A-AEA2B6865E86}_SubtitleTextBlock' and @name='6.9.3.15']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name&gt;'AppAPI AppSandbox 6 and streaming']/container[@automationid='{AB56D220-2BF2-4443-9D9A-AEA2B6865E86}_ListItem']/text[@name='6.9.3.15']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="02522a3b-4014-4480-9183-c4f4ae52e401"
+				name="TextAB56D2202BF244439D9AAEA2B6865E81"
+				refimgid="82627eb5-6dbf-4e97-9b1d-0f7fc4313467"
+				refpath="/winapp[@packagename='windows.immersivecontrolpanel']/element[@automationid='PermanentNavigationView']/container[2]/container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name='AppAPI AppSandbox 6 and streaming runtime, 6.9.3.15, GE HealthCare Ultrasound, 10/14/2025']/container[@automationid='{AB56D220-2BF2-4443-9D9A-AEA2B6865E86}_ListItem']/text[@automationid='{AB56D220-2BF2-4443-9D9A-AEA2B6865E86}_SubtitleTextBlock' and @name='GE HealthCare Ultrasound']"
+				robustPath="/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']/list[2]/listitem[@name&gt;'AppAPI AppSandbox 6 and streaming']/container[@automationid='{AB56D220-2BF2-4443-9D9A-AEA2B6865E86}_ListItem']/text[@name='GE HealthCare Ultrasound']
+				</item>
+				<basepath>
+					/winapp[@packagename='windows.immersivecontrolpanel']//container[@automationid='ItemsControlScrollViewer']
+				</basepath>
+			</folder>
+			<basepath>
+				/winapp[@packagename='windows.immersivecontrolpanel']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJcSURBVDhPpZLLS1RRHMdnVb4tcNMqWgQt+geC
+wEXQpqc9EEMqy0zLTOfhHZ25c+fO487TcZwZnxVpEUkWRRkWlqRNommoJFG0CEQrokzyUa4+cWdA
+TcdVi9/iHM7n+z3f7zkajXGc/5qVi82mYXyhZrx1Tey2Pf3noN0fxuYNkWO/s76ACnqCjbhrG1AC
+9Thr6nH4I9h8YWRvCKunDskVJFt6mFjAGmjBFWhYAu2+uGsMdAexuGoRlcD6N4i7xsGWtnb6Bobp
+Hx6h63lfDDQ7a6h2+BMLJFWN4lBz+kL0RAd5NTTCHs9Ldppf0NY9yvj7jzgDDRhtPgqkpmWBbWKU
+UndrzFXNqToPvBljQ8kzNhZ1kXT2Ecmn77Nf6ebTxCSVVg96yY3O4mKX6R6a1TmHRt+y19NHUmEn
+yQUPSDnZQWr+bdLybjD19Rt6iwutqFBhdlJucqCRVxU09u4D27VdJJ+6S0p+O2l5N0nPvU7GsSt8
+n/6J7ItQbnJyudpBWZUdjaBEEJVazM4AJkcNvf2v6egdJ/XELdJyW0k/fpWMI41kHgozOze/BF4y
+2rgoyMslFsrNVNl8CLKXiakv5Dgek3G0iczDETYdCDK/8DvWgQqWCjJZQnTtM6oFGSQ3dn+EH9Mz
+zPyaZW5+gT+Li0xMfqZUda2U2SF0rn1GdXLFFnSiiwqzspTT6gnFQUHmQqWVYr2U+B+oo10Brsyp
+giUGiWK9hSKdyBahJ7HAGVOAsuo4qOZUr5puHOSgIcx5nYVzWpHCCjNbDU8SC6iTZYzG2121n62/
+xj5t3Zr9vxd9fd+4VgQGAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
