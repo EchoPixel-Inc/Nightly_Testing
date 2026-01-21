@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="40a41988-9903-4b0c-9d3a-d5eaab535b04"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TPX_0003_zSpaceTracker">
+	</codegen>
+	<variables>
+		<var
+		id="86b8bd5d-66c0-40b8-8c3a-69e92bbe439f"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="e44e6ebc-c0b8-4165-904c-300f3a8aedbe">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="ab24e071-72dc-4b27-8087-c1b5ef364a2c"
+	name="TPX_0003_zSpaceTrackerRepository"
+	relativepath="TPX_0003_zSpaceTrackerRepository.rxrep">
+		<codegen
+		classname="TPX_0003_zSpaceTrackerRepository"
+		namespace="TPX_0003_zSpaceTracker">
+		</codegen>
+		<rootfolder
+		id="b8efdc10-f389-4c7e-9b06-b8337ef7ecc0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

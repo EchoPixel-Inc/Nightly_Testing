@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{E391A52C-C513-4F77-AF53-94D38A126BD4}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TPX_0003_zSpaceTracker</RootNamespace>
+    <AssemblyName>TPX-0003_zSpaceTracker</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>0846ee84-f7bd-4961-b720-2caf9c68113e</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>1186857a-ce85-4fd5-9667-8ae6db394a65</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>2925ddc3-2ddd-457f-ba47-51ed9afb95aa</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>330ea375-b1d3-45a2-8f6b-95f47e796608</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>2925ddc3-2ddd-457f-ba47-51ed9afb95aa</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4edea204-68fe-4335-88cb-c9932cdbe7a3</id>
+    </Compile>
+    <Compile Include="DeviceSelect.cs">
+      <BoundTo>3daa641b-6ddc-457b-82ae-25dbab14aada</BoundTo>
+      <DependentUpon>DeviceSelect.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>059d97f7-e856-4cdf-b1f7-a480b896e7b7</id>
+    </Compile>
+    <Compile Include="DeviceSelect.UserCode.cs">
+      <BoundTo>3daa641b-6ddc-457b-82ae-25dbab14aada</BoundTo>
+      <DependentUpon>DeviceSelect.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3844145f-3253-42f8-90cf-60acfccedd8a</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>7b08316d-fce5-483a-94ff-e94647300127</id>
+    </Compile>
+    <Compile Include="TrackerHead.cs">
+      <BoundTo>52ebfb9d-f021-4883-92d5-db13e8adba74</BoundTo>
+      <DependentUpon>TrackerHead.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ae3bc85d-0479-4ed7-91af-2b5caa23eddd</id>
+    </Compile>
+    <Compile Include="TrackerHead.UserCode.cs">
+      <BoundTo>52ebfb9d-f021-4883-92d5-db13e8adba74</BoundTo>
+      <DependentUpon>TrackerHead.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7e25984b-023d-41e5-b941-715b3aac2969</id>
+    </Compile>
+    <Compile Include="TrackerInteraction.cs">
+      <BoundTo>2c1c65aa-a3fd-43b0-b1a8-9a44ec8fcb11</BoundTo>
+      <DependentUpon>TrackerInteraction.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b7f09f84-215c-4154-b3a4-50988885d921</id>
+    </Compile>
+    <Compile Include="TrackerInteraction.UserCode.cs">
+      <BoundTo>2c1c65aa-a3fd-43b0-b1a8-9a44ec8fcb11</BoundTo>
+      <DependentUpon>TrackerInteraction.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dab69d54-f395-4fa5-90ca-56042dc7fd8a</id>
+    </Compile>
+    <Compile Include="ZSpaceTracker.cs">
+      <BoundTo>6517c127-2c34-40a3-a30f-48b363e42658</BoundTo>
+      <DependentUpon>ZSpaceTracker.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c21e297b-b71f-4605-8b41-086ab6f1da6b</id>
+    </Compile>
+    <Compile Include="ZSpaceTracker.UserCode.cs">
+      <BoundTo>6517c127-2c34-40a3-a30f-48b363e42658</BoundTo>
+      <DependentUpon>ZSpaceTracker.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9d412515-dd46-41ee-b685-7a5b77669a6d</id>
+    </Compile>
+    <Compile Include="StartAUT.cs">
+      <BoundTo>d41d89e8-9da1-44ef-a6f6-bd54ef5a6355</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2414a9f6-638d-4ba4-a694-2a4ad2de5998</id>
+    </Compile>
+    <Compile Include="StartAUT.UserCode.cs">
+      <BoundTo>d41d89e8-9da1-44ef-a6f6-bd54ef5a6355</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4509c2eb-8e8e-4db7-a28d-790b71f07d81</id>
+    </Compile>
+    <Compile Include="TPX_0003_zSpaceTrackerRepository.cs">
+      <BoundTo>0846ee84-f7bd-4961-b720-2caf9c68113e</BoundTo>
+      <DependentUpon>TPX_0003_zSpaceTrackerRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>10740c84-7225-4674-b46a-0ed28f07ade7</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>bf3f8fde-39a9-40ee-b160-6da3823bd555</id>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>0846ee84-f7bd-4961-b720-2caf9c68113e</BoundTo>
+      <id>2925ddc3-2ddd-457f-ba47-51ed9afb95aa</id>
+      <recordtableid>40a41988-9903-4b0c-9d3a-d5eaab535b04</recordtableid>
+    </None>
+    <None Include="DeviceSelect.rxrec">
+      <BoundTo>0846ee84-f7bd-4961-b720-2caf9c68113e</BoundTo>
+      <id>3daa641b-6ddc-457b-82ae-25dbab14aada</id>
+      <recordtableid>5dfb559a-e627-4b46-afb8-0f184fc3c260</recordtableid>
+    </None>
+    <None Include="TrackerHead.rxrec">
+      <BoundTo>0846ee84-f7bd-4961-b720-2caf9c68113e</BoundTo>
+      <id>52ebfb9d-f021-4883-92d5-db13e8adba74</id>
+      <recordtableid>eb7425ce-4141-46da-8481-93220eaf076f</recordtableid>
+    </None>
+    <None Include="TPX-TRX_files\epx_logo.png">
+      <id>53cf8e4e-6a25-465a-8145-e404353306a1</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TrackerInteraction.rxrec">
+      <BoundTo>0846ee84-f7bd-4961-b720-2caf9c68113e</BoundTo>
+      <id>2c1c65aa-a3fd-43b0-b1a8-9a44ec8fcb11</id>
+      <recordtableid>9c2be988-736b-4fcf-9b33-abad0b000692</recordtableid>
+    </None>
+    <None Include="ZSpaceTracker.rxrec">
+      <BoundTo>0846ee84-f7bd-4961-b720-2caf9c68113e</BoundTo>
+      <id>6517c127-2c34-40a3-a30f-48b363e42658</id>
+      <recordtableid>06327b04-3066-4a94-ab33-99c2fe9b75de</recordtableid>
+    </None>
+    <None Include="StartAUT.rxrec">
+      <BoundTo>0846ee84-f7bd-4961-b720-2caf9c68113e</BoundTo>
+      <id>d41d89e8-9da1-44ef-a6f6-bd54ef5a6355</id>
+      <recordtableid>eccca846-5de2-4aef-aebb-00934e57d2cb</recordtableid>
+    </None>
+    <None Include="TPX_0003_zSpaceTrackerRepository.rximg">
+      <BoundTo>0846ee84-f7bd-4961-b720-2caf9c68113e</BoundTo>
+      <DependentUpon>TPX_0003_zSpaceTrackerRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>fe0ec709-c6ed-4235-a472-dd2cdcd3c155</id>
+    </None>
+    <None Include="TPX_0003_zSpaceTrackerRepository.rxrep">
+      <id>0846ee84-f7bd-4961-b720-2caf9c68113e</id>
+      <repoid>ab24e071-72dc-4b27-8087-c1b5ef364a2c</repoid>
+      <reporootid>b8efdc10-f389-4c7e-9b06-b8337ef7ecc0</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TPX-TRX_files\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e7832c80-a088-4a4b-978a-f0e57438bcd3</id>
+    </Content>
+    <Content Include="TPX-TRX_files\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>cef7c436-823f-43c5-ba25-2163ac6dffc6</id>
+    </Content>
+    <Content Include="TPX-TRX_files\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>168ae0bf-b5c1-458a-90a8-ad817885094f</id>
+    </Content>
+    <Content Include="TPX-TRX_files\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>08f1fa5b-5d46-4164-9d64-e9db47a7b9e6</id>
+    </Content>
+    <Content Include="TPX-TRX_files\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>75b6083e-6d57-4944-9372-cd2a64bb808f</id>
+    </Content>
+    <Content Include="TPX_0003_zSpaceTracker.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>ac361f36-b75d-4abd-81f4-59f0bdc98aa7</id>
+    </Content>
+    <Content Include="TPX_0003_zSpaceTracker.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f1b11a2d-8686-4905-8274-51af837ea2e1</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TPX-TRX_files">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3df1514d-460d-453c-9148-35d39c00ba9e</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

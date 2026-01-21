@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="eccca846-5de2-4aef-aebb-00934e57d2cb"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="TPX_0003_zSpaceTracker">
+	</codegen>
+	<variables>
+		<var
+		id="2bf7be01-c357-4e71-b17d-9bb3ab4e3b36"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\zSpace\System\zSpaceControlPanel.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="ab24e071-72dc-4b27-8087-c1b5ef364a2c"
+	name="TPX_0003_zSpaceTrackerRepository"
+	relativepath="TPX_0003_zSpaceTrackerRepository.rxrep">
+		<codegen
+		classname="TPX_0003_zSpaceTrackerRepository"
+		namespace="TPX_0003_zSpaceTracker">
+		</codegen>
+		<rootfolder
+		id="b8efdc10-f389-4c7e-9b06-b8337ef7ecc0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
