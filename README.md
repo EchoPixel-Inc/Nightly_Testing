@@ -1,2 +1,2 @@
-# Nightly_Testing
-Nightly testing of EchoPixel code
+# Nightly_Testing_Code
+Nightly testing CODE (Ranorex) of EchoPixel code
