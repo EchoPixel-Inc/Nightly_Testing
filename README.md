@@ -1,2 +1,2 @@
 # Nightly_Testing_Code
-Nightly testing CODE (Ranorex) of EchoPixel code
+CODE (Ranorex) backup for Nightly Testing of EchoPixel code
