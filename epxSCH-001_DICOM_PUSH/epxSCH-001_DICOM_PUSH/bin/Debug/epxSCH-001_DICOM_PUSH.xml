@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>epxSCH-001_DICOM_PUSH</name>
+    </assembly>
+    <members>
+        <member name="T:epxSCH_001_DICOM_PUSH.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:epxSCH_001_DICOM_PUSH.CloseAUT.repo">
+            <summary>
+            Holds an instance of the epxSCH_001_DICOM_PUSHRepository repository.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:epxSCH_001_DICOM_PUSH.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepository">
+            <summary>
+            The class representing the epxSCH_001_DICOM_PUSHRepository element repository.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the epxSCH_001_DICOM_PUSHRepository element repository.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepository.EPXPACSRemoteDesktopConnection">
+            <summary>
+            The EPXPACSRemoteDesktopConnection folder.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepository.BBar">
+            <summary>
+            The BBar folder.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepository.RemoteDesktopConnection">
+            <summary>
+            The RemoteDesktopConnection folder.
+            </summary>
+        </member>
+        <member name="T:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.EPXPACSRemoteDesktopConnectionAppFolder">
+            <summary>
+            The EPXPACSRemoteDesktopConnectionAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.EPXPACSRemoteDesktopConnectionAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EPXPACSRemoteDesktopConnection  folder.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.EPXPACSRemoteDesktopConnectionAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.EPXPACSRemoteDesktopConnectionAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.EPXPACSRemoteDesktopConnectionAppFolder.OPWindowClass">
+            <summary>
+            The OPWindowClass item.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.EPXPACSRemoteDesktopConnectionAppFolder.OPWindowClassInfo">
+            <summary>
+            The OPWindowClass item info.
+            </summary>
+        </member>
+        <member name="T:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.BBarAppFolder">
+            <summary>
+            The BBarAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.BBarAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BBar  folder.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.BBarAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.BBarAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.BBarAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.BBarAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.RemoteDesktopConnectionAppFolder">
+            <summary>
+            The RemoteDesktopConnectionAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.RemoteDesktopConnectionAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RemoteDesktopConnection  folder.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.RemoteDesktopConnectionAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.RemoteDesktopConnectionAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.RemoteDesktopConnectionAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.epxSCH_001_DICOM_PUSHRepositoryFolders.RemoteDesktopConnectionAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:epxSCH_001_DICOM_PUSH.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:epxSCH_001_DICOM_PUSH.Recording1.repo">
+            <summary>
+            Holds an instance of the epxSCH_001_DICOM_PUSHRepository repository.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:epxSCH_001_DICOM_PUSH.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:epxSCH_001_DICOM_PUSH.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:epxSCH_001_DICOM_PUSH.Recording2.repo">
+            <summary>
+            Holds an instance of the epxSCH_001_DICOM_PUSHRepository repository.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:epxSCH_001_DICOM_PUSH.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:epxSCH_001_DICOM_PUSH.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:epxSCH_001_DICOM_PUSH.StartAUT.repo">
+            <summary>
+            Holds an instance of the epxSCH_001_DICOM_PUSHRepository repository.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:epxSCH_001_DICOM_PUSH.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:epxSCH_001_DICOM_PUSH.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:epxSCH_001_DICOM_PUSH.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

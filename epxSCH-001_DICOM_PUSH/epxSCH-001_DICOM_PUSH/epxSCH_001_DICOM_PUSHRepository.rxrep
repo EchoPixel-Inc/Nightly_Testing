@@ -1,0 +1,143 @@
+﻿<repository
+id="b00a3c59-5aa1-4a4a-b055-21fa387953ce"
+name="epxSCH_001_DICOM_PUSHRepository">
+	<codegen
+	classname="epxSCH_001_DICOM_PUSHRepository"
+	namespace="epxSCH_001_DICOM_PUSH">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c532352e-5029-4f41-800c-c5ef3538de8e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="aa5ee2b5-229b-42bc-91a5-de93d857ee6a"
+		isrooted="True"
+		name="EPXPACSRemoteDesktopConnection"
+		refpath="/form[@title='EPX-PACS - Remote Desktop Connection']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="c25c8a6a-ce32-4243-8c61-748dd170aca2"
+			name="OPWindowClass"
+			refimgid="2bc713b5-47f8-499c-9111-6c9ece90d21f"
+			refpath="/form[@title>'EPX-PACS - Remote Desktop']/element/element/element/element/element/element[@class='OPWindowClass']"
+			robustPath="/form[@title>'EPX-PACS - Remote Desktop']//element[@class='OPWindowClass']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'EPX-PACS - Remote Desktop']/element[@class='TscShellAxHostClass']//element[@class='UIContainerClass']/?/?/element[@class='OPWindowClass']
+			</item>
+			<basepath>
+				/form[@title&gt;'EPX-PACS - Remote Desktop']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALnSURBVDhPhZLfT5NnFMcfiGGJJganJDqDJJJF
+ovHOGW+WJbvwH/CCREsWVi6WOCMjNRqVmPSCl+xNoVk0MWrUUjqaUuzo6PpDgVZKERltX2gRCL/W
+BZpiBVGJGrSf5X0ZiHLhN/kmT06e8znnec4RI4nohZFElA8eJDm86sTQY4ZVK/0MKY9Q4n0osQiB
+gOeaWJOaZLHcXbe1yYLNZqWlxYbL5aS93YWnox2fr4MH9/9CifXi8/7JJoAQbYjtYcSOcUTRC07X
+Q1cCHBH4PQx3gmByrRCP9mrATYD8Qjtilx9RGkfsSVH+8xtm5mB0BiZmIfUUHiXfE4+GcbtdGwGD
+WK0WSg/bKShqRex9iPgqydffz9MRytH5GHz9EIxBa/c7YtEeXPecHwDJRJTm5ia+Pe6ksNiC2NGG
+2N3F9rIY8o3n2Dtec/veW1o8OX6zvSEWfYjT6dgAGP4bh8PON9/ZKDl4h/wvrYgiN1/sDaI/N43x
+Vy9nfqlHV6HnpO5Hrly5jNncqALy1gFtTgfFB25ScugWW3beROy0k1/k5kLtLcxmM5FIhIWFBc3q
+WY3JshzUIOqs1XEJUYcokBFCQgiZsrI67eLLty9YU44cSnoAt9JKY2MjBoPBILRFGepnOL5hWeIR
+amsvatUSmRiZV3Pkcu+JzQ1QbNrCWc8PBENBqqqqQqKvL1gXDncRCj2gq9PP/YBXW5qKigqt5Uud
+Zzh0dRdzS7PsN2/l2I39zC9mSKVSlJeXL65/5pomJyePBgIBo06nI5vNsrKywpHr+6j64wTLy8uU
+mrdxuv0UU9NTmwGKohhHR0dJJga5fOkiPT09nPf/RElDATNPJ1laWmJ89gn/pKfxeb3o9frQR4Du
+bj+qvV43DSYZU4OJgZlehv6Nsri4QPZZlkxmnnQ6jSRJVFdXGz4CfKI8SZKCsiwTCPiZmJhgbGwM
+j8eDJNVhNBpXx/gZ5dXU1BjUVtX3qq6srAz9X1lL/g8/5GQM7OT8AQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5e55e466-b9cb-42b1-8013-e1422ca1a513"
+		isrooted="True"
+		name="BBar"
+		refpath="/form[@title='BBar']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="2823421e-99c5-468a-bae4-c62a9bd6910c"
+			name="Close"
+			refimgid="a124e3b2-98a1-42c8-99fd-f167199e0947"
+			refpath="/form[@title='BBar']/toolbar[@class='ToolbarWindow32' and @instance='1']/button[@text='Close']"
+			robustPath="/form[@title='BBar']/?/?/button[@text='Close']"
+			searchtimeout="30000ms">
+				/form[@title='BBar']/?/?/button[@text='Close']
+			</item>
+			<basepath>
+				/form[@title='BBar']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALnSURBVDhPhZLfT5NnFMcfiGGJJganJDqDJJJF
+ovHOGW+WJbvwH/CCREsWVi6WOCMjNRqVmPSCl+xNoVk0MWrUUjqaUuzo6PpDgVZKERltX2gRCL/W
+BZpiBVGJGrSf5X0ZiHLhN/kmT06e8znnec4RI4nohZFElA8eJDm86sTQY4ZVK/0MKY9Q4n0osQiB
+gOeaWJOaZLHcXbe1yYLNZqWlxYbL5aS93YWnox2fr4MH9/9CifXi8/7JJoAQbYjtYcSOcUTRC07X
+Q1cCHBH4PQx3gmByrRCP9mrATYD8Qjtilx9RGkfsSVH+8xtm5mB0BiZmIfUUHiXfE4+GcbtdGwGD
+WK0WSg/bKShqRex9iPgqydffz9MRytH5GHz9EIxBa/c7YtEeXPecHwDJRJTm5ia+Pe6ksNiC2NGG
+2N3F9rIY8o3n2Dtec/veW1o8OX6zvSEWfYjT6dgAGP4bh8PON9/ZKDl4h/wvrYgiN1/sDaI/N43x
+Vy9nfqlHV6HnpO5Hrly5jNncqALy1gFtTgfFB25ScugWW3beROy0k1/k5kLtLcxmM5FIhIWFBc3q
+WY3JshzUIOqs1XEJUYcokBFCQgiZsrI67eLLty9YU44cSnoAt9JKY2MjBoPBILRFGepnOL5hWeIR
+amsvatUSmRiZV3Pkcu+JzQ1QbNrCWc8PBENBqqqqQqKvL1gXDncRCj2gq9PP/YBXW5qKigqt5Uud
+Zzh0dRdzS7PsN2/l2I39zC9mSKVSlJeXL65/5pomJyePBgIBo06nI5vNsrKywpHr+6j64wTLy8uU
+mrdxuv0UU9NTmwGKohhHR0dJJga5fOkiPT09nPf/RElDATNPJ1laWmJ89gn/pKfxeb3o9frQR4Du
+bj+qvV43DSYZU4OJgZlehv6Nsri4QPZZlkxmnnQ6jSRJVFdXGz4CfKI8SZKCsiwTCPiZmJhgbGwM
+j8eDJNVhNBpXx/gZ5dXU1BjUVtX3qq6srAz9X1lL/g8/5GQM7OT8AQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="faee0e07-1efd-4927-af01-133b04bb7825"
+		isrooted="True"
+		name="RemoteDesktopConnection"
+		refpath="/form[@title='Remote Desktop Connection']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="b7f839d0-395f-4292-8148-94bb0af72b46"
+			name="ButtonOK"
+			refimgid="06a6e07e-7820-45c7-9339-d201bbd0f219"
+			refpath="/form[@title='Remote Desktop Connection']/container[@class='DirectUIHWND']/element[@class='CtrlNotifySink' and @instance='0']/button[@text='OK']"
+			robustPath="/form[@title='Remote Desktop Connection']//button[@class='Button']"
+			searchtimeout="30000ms">
+				/form[@title='Remote Desktop Connection']/container[@class='DirectUIHWND']/?/?/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Remote Desktop Connection']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALnSURBVDhPhZLfT5NnFMcfiGGJJganJDqDJJJF
+ovHOGW+WJbvwH/CCREsWVi6WOCMjNRqVmPSCl+xNoVk0MWrUUjqaUuzo6PpDgVZKERltX2gRCL/W
+BZpiBVGJGrSf5X0ZiHLhN/kmT06e8znnec4RI4nohZFElA8eJDm86sTQY4ZVK/0MKY9Q4n0osQiB
+gOeaWJOaZLHcXbe1yYLNZqWlxYbL5aS93YWnox2fr4MH9/9CifXi8/7JJoAQbYjtYcSOcUTRC07X
+Q1cCHBH4PQx3gmByrRCP9mrATYD8Qjtilx9RGkfsSVH+8xtm5mB0BiZmIfUUHiXfE4+GcbtdGwGD
+WK0WSg/bKShqRex9iPgqydffz9MRytH5GHz9EIxBa/c7YtEeXPecHwDJRJTm5ia+Pe6ksNiC2NGG
+2N3F9rIY8o3n2Dtec/veW1o8OX6zvSEWfYjT6dgAGP4bh8PON9/ZKDl4h/wvrYgiN1/sDaI/N43x
+Vy9nfqlHV6HnpO5Hrly5jNncqALy1gFtTgfFB25ScugWW3beROy0k1/k5kLtLcxmM5FIhIWFBc3q
+WY3JshzUIOqs1XEJUYcokBFCQgiZsrI67eLLty9YU44cSnoAt9JKY2MjBoPBILRFGepnOL5hWeIR
+amsvatUSmRiZV3Pkcu+JzQ1QbNrCWc8PBENBqqqqQqKvL1gXDncRCj2gq9PP/YBXW5qKigqt5Uud
+Zzh0dRdzS7PsN2/l2I39zC9mSKVSlJeXL65/5pomJyePBgIBo06nI5vNsrKywpHr+6j64wTLy8uU
+mrdxuv0UU9NTmwGKohhHR0dJJga5fOkiPT09nPf/RElDATNPJ1laWmJ89gn/pKfxeb3o9frQR4Du
+bj+qvV43DSYZU4OJgZlehv6Nsri4QPZZlkxmnnQ6jSRJVFdXGz4CfKI8SZKCsiwTCPiZmJhgbGwM
+j8eDJNVhNBpXx/gZ5dXU1BjUVtX3qq6srAz9X1lL/g8/5GQM7OT8AQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
