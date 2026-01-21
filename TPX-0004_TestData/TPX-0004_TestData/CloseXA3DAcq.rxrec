@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b26c637a-e3e8-4ea8-b161-92435352de8e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseXA3DAcq"
+	namespace="TPX_0004_TestData">
+	</codegen>
+	<variables>
+		<var
+		id="717b066d-cfd9-473a-8736-47cbc4f020ff"
+		name="XA3DAcqProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="9d544ff3-268e-4530-8a51-680dae8ab42a">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="XA3DAcqProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0a9782b0-2c45-443a-bcc5-1428df6ff6f4"
+	name="TPX_0004_TestDataRepository"
+	relativepath="TPX_0004_TestDataRepository.rxrep">
+		<codegen
+		classname="TPX_0004_TestDataRepository"
+		namespace="TPX_0004_TestData">
+		</codegen>
+		<rootfolder
+		id="c714cf7e-0ee0-4e19-9d67-fb4ab57a9cc8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseXA3DAcq.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

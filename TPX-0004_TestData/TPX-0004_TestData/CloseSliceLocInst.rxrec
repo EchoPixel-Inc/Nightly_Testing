@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="51f2cec5-56f4-44cd-a84b-81bfe64cbb88"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseSliceLocInst"
+	namespace="TPX_0004_TestData">
+	</codegen>
+	<variables>
+		<var
+		id="62970a8b-3385-491e-8d45-1913e37743bc"
+		name="SliceLocInstProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="ea99c813-eaa8-4e35-9e85-7cd282a41382">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="SliceLocInstProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0a9782b0-2c45-443a-bcc5-1428df6ff6f4"
+	name="TPX_0004_TestDataRepository"
+	relativepath="TPX_0004_TestDataRepository.rxrep">
+		<codegen
+		classname="TPX_0004_TestDataRepository"
+		namespace="TPX_0004_TestData">
+		</codegen>
+		<rootfolder
+		id="c714cf7e-0ee0-4e19-9d67-fb4ab57a9cc8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseSliceLocInst.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

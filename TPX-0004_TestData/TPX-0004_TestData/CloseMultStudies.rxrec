@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="eb38124f-746c-4fa7-920c-5b9091a90a66"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseMultStudies"
+	namespace="TPX_0004_TestData">
+	</codegen>
+	<variables>
+		<var
+		id="e66183fd-f5e4-433f-b8bc-e76071e36f28"
+		name="MultStudiesProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="2277cca5-4b10-472b-a809-0f3022b2ce0d">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="MultStudiesProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0a9782b0-2c45-443a-bcc5-1428df6ff6f4"
+	name="TPX_0004_TestDataRepository"
+	relativepath="TPX_0004_TestDataRepository.rxrep">
+		<codegen
+		classname="TPX_0004_TestDataRepository"
+		namespace="TPX_0004_TestData">
+		</codegen>
+		<rootfolder
+		id="c714cf7e-0ee0-4e19-9d67-fb4ab57a9cc8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseMultStudies.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e66463d9-48a8-479c-9eae-224c4af015a7"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseDolphinScene"
+	namespace="TPX_0004_TestData">
+	</codegen>
+	<variables>
+		<var
+		id="561da0c0-0f1e-4f06-a34f-9d94dacefb5d"
+		name="DolphinSceneProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="36fff1ee-3220-41e2-917c-f30c2a79afc0">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="DolphinSceneProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0a9782b0-2c45-443a-bcc5-1428df6ff6f4"
+	name="TPX_0004_TestDataRepository"
+	relativepath="TPX_0004_TestDataRepository.rxrep">
+		<codegen
+		classname="TPX_0004_TestDataRepository"
+		namespace="TPX_0004_TestData">
+		</codegen>
+		<rootfolder
+		id="c714cf7e-0ee0-4e19-9d67-fb4ab57a9cc8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseDolphinScene.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

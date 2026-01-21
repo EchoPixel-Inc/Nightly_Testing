@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c439884a-29e6-41f4-a3e5-e63ce26a70a0"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseTriggerTime4D"
+	namespace="TPX_0004_TestData">
+	</codegen>
+	<variables>
+		<var
+		id="5e174f25-b7d2-4cf6-881a-d7c70deb8041"
+		name="TriggerTime4DProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="bf883554-89a3-4306-bcbb-828fcb4aff68">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="TriggerTime4DProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0a9782b0-2c45-443a-bcc5-1428df6ff6f4"
+	name="TPX_0004_TestDataRepository"
+	relativepath="TPX_0004_TestDataRepository.rxrep">
+		<codegen
+		classname="TPX_0004_TestDataRepository"
+		namespace="TPX_0004_TestData">
+		</codegen>
+		<rootfolder
+		id="c714cf7e-0ee0-4e19-9d67-fb4ab57a9cc8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseTriggerTime4D.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
