@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bf8f0e8b-9d09-4b9b-a413-6f83280e3cd7"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="TPX_0012_LBL_0004">
+	</codegen>
+	<variables>
+		<var
+		id="bbcc33dd-ba62-4616-9e37-cdb6f62ee6bb"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="51606f5e-2663-4ce6-8f60-2651179483d2"
+	name="TPX_0012_LBL_0004Repository"
+	relativepath="TPX_0012_LBL_0004Repository.rxrep">
+		<codegen
+		classname="TPX_0012_LBL_0004Repository"
+		namespace="TPX_0012_LBL_0004">
+		</codegen>
+		<rootfolder
+		id="ac25419c-2822-4e8f-a982-2d4a942adaa1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
