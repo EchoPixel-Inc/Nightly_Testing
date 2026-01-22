@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="af74ddf6-c93e-4115-9280-5d0d6fb3c29e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseClinicalLic"
+	namespace="TPX_0006_XML_Test_Files">
+	</codegen>
+	<variables>
+		<var
+		id="95488d42-3a00-4c02-960c-f943cb51db5f"
+		name="ClinicalLicProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="09c678f6-e62f-4bdc-8db8-1d1ea3196cd8">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="ClinicalLicProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="805ca6cb-fbb0-49f3-8e31-ef4d8e6bdfe3"
+	name="TPX_0006_XML_Test_FilesRepository"
+	relativepath="TPX_0006_XML_Test_FilesRepository.rxrep">
+		<codegen
+		classname="TPX_0006_XML_Test_FilesRepository"
+		namespace="TPX_0006_XML_Test_Files">
+		</codegen>
+		<rootfolder
+		id="9e1b54d4-90d8-4dc8-907e-cd64fe02e7f1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseClinicalLic.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

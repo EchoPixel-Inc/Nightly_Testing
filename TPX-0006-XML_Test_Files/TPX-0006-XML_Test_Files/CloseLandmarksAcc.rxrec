@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2ad0123d-665e-4002-b43d-dd964adbd581"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseLandmarksAcc"
+	namespace="TPX_0006_XML_Test_Files">
+	</codegen>
+	<variables>
+		<var
+		id="6ee6ed38-2cad-4c1a-b346-0f0aad05f99e"
+		name="LandmarksAccProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="c1803526-50bb-4609-9472-15af3e7044aa">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="LandmarksAccProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="805ca6cb-fbb0-49f3-8e31-ef4d8e6bdfe3"
+	name="TPX_0006_XML_Test_FilesRepository"
+	relativepath="TPX_0006_XML_Test_FilesRepository.rxrep">
+		<codegen
+		classname="TPX_0006_XML_Test_FilesRepository"
+		namespace="TPX_0006_XML_Test_Files">
+		</codegen>
+		<rootfolder
+		id="9e1b54d4-90d8-4dc8-907e-cd64fe02e7f1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseLandmarksAcc.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

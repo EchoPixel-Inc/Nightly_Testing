@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="26d52f80-642c-4bd3-b7d8-3cc9a9e70042"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TPX_0006_XML_Test_Files">
+	</codegen>
+	<variables>
+		<var
+		id="6d183aa2-f51d-41e4-81bc-b7ae88993f55"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="5b918cde-30de-42db-91c0-31a07a4edbd6">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="805ca6cb-fbb0-49f3-8e31-ef4d8e6bdfe3"
+	name="TPX_0006_XML_Test_FilesRepository"
+	relativepath="TPX_0006_XML_Test_FilesRepository.rxrep">
+		<codegen
+		classname="TPX_0006_XML_Test_FilesRepository"
+		namespace="TPX_0006_XML_Test_Files">
+		</codegen>
+		<rootfolder
+		id="9e1b54d4-90d8-4dc8-907e-cd64fe02e7f1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

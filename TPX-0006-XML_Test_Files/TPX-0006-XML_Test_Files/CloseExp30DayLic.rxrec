@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5f24b690-219b-4881-9504-26d9e639f9d2"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseExp30DayLic"
+	namespace="TPX_0006_XML_Test_Files">
+	</codegen>
+	<variables>
+		<var
+		id="8e299c30-dd34-4eaa-bd6a-b4515bfc6c22"
+		name="Exp30DayLicProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="9c707a8f-add3-4edc-9e2b-42378e160f22">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="Exp30DayLicProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="805ca6cb-fbb0-49f3-8e31-ef4d8e6bdfe3"
+	name="TPX_0006_XML_Test_FilesRepository"
+	relativepath="TPX_0006_XML_Test_FilesRepository.rxrep">
+		<codegen
+		classname="TPX_0006_XML_Test_FilesRepository"
+		namespace="TPX_0006_XML_Test_Files">
+		</codegen>
+		<rootfolder
+		id="9e1b54d4-90d8-4dc8-907e-cd64fe02e7f1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseExp30DayLic.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

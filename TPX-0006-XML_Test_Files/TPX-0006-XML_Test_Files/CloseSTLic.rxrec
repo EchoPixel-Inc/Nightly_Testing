@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ced51754-b363-4c07-81ab-e8d3c0ad4015"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseSTLic"
+	namespace="TPX_0006_XML_Test_Files">
+	</codegen>
+	<variables>
+		<var
+		id="a8462f94-7ba7-4e9b-8b0f-cb615e03fd1d"
+		name="STLicProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="022cad51-7ad7-446d-a604-741af5ef2656">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="STLicProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="805ca6cb-fbb0-49f3-8e31-ef4d8e6bdfe3"
+	name="TPX_0006_XML_Test_FilesRepository"
+	relativepath="TPX_0006_XML_Test_FilesRepository.rxrep">
+		<codegen
+		classname="TPX_0006_XML_Test_FilesRepository"
+		namespace="TPX_0006_XML_Test_Files">
+		</codegen>
+		<rootfolder
+		id="9e1b54d4-90d8-4dc8-907e-cd64fe02e7f1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseSTLic.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

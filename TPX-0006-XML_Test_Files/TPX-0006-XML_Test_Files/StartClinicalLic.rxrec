@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f5a676c5-9d10-46c8-aa15-1def16ed468d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartClinicalLic"
+	namespace="TPX_0006_XML_Test_Files">
+	</codegen>
+	<variables>
+		<var
+		id="4c9fbd59-a414-4f4c-aa13-27cfeba5fde7"
+		name="ClinicalLicProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="ClinicalLicProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				&quot;C:\Program Files\Notepad++\notepad++.exe&quot;
+			</filename>
+			<args>
+				&quot;C:\epxData\LicensingTestFiles\EchoPixel-ClincialOnly.lic&quot;
+			</args>
+		</runapprecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
+		message="Start Notepad++"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="1a1e3c35-46f5-4bb5-b3d7-2272deef2a70">
+			<comment>
+				Start Notepad++
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
+		message="Open VTP_Reference_Licenses_Clinical"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="55086f7a-d422-41eb-86b8-23d2c183284b">
+			<comment>
+				Open VTP_Reference_Licenses_Clinical
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="805ca6cb-fbb0-49f3-8e31-ef4d8e6bdfe3"
+	name="TPX_0006_XML_Test_FilesRepository"
+	relativepath="TPX_0006_XML_Test_FilesRepository.rxrep">
+		<codegen
+		classname="TPX_0006_XML_Test_FilesRepository"
+		namespace="TPX_0006_XML_Test_Files">
+		</codegen>
+		<rootfolder
+		id="9e1b54d4-90d8-4dc8-907e-cd64fe02e7f1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartClinicalLic.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="771c482e-acf0-453a-8bd6-66c64c9cd918"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="TPX_0006_XML_Test_Files">
+	</codegen>
+	<variables>
+		<var
+		id="646a335a-5eb5-4d7c-814b-7e9ce805e246"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				&quot;C:\Program Files\Notepad++\notepad++.exe&quot;
+			</filename>
+			<args>
+				&quot;C:\epxData\devImages\Test_Scenes\SCENE-COMPLETE\Test Phantom Main Scene.t3d&quot;
+			</args>
+		</runapprecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Start Notepad++"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="1a1e3c35-46f5-4bb5-b3d7-2272deef2a70">
+			<comment>
+				Start Notepad++
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Open VTP_Reference_Scene_Complete"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="55086f7a-d422-41eb-86b8-23d2c183284b">
+			<comment>
+				Open VTP_Reference_Scene_Complete
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="805ca6cb-fbb0-49f3-8e31-ef4d8e6bdfe3"
+	name="TPX_0006_XML_Test_FilesRepository"
+	relativepath="TPX_0006_XML_Test_FilesRepository.rxrep">
+		<codegen
+		classname="TPX_0006_XML_Test_FilesRepository"
+		namespace="TPX_0006_XML_Test_Files">
+		</codegen>
+		<rootfolder
+		id="9e1b54d4-90d8-4dc8-907e-cd64fe02e7f1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
