@@ -1,0 +1,1967 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TPX-0018_DICOM-STORE_RECEIVE</name>
+    </assembly>
+    <members>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0018_DICOM_STORE_RECEIVE.CloseAUT.repo">
+            <summary>
+            Holds an instance of the TPX_0018_DICOM_STORE_RECEIVERepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0018_DICOM_STORE_RECEIVE.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.Patient">
+             <summary>
+            The Patient recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0018_DICOM_STORE_RECEIVE.Patient.repo">
+            <summary>
+            Holds an instance of the TPX_0018_DICOM_STORE_RECEIVERepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Patient.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Patient.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Patient.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0018_DICOM_STORE_RECEIVE.Patient.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Patient.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Patient.SomeListItem_Screenshot1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Patient.SomeListItem_Screenshot1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Patient.SomeListItem1_Screenshot1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Patient.SomeListItem1_Screenshot1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Patient.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.Scene">
+             <summary>
+            The Scene recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0018_DICOM_STORE_RECEIVE.Scene.repo">
+            <summary>
+            Holds an instance of the TPX_0018_DICOM_STORE_RECEIVERepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Scene.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Scene.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Scene.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0018_DICOM_STORE_RECEIVE.Scene.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Scene.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Scene.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.Secondary">
+             <summary>
+            The Secondary recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0018_DICOM_STORE_RECEIVE.Secondary.repo">
+            <summary>
+            Holds an instance of the TPX_0018_DICOM_STORE_RECEIVERepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Secondary.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Secondary.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Secondary.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0018_DICOM_STORE_RECEIVE.Secondary.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Secondary.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Secondary.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.Series">
+             <summary>
+            The Series recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0018_DICOM_STORE_RECEIVE.Series.repo">
+            <summary>
+            Holds an instance of the TPX_0018_DICOM_STORE_RECEIVERepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Series.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Series.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Series.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0018_DICOM_STORE_RECEIVE.Series.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Series.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Series.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0018_DICOM_STORE_RECEIVE.StartAUT.repo">
+            <summary>
+            Holds an instance of the TPX_0018_DICOM_STORE_RECEIVERepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0018_DICOM_STORE_RECEIVE.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.Status">
+             <summary>
+            The Status recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0018_DICOM_STORE_RECEIVE.Status.repo">
+            <summary>
+            Holds an instance of the TPX_0018_DICOM_STORE_RECEIVERepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Status.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Status.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Status.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0018_DICOM_STORE_RECEIVE.Status.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Status.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Status.SomeContainer_Screenshot1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Status.SomeContainer_Screenshot1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Status.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.Study">
+             <summary>
+            The Study recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0018_DICOM_STORE_RECEIVE.Study.repo">
+            <summary>
+            Holds an instance of the TPX_0018_DICOM_STORE_RECEIVERepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Study.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Study.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Study.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0018_DICOM_STORE_RECEIVE.Study.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Study.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Study.SomeContainer_Screenshot1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Study.SomeContainer_Screenshot1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Study.SomeContainer_Screenshot2">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.Study.SomeContainer_Screenshot2_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.Study.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepository">
+            <summary>
+            The class representing the TPX_0018_DICOM_STORE_RECEIVERepository element repository.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TPX_0018_DICOM_STORE_RECEIVERepository element repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepository.PatientBrowser">
+            <summary>
+            The PatientBrowser folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepository.TransferStatusWindow">
+            <summary>
+            The TransferStatusWindow folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepository.MessageBox">
+            <summary>
+            The MessageBox folder.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder">
+            <summary>
+            The PatientBrowserAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PatientBrowser  folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.ParentWindowGridView">
+            <summary>
+            The ParentWindowGridView item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.ParentWindowGridViewInfo">
+            <summary>
+            The ParentWindowGridView item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.Source">
+            <summary>
+            The Source item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.SourceInfo">
+            <summary>
+            The Source item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.LOCAL">
+            <summary>
+            The LOCAL item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.LOCALInfo">
+            <summary>
+            The LOCAL item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.StatusBtn">
+            <summary>
+            The StatusBtn item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.StatusBtnInfo">
+            <summary>
+            The StatusBtn item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.SomeButton">
+            <summary>
+            The SomeButton item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.SomeButtonInfo">
+            <summary>
+            The SomeButton item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.SomeButton1">
+            <summary>
+            The SomeButton1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.SomeButton1Info">
+            <summary>
+            The SomeButton1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.Delete">
+            <summary>
+            The Delete item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.DeleteInfo">
+            <summary>
+            The Delete item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.Refresh">
+            <summary>
+            The Refresh item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.RefreshInfo">
+            <summary>
+            The Refresh item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.PatientListview">
+            <summary>
+            The PatientListview folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.StudyListview">
+            <summary>
+            The StudyListview folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientBrowserAppFolder.SeriesListview">
+            <summary>
+            The SeriesListview folder.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder">
+            <summary>
+            The PatientListviewFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PatientListview  folder.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItemInfoClass">
+            <summary>
+            The SomeListItemInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItemInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItemInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItemInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItemInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItem1InfoClass">
+            <summary>
+            The SomeListItem1InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItem1InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem1InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItem1InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItem1InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItem">
+            <summary>
+            The SomeListItem item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItemInfo">
+            <summary>
+            The SomeListItem item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.DataS1">
+            <summary>
+            The DataS1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.DataS1Info">
+            <summary>
+            The DataS1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItem1">
+            <summary>
+            The SomeListItem1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeListItem1Info">
+            <summary>
+            The SomeListItem1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.TextS1">
+            <summary>
+            The TextS1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.TextS1Info">
+            <summary>
+            The TextS1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.Text087Y">
+            <summary>
+            The Text087Y item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.Text087YInfo">
+            <summary>
+            The Text087Y item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.TextM">
+            <summary>
+            The TextM item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.TextMInfo">
+            <summary>
+            The TextM item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.Local">
+            <summary>
+            The Local item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.LocalInfo">
+            <summary>
+            The Local item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.TextS10">
+            <summary>
+            The TextS10 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.TextS10Info">
+            <summary>
+            The TextS10 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.Text052Y">
+            <summary>
+            The Text052Y item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.Text052YInfo">
+            <summary>
+            The Text052Y item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.TextM1">
+            <summary>
+            The TextM1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.TextM1Info">
+            <summary>
+            The TextM1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.Local1">
+            <summary>
+            The Local1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.Local1Info">
+            <summary>
+            The Local1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.DataS10">
+            <summary>
+            The DataS10 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.DataS10Info">
+            <summary>
+            The DataS10 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeContainer1">
+            <summary>
+            The SomeContainer1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.PatientListviewFolder.SomeContainer1Info">
+            <summary>
+            The SomeContainer1 item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder">
+            <summary>
+            The StudyListviewFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new StudyListview  folder.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.SomeContainerInfoClass">
+            <summary>
+            The SomeContainerInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.SomeContainerInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeContainerInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.SomeContainerInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.SomeContainerInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.SomeContainerInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.SomeContainerInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.Text12082014">
+            <summary>
+            The Text12082014 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.Text12082014Info">
+            <summary>
+            The Text12082014 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.Text12192006">
+            <summary>
+            The Text12192006 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.Text12192006Info">
+            <summary>
+            The Text12192006 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.Text9995020">
+            <summary>
+            The Text9995020 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.Text9995020Info">
+            <summary>
+            The Text9995020 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.AlbertThomas">
+            <summary>
+            The AlbertThomas item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.AlbertThomasInfo">
+            <summary>
+            The AlbertThomas item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.BACHHUBER">
+            <summary>
+            The BACHHUBER item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.BACHHUBERInfo">
+            <summary>
+            The BACHHUBER item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.Brain">
+            <summary>
+            The Brain item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.BrainInfo">
+            <summary>
+            The Brain item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.TextCTC">
+            <summary>
+            The TextCTC item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.TextCTCInfo">
+            <summary>
+            The TextCTC item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.TextS1">
+            <summary>
+            The TextS1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.TextS1Info">
+            <summary>
+            The TextS1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.TextS10">
+            <summary>
+            The TextS10 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.StudyListviewFolder.TextS10Info">
+            <summary>
+            The TextS10 item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder">
+            <summary>
+            The SeriesListviewFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SeriesListview  folder.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem1InfoClass">
+            <summary>
+            The SomeListItem1InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem1InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem1InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem1InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem1InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem1InfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem1InfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItemInfoClass">
+            <summary>
+            The SomeListItemInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItemInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItemInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItemInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItemInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItemInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItemInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem2InfoClass">
+            <summary>
+            The SomeListItem2InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem2InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem2InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem2InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem2InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem2InfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem2InfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem3InfoClass">
+            <summary>
+            The SomeListItem3InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem3InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem3InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem3InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem3InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem3InfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem3InfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem4InfoClass">
+            <summary>
+            The SomeListItem4InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem4InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem4InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem4InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem4InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem5InfoClass">
+            <summary>
+            The SomeListItem5InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem5InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem5InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem5InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem5InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem6InfoClass">
+            <summary>
+            The SomeListItem6InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem6InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem6InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem6InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem6InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem7InfoClass">
+            <summary>
+            The SomeListItem7InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem7InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem7InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem7InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem7InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem8InfoClass">
+            <summary>
+            The SomeListItem8InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem8InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem8InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem8InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem8InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem9InfoClass">
+            <summary>
+            The SomeListItem9InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem9InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem9InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem9InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem9InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem10InfoClass">
+            <summary>
+            The SomeListItem10InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem10InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeListItem10InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem10InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem10InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeContainerInfoClass">
+            <summary>
+            The SomeContainerInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeContainerInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeContainerInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeContainerInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeContainerInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem1">
+            <summary>
+            The SomeListItem1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem1Info">
+            <summary>
+            The SomeListItem1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text120820141">
+            <summary>
+            The Text120820141 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text120820141Info">
+            <summary>
+            The Text120820141 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text2">
+            <summary>
+            The Text2 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text2Info">
+            <summary>
+            The Text2 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text618">
+            <summary>
+            The Text618 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text618Info">
+            <summary>
+            The Text618 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.TextCT1">
+            <summary>
+            The TextCT1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.TextCT1Info">
+            <summary>
+            The TextCT1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Supine">
+            <summary>
+            The Supine item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SupineInfo">
+            <summary>
+            The Supine item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem">
+            <summary>
+            The SomeListItem item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItemInfo">
+            <summary>
+            The SomeListItem item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text12082014">
+            <summary>
+            The Text12082014 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text12082014Info">
+            <summary>
+            The Text12082014 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text5">
+            <summary>
+            The Text5 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text5Info">
+            <summary>
+            The Text5 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text622">
+            <summary>
+            The Text622 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text622Info">
+            <summary>
+            The Text622 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.TextCT">
+            <summary>
+            The TextCT item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.TextCTInfo">
+            <summary>
+            The TextCT item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Prone">
+            <summary>
+            The Prone item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.ProneInfo">
+            <summary>
+            The Prone item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem2">
+            <summary>
+            The SomeListItem2 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem2Info">
+            <summary>
+            The SomeListItem2 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text101">
+            <summary>
+            The Text101 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text101Info">
+            <summary>
+            The Text101 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.TextOT">
+            <summary>
+            The TextOT item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.TextOTInfo">
+            <summary>
+            The TextOT item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text12052025">
+            <summary>
+            The Text12052025 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text12052025Info">
+            <summary>
+            The Text12052025 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.EPXSCImageScreenCapture0512">
+            <summary>
+            The EPXSCImageScreenCapture0512 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.EPXSCImageScreenCapture0512Info">
+            <summary>
+            The EPXSCImageScreenCapture0512 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem3">
+            <summary>
+            The SomeListItem3 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem3Info">
+            <summary>
+            The SomeListItem3 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text100">
+            <summary>
+            The Text100 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text100Info">
+            <summary>
+            The Text100 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.TextOT1">
+            <summary>
+            The TextOT1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.TextOT1Info">
+            <summary>
+            The TextOT1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text11">
+            <summary>
+            The Text11 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text11Info">
+            <summary>
+            The Text11 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text120520251">
+            <summary>
+            The Text120520251 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.Text120520251Info">
+            <summary>
+            The Text120520251 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.EPXSceneSceneProne">
+            <summary>
+            The EPXSceneSceneProne item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.EPXSceneSceneProneInfo">
+            <summary>
+            The EPXSceneSceneProne item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem4">
+            <summary>
+            The SomeListItem4 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem4Info">
+            <summary>
+            The SomeListItem4 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem5">
+            <summary>
+            The SomeListItem5 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem5Info">
+            <summary>
+            The SomeListItem5 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem6">
+            <summary>
+            The SomeListItem6 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem6Info">
+            <summary>
+            The SomeListItem6 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem7">
+            <summary>
+            The SomeListItem7 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem7Info">
+            <summary>
+            The SomeListItem7 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem8">
+            <summary>
+            The SomeListItem8 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem8Info">
+            <summary>
+            The SomeListItem8 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem9">
+            <summary>
+            The SomeListItem9 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem9Info">
+            <summary>
+            The SomeListItem9 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem10">
+            <summary>
+            The SomeListItem10 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeListItem10Info">
+            <summary>
+            The SomeListItem10 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.SeriesListviewFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder">
+            <summary>
+            The TransferStatusWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TransferStatusWindow  folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.Refresh">
+            <summary>
+            The Refresh item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.RefreshInfo">
+            <summary>
+            The Refresh item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.Clear">
+            <summary>
+            The Clear item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.ClearInfo">
+            <summary>
+            The Clear item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferStatusWindowAppFolder.TransferLvc">
+            <summary>
+            The TransferLvc folder.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder">
+            <summary>
+            The TransferLvcFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TransferLvc  folder.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.SomeContainerInfoClass">
+            <summary>
+            The SomeContainerInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.SomeContainerInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SomeContainerInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.SomeContainerInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.SomeContainerInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text13">
+            <summary>
+            The Text13 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text13Info">
+            <summary>
+            The Text13 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive5">
+            <summary>
+            The DICOMReceive5 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive5Info">
+            <summary>
+            The DICOMReceive5 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS10">
+            <summary>
+            The DataS10 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS10Info">
+            <summary>
+            The DataS10 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACS4">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACS4 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACS4Info">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACS4 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text622">
+            <summary>
+            The Text622 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text622Info">
+            <summary>
+            The Text622 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive4">
+            <summary>
+            The DICOMReceive4 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive4Info">
+            <summary>
+            The DICOMReceive4 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS14">
+            <summary>
+            The DataS14 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS14Info">
+            <summary>
+            The DataS14 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACS3">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACS3 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACS3Info">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACS3 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text620">
+            <summary>
+            The Text620 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text620Info">
+            <summary>
+            The Text620 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive3">
+            <summary>
+            The DICOMReceive3 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive3Info">
+            <summary>
+            The DICOMReceive3 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS13">
+            <summary>
+            The DataS13 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS13Info">
+            <summary>
+            The DataS13 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACSIsIgn">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACSIsIgn item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACSIsIgnInfo">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACSIsIgn item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text618">
+            <summary>
+            The Text618 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text618Info">
+            <summary>
+            The Text618 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive2">
+            <summary>
+            The DICOMReceive2 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive2Info">
+            <summary>
+            The DICOMReceive2 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS12">
+            <summary>
+            The DataS12 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS12Info">
+            <summary>
+            The DataS12 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACS2">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACS2 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACS2Info">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACS2 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text11">
+            <summary>
+            The Text11 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text11Info">
+            <summary>
+            The Text11 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive1">
+            <summary>
+            The DICOMReceive1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive1Info">
+            <summary>
+            The DICOMReceive1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS11">
+            <summary>
+            The DataS11 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS11Info">
+            <summary>
+            The DataS11 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACS1">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACS1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACS1Info">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACS1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceive">
+            <summary>
+            The DICOMReceive item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveInfo">
+            <summary>
+            The DICOMReceive item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS1">
+            <summary>
+            The DataS1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DataS1Info">
+            <summary>
+            The DataS1 item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACS">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACS item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.DICOMReceiveFromAEORTHANCPACSInfo">
+            <summary>
+            The DICOMReceiveFromAEORTHANCPACS item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.TransferLvcFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.MessageBoxAppFolder">
+            <summary>
+            The MessageBoxAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.MessageBoxAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MessageBox  folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.MessageBoxAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.MessageBoxAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.MessageBoxAppFolder.OkBtn">
+            <summary>
+            The OkBtn item.
+            </summary>
+        </member>
+        <member name="P:TPX_0018_DICOM_STORE_RECEIVE.TPX_0018_DICOM_STORE_RECEIVERepositoryFolders.MessageBoxAppFolder.OkBtnInfo">
+            <summary>
+            The OkBtn item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
