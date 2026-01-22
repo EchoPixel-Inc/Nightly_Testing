@@ -1,0 +1,311 @@
+﻿<repository
+id="f7d429ea-4afd-4522-ae0d-98d4c8d6c231"
+name="TPX_0015_BackgroundServicesRepository">
+	<codegen
+	classname="TPX_0015_BackgroundServicesRepository"
+	namespace="TPX_0015_BackgroundServices">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="e9efb02d-afe8-4c7c-91a9-287a31ed0afa"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="6ad69b29-6ebc-4115-a2df-c041640d3308"
+		isrooted="True"
+		name="Services"
+		refpath="/form[@title='Services']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="titlebar,uiautomation,uiautomationvalue"
+			capname="titlebar"
+			id="5d7f8422-be9e-4dcc-9b38-9bcc802b1f9a"
+			name="TitleBar"
+			refimgid="e46a03e9-0e0b-4fd9-a607-673ed9fc9605"
+			refpath="/form[@title='Services']/titlebar[@automationid='TitleBar']"
+			robustPath="/form[@title='Services']/titlebar[@automationid='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title='Services']/titlebar[@automationid='TitleBar']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="645b5b96-42f4-485e-97a9-a98151139ba5"
+			name="ButtonFile"
+			refimgid="30fdc83d-6bd8-42ec-96c4-1c342b70c120"
+			refpath="/form[@title='Services']/element/container/toolbar[@controlid='4097']/button[@text='&amp;File']"
+			robustPath="/form[@title='Services']//button[@text='&amp;File']"
+			searchtimeout="30000ms">
+				/form[@title='Services']//toolbar[@controlid='4097']/button[@text='&amp;File']
+			</item>
+			<item
+			addcaps="button"
+			capname="button"
+			id="de2cb2e9-6e33-46de-be9e-29c4c109f630"
+			name="PageDown"
+			refimgid="8b44f200-cb58-41e1-9671-42f5a70d00f9"
+			refpath="/form[@title='Services']/container[@controlid='59648']/form/element/table/scrollbar[1]/button[@text='PageDown']"
+			robustPath="/form[@title='Services']//button[@text='PageDown']"
+			searchtimeout="30000ms">
+				/form[@title='Services']//table[@controlid='12786']/scrollbar[1]/button[@text='PageDown']
+			</item>
+			<folder
+			capname="table"
+			id="7f6b6721-492f-44fb-b445-4d1017328782"
+			isrooted="True"
+			name="Table12786"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="82cb7b6b-59c9-41f6-b1ae-dd6d5f632ff7"
+				name="Running2"
+				refimgid="52c5836f-bcd5-4bc2-b972-d4d7425cbcac"
+				refpath="/form[@title='Services']/container[@controlid='59648']/form[@controlid='65280']/element[@controlid='59648']/table[@controlid='12786']/row[@index='74']/cell[@text='Running']"
+				robustPath="/form[@title='Services']//cell[@columnindex='2' and @rowindex='74']"
+				searchtimeout="30000ms">
+					/form[@title='Services']//table[@controlid='12786']/row[@index='74']/cell[@text='Running']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="a6cc0a6d-64b9-442d-a1c3-5e65ff530545"
+				name="EpxDICOMService"
+				refimgid="7def97e8-63f2-4c96-abe8-68664ba27681"
+				refpath="/form[@title='Services']/container[@controlid='59648']/form[@controlid='65280']/element[@controlid='59648']/table[@controlid='12786']/row[@index='74']/cell[@text='epxDICOMService']"
+				robustPath="/form[@title='Services']//cell[@text='epxDICOMService']"
+				searchtimeout="30000ms">
+					/form[@title='Services']//table[@controlid='12786']/row[@index='74']/cell[@text='epxDICOMService']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="b8a8e729-572e-4f37-a532-8f5f80e6a9f6"
+				name="Running1"
+				refimgid="47f49ba1-2aea-415f-92ac-938c4d9d550f"
+				refpath="/form[@title='Services']/container[@controlid='59648']/form[@controlid='65280']/element[@controlid='59648']/table[@controlid='12786']/row[@index='75']/cell[@text='Running']"
+				robustPath="/form[@title='Services']//cell[@columnindex='2' and @rowindex='75']"
+				searchtimeout="30000ms">
+					/form[@title='Services']//table[@controlid='12786']/row[@index='75']/cell[@text='Running']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="fb4a9da4-f1bf-4c98-851c-a566c724e0a4"
+				name="EpxPatientService"
+				refimgid="0b4c1204-a26d-49fa-a686-440e16728249"
+				refpath="/form[@title='Services']/container[@controlid='59648']/form[@controlid='65280']/element[@controlid='59648']/table[@controlid='12786']/row[@index='75']/cell[@text='epxPatientService']"
+				robustPath="/form[@title='Services']//cell[@text='epxPatientService']"
+				searchtimeout="30000ms">
+					/form[@title='Services']//table[@controlid='12786']/row[@index='75']/cell[@text='epxPatientService']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="4ea929ac-b0f1-4f74-be62-fad3eddfeb91"
+				name="Running"
+				refimgid="0efacbb7-41c3-4b78-9b41-376f9cf95181"
+				refpath="/form[@title='Services']/container[@controlid='59648']/form/element/table/row[@index='76']/cell[@text='Running']"
+				robustPath="/form[@title='Services']//cell[@columnindex='2' and @rowindex='76']"
+				searchtimeout="30000ms">
+					/form[@title='Services']//table[@controlid='12786']/row[@index='76']/cell[@text='Running']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="18071d04-d3c9-40e4-99e2-6e6372df8ad7"
+				name="EpxSystemWinService"
+				refimgid="dc2fd2b8-b594-4867-b051-bf465eca93b8"
+				refpath="/form[@title='Services']/container[@controlid='59648']/form[@controlid='65280']/element[@controlid='59648']/table[@controlid='12786']/row[@index='76']/cell[@text='epxSystemWinService']"
+				robustPath="/form[@title='Services']//cell[@text='epxSystemWinService']"
+				searchtimeout="30000ms">
+					/form[@title='Services']//table[@controlid='12786']/row[@index='76']/cell[@text='epxSystemWinService']
+				</item>
+				<item
+				addcaps="cell"
+				capname="cell"
+				id="717eec14-6b6c-4a7e-b44d-161f21995999"
+				name="SomeCell"
+				refimgid="f5e28c8c-d65d-4b85-8c1b-109a230c0c92"
+				refpath="/form[@title='Services']/container[@controlid='59648']/form[@controlid='65280']/element[@controlid='59648']/table[@controlid='12786']/row[@index='74']/cell[@text='']"
+				robustPath="/form[@title='Services']//table[@controlid='12786']"
+				searchtimeout="30000ms">
+					/form[@title='Services']//table[@controlid='12786']/row[@index='74']/cell[@text='']
+				</item>
+				<basepath>
+					/form[@title='Services']//table[@controlid='12786']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="88b7aa54-ad25-457e-bbd2-f8353ad0d5d7"
+			name="StopService"
+			refimgid="87fe6833-8ea1-472a-81c1-205b0760e39c"
+			refpath="/form[@title='Services']/element/container/toolbar[@controlid='4098']/button[@text='Stop Service']"
+			robustPath="/form[@title='Services']//button[@text='Stop Service']"
+			searchtimeout="30000ms">
+				/form[@title='Services']//toolbar[@controlid='4098']/button[@text='Stop Service']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="f1d17480-bbb5-4380-b705-9065078508a0"
+			name="Refresh"
+			refimgid="9bfc8b33-09aa-4da8-8c41-79b0a9ed95a8"
+			refpath="/form[@title='Services']/element/container/toolbar[@controlid='4098']/button[@text='Refresh']"
+			robustPath="/form[@title='Services']//button[@text='Refresh']"
+			searchtimeout="30000ms">
+				/form[@title='Services']//toolbar[@controlid='4098']/button[@text='Refresh']
+			</item>
+			<basepath>
+				/form[@title='Services']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALzSURBVDhPfZPbT5IBGMa/1UXrorZqq4v6C7rz
+ossOWxdZW3lh1sqV1XK2FZa5Di4M2RJSREEoDUIDhPjwQCgGCqaAgqJCmCdSITPm4aMwMUWaPe2r
+dfh09bt53+19nnfvc/ESxF8ISdf2X32JzjlVUus00T1fY9qWIyQ3/61dB4fD2SA3e91PzL5aeav3
+mL4nCF1vkOLpOtMFmvYvHLnp/lrPOkz+yXbPZBQBahnjHxMIfF6Bb2YeNY5h8FRt3LX6HzwgbbsV
+Np/bMvjB9Dq6PD3xKQ5DqwOyRhceG11oHXiP/kgMSnsgLGrq6b/2UFvHWCBQteystvm/+KhFjMXi
+KCMtuMkVhM/dlhzJyK++Uqq1LdkD03j9MYaqtgFc4ytsjAU0jUPv2f6FZVgGQrjNfjiUnMza9Gt2
+5+nLJL07ELaGonjumUBaWtpGhvmp1e+zhij0UouQ65txkiXYyxAQBCG39GntMzEYhqZRXGfHBbZU
++nuo6nhjNY/PRfvn41AZrbicV76f4SYIouqVn+yilmAYngFbYQmcZz8uYgjUzuGMvvk4HJMUKlTk
+HEss/h2Bq3l1sMY5ON8+l4DGM4WsexWHGGaW+OXWMoP7XdvYLPoWV9EZpKBtss2qjWavzOoTlDV2
+RTT9M6h7MweRwY0bpWSY9p3IKvwZ9SpPuSNXalCXN3vIltD0V1dsFe2RBJrDK2gILqFmIAaJcwkS
+k3e1WK5Hs28cj4wuZNyrJFOy+H+uuVT0YktRvX1E7QxAYh6E0vMZMjsFrrINvLpusEsU6Bp9l5Dq
+bFHS4adE9V34k4MgiOxC7a6rvJrR6+JaTY7UmJyvtCKvkoycvSNOuVuujhu6h77xnzVFaW2l0WGS
+GN24WCBTMJZc5qj3nMwR/niaU7dE1adzhQV0n8riJzV4g1C39i48d41o6z3jY6X6DuYF/+Nw+t19
+hdVNo3rPW+g6R1bFDXZkC1Q9qTeKU9Zq/8mBM7nH6Zr5oMpL16OZ3FS6fgdP7clt2uaXLQAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow"
+		capname="contextmenu"
+		id="542cbbcc-d08a-4d53-a2c1-bed354135c28"
+		isrooted="True"
+		name="ContextMenuMmc"
+		refpath="/contextmenu[@processname='mmc']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="97cf0041-8bff-40d3-bdf3-45e1cba439c7"
+			name="Exit"
+			refimgid="e8fb6ecb-d1e7-4cb7-a49e-4366512e3750"
+			refpath="/contextmenu[@processname='mmc']/contextmenu/menuitem[@accessiblename='Exit']"
+			robustPath="/contextmenu[@processname='mmc']/?/?/menuitem[@accessiblename='Exit']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='mmc']/?/?/menuitem[@accessiblename='Exit']
+			</item>
+			<basepath>
+				/contextmenu[@processname='mmc']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="efaa0d0b-23f5-41a0-98e3-45b49e869991"
+		isrooted="True"
+		name="ViewsHtm"
+		refpath="/dom[@domain='']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="91944182-b780-4865-9fc0-42cff4a64744"
+			name="Restart"
+			refimgid="ddc95e38-f0fd-40c0-8c8c-1405f9c29a44"
+			refpath="/dom[@domain='']//span[#'DetailsElem']/a[@innertext='Restart']"
+			robustPath="/dom[@domain='']//span[#'DetailsElem']/a[@innertext='Restart']"
+			searchtimeout="30000ms">
+				/dom[@domain='']//span[#'DetailsElem']/a[@innertext='Restart']
+			</item>
+			<basepath>
+				/dom[@domain='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKElEQVQ4T43R20uTcRzHcS/6G4Kgyy6KKKjwJogIFiTGYFS0ZBeK
+lAMrM8ss1BaZFzqZudQ84SGxRVOH62AHtZIcQTIP6VZTW6JMppub87DzO56n9EIfow98r57n8/rx
++30TEv6mqeMTdYYeKlu7KW80U1LTwX29gQLtE3KLG8jSVLP+r2SE8r+Sr20Rsc29jQgnR6Lxzb2N
+CIB9yrU9oms0EwpLA9FYXASOKS6Lk5iUvhUR7rwa3ApEY4jwyloM/3IUpzsiDQgPtg54VhaoNneh
+N3VS0J5JeXszjlk/Hn8E2/SaNCDcTThBKGt7SxmN27DGBymy3uBonpFLVa8ZcS4yNLEsDQir8gVi
+1Hb1kv9NQZNXTa3VQFqZi5MVbvY1n0LXVc+X8YA0IOx5wRflwaM+Uk3JqN7KydI5ya6AwzUadnbs
+5nThNfpHfNKA+vZDXN4I9x47KKj4TGqbEnlvEcoyH2cyb7Hr7g6O56TzftArDaTllDIzH6baOI5a
+CyqtkUPmPSSWKUi++JL98quU1tbzyuKRBlKuFOOcC2GfXORmyTAH8+rYW3gAWcZ1jihNnFU/483A
+HKb+eWngXIYGx0xQXJXV7kHX2saJC4XIUvRUtrwTy5axAMYPbmlAnnYH+3QQlzfMtDvE5Owatl+r
+4tq+fl/GMrbEx+Gl7YEkVS4Do4t09k3xvOcnT7snaHnxgwaTnZp2G1XGP1NpdEgDsvPZ4of/nfXe
+bzRtKw4VLqRIAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
