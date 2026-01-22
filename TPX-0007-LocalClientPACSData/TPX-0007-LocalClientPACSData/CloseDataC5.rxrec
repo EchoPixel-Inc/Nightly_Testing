@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1b0f3190-c989-4ed5-abe9-66b10c58f48e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseDataC5"
+	namespace="TPX_0007_LocalClientPACSData">
+	</codegen>
+	<variables>
+		<var
+		id="6badacb1-f66d-4334-a689-18b0f043dda0"
+		name="DataC5ProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="bba31368-4a45-4aaf-8a4f-9831ceb07474">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="DataC5ProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="9f9ecf39-bb8b-4d35-aa70-4e2083752fce"
+	name="TPX_0007_LocalClientPACSDataRepository"
+	relativepath="TPX_0007_LocalClientPACSDataRepository.rxrep">
+		<codegen
+		classname="TPX_0007_LocalClientPACSDataRepository"
+		namespace="TPX_0007_LocalClientPACSData">
+		</codegen>
+		<rootfolder
+		id="2d741327-953b-4dc8-b4a4-2441b6c1d038"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseDataC5.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
