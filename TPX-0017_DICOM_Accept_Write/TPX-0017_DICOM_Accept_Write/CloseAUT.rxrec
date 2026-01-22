@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="af809da8-6989-4172-84c8-8e62c22545eb"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TPX_0017_DICOM_Accept_Write">
+	</codegen>
+	<variables>
+		<var
+		id="cfd22d9b-d995-4c37-b4e5-7eaea58318c2"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="c5c036c9-7ea3-4a7b-9bf4-e651a579491c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="9a35f482-f76c-4abd-b6c3-5b149b85bf89"
+	name="TPX_0017_DICOM_Accept_WriteRepository"
+	relativepath="TPX_0017_DICOM_Accept_WriteRepository.rxrep">
+		<codegen
+		classname="TPX_0017_DICOM_Accept_WriteRepository"
+		namespace="TPX_0017_DICOM_Accept_Write">
+		</codegen>
+		<rootfolder
+		id="a441ad04-df10-48e0-ad2f-232ef1c5bd2f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

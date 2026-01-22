@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7597474d-2fb6-4e66-8f9b-4681b3aca5ca"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="TPX_0017_DICOM_Accept_Write">
+	</codegen>
+	<variables>
+		<var
+		id="3cef29d7-6684-4894-af14-c483f3fbff39"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\DVTk\DICOM Editor\DICOM Editor.exe
+			</filename>
+			<args>
+				&quot;E:\epxDataDrive\DicomData&quot;
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="9a35f482-f76c-4abd-b6c3-5b149b85bf89"
+	name="TPX_0017_DICOM_Accept_WriteRepository"
+	relativepath="TPX_0017_DICOM_Accept_WriteRepository.rxrep">
+		<codegen
+		classname="TPX_0017_DICOM_Accept_WriteRepository"
+		namespace="TPX_0017_DICOM_Accept_Write">
+		</codegen>
+		<rootfolder
+		id="a441ad04-df10-48e0-ad2f-232ef1c5bd2f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,497 @@
+﻿<repository
+id="9a35f482-f76c-4abd-b6c3-5b149b85bf89"
+name="TPX_0017_DICOM_Accept_WriteRepository">
+	<codegen
+	classname="TPX_0017_DICOM_Accept_WriteRepository"
+	namespace="TPX_0017_DICOM_Accept_Write">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="a441ad04-df10-48e0-ad2f-232ef1c5bd2f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="8977cc45-d4cc-42af-a2d0-341d001c2718"
+		isrooted="True"
+		name="DICOMEditor"
+		refpath="/form[@controlname='DICOMEditor']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="list,control,nativewindow"
+			capname="list"
+			id="9fc98e75-5bc7-4f8e-b74e-9816d8e546ac"
+			isrooted="True"
+			name="DirListBox"
+			refpath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/container[@controlname='panel1']/list[@controlname='dirListBox']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="505c517e-73e0-4263-b12a-30fe59559316"
+				name="DicomData"
+				refimgid="2dcf17dc-ca83-4ada-865e-b8ec4b3df016"
+				refpath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/container[@controlname='panel1']/list[@controlname='dirListBox']/list[@accessiblerole='List']/listitem[@accessiblename='DicomData']"
+				robustPath="/form[@controlname='DICOMEditor']//listitem[@accessiblename='DicomData']"
+				searchtimeout="30000ms">
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']/?/?/listitem[@accessiblename='DicomData']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="fdda453d-9333-4ddb-9f0b-d90b642d9709"
+				name="ListItemE"
+				refimgid="db949b8a-e538-4543-84c5-e2e8ca258d8e"
+				refpath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/container[@controlname='panel1']/list[@controlname='dirListBox']/list[@accessiblerole='List']/listitem[@accessiblename='E:\']"
+				robustPath="/form[@controlname='DICOMEditor']//listitem[@accessiblename='E:\']"
+				searchtimeout="30000ms">
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']/?/?/listitem[@accessiblename='E:\']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="c9909273-f5e3-48f6-9c23-857ae76d4de5"
+				name="EpxDataDrive"
+				refimgid="3106a107-0b66-4415-a11d-87ab3d328fc8"
+				refpath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/container[@controlname='panel1']/list[@controlname='dirListBox']/list[@accessiblerole='List']/listitem[@accessiblename='epxDataDrive']"
+				robustPath="/form[@controlname='DICOMEditor']//listitem[@accessiblename='epxDataDrive']"
+				searchtimeout="30000ms">
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']/?/?/listitem[@accessiblename='epxDataDrive']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="8ced2264-f14f-4b5a-893a-ebd374c2537a"
+				name="ListItem136141254031641439050901"
+				refimgid="fb5a9154-5a1c-408a-82c7-46c64fc9144d"
+				refpath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/container[@controlname='panel1']/list[@controlname='dirListBox']/list[@accessiblerole='List']/listitem[@accessiblename='1.3.6.1.4.1.25403.164143905090.10096.20141208102153.1']"
+				robustPath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']"
+				searchtimeout="30000ms">
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']/?/?/listitem[@accessiblename&gt;'1.3.6.1.4.1.25403.1641439']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="ed6f6900-50c5-459d-b95b-34a58bdbaff7"
+				name="ListItem1361415962125020116654"
+				refimgid="5c9bc81f-0f4a-48f5-a1bc-0350d737dd3c"
+				refpath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/container[@controlname='panel1']/list[@controlname='dirListBox']/list[@accessiblerole='List']/listitem[@accessiblename='1.3.6.1.4.1.5962.1.2.5020.1166546115.14677']"
+				robustPath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']"
+				searchtimeout="30000ms">
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']/?/?/listitem[@accessiblename&gt;'1.3.6.1.4.1.5962.1.2.5020']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="edadf760-bc82-4df4-986a-6105125a51ba"
+				name="ListItem136141458459423240219276"
+				refimgid="ee7910ef-a6a4-42bc-b705-b8ae4b4deda7"
+				refpath="/form[@controlname='DICOMEditor']/container/container[@controlname='panel1']/list[@controlname='dirListBox']/list/listitem[@accessiblename>'1.3.6.1.4.1.45845.9423240' and @accessiblerole='ListItem' and @text>'1.3.6.1.4.1.45845.9423240' and @index='7']"
+				robustPath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']"
+				searchtimeout="30000ms">
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']/?/?/listitem[@accessiblerole='ListItem' and @text&gt;'1.3.6.1.4.1.45845.9423240' and @index='7']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="b62eafa7-fb10-4510-a148-af01db7ee532"
+				name="ListItem1361414584594232402192761"
+				refimgid="a1b5c2f0-3374-4d97-91ae-9ec3e85eaf97"
+				refpath="/form[@controlname='DICOMEditor']/container/container[@controlname='panel1']/list[@controlname='dirListBox']/list/listitem[@accessiblename>'1.3.6.1.4.1.45845.9423240' and @accessiblerole='ListItem' and @text>'1.3.6.1.4.1.45845.9423240' and @index='6']"
+				robustPath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']"
+				searchtimeout="30000ms">
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']/?/?/listitem[@accessiblerole='ListItem' and @text&gt;'1.3.6.1.4.1.45845.9423240' and @index='6']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="77487c4f-f07b-47b9-a078-f10ee286e605"
+				name="ListItem1361412540316414390509011"
+				refimgid="219ba3d5-bd19-4bac-892a-1d8cbb780383"
+				refpath="/form[@controlname='DICOMEditor']/container/container[@controlname='panel1']/list[@controlname='dirListBox']/list/listitem[@accessiblename>'1.3.6.1.4.1.25403.1641439' and @accessiblerole='ListItem' and @text>'1.3.6.1.4.1.25403.1641439' and @index='4']"
+				robustPath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']"
+				searchtimeout="30000ms">
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']/?/?/listitem[@accessiblerole='ListItem' and @text&gt;'1.3.6.1.4.1.25403.1641439' and @index='4']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="2dbddcfc-327e-477d-80a1-01b203194057"
+				name="ListItem1361412540316414390509012"
+				refimgid="710295ba-4776-4fd5-95ea-679abf688df9"
+				refpath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/container[@controlname='panel1']/list[@controlname='dirListBox']/list[@accessiblerole='List']/listitem[@accessiblename='1.3.6.1.4.1.25403.164143905090.10096.20141208102302.10']"
+				robustPath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']"
+				searchtimeout="30000ms">
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']/?/?/listitem[@accessiblerole='ListItem' and @text&gt;'1.3.6.1.4.1.25403.1641439' and @index='5']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="f3f3b424-12e6-48c4-8aa0-4b863223b35b"
+				name="ListItem136141596213502011166"
+				refimgid="63608b03-5225-4db1-842c-9282208723a4"
+				refpath="/form[@controlname='DICOMEditor']/container/container[@controlname='panel1']/list[@controlname='dirListBox']/list/listitem[@accessiblename>'1.3.6.1.4.1.5962.1.3.5020' and @accessiblerole='ListItem' and @text>'1.3.6.1.4.1.5962.1.3.5020' and @index='4']"
+				robustPath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']"
+				searchtimeout="30000ms">
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']/?/?/listitem[@accessiblerole='ListItem' and @text&gt;'1.3.6.1.4.1.5962.1.3.5020' and @index='4']
+				</item>
+				<basepath>
+					/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='dirListBox']
+				</basepath>
+			</folder>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="1669a37e-db8c-4e18-883b-1373a12c9927"
+			name="ListItem136141458459423240219276"
+			refimgid="47e778d8-fca9-4048-8a3d-13a9af88b968"
+			refpath="/form[@controlname='DICOMEditor']/container/container[@controlname='panel1']/list[@controlname='fileListBox']/list/listitem[@accessiblename>'1.3.6.1.4.1.45845.9423240']"
+			robustPath="/form[@controlname='DICOMEditor']//listitem[@accessiblename>'1.3.6.1.4.1.45845.9423240']"
+			searchtimeout="30000ms">
+				/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='fileListBox']/?/?/listitem[@accessiblename&gt;'1.3.6.1.4.1.45845.9423240']
+			</item>
+			<item
+			addcaps="checkbox,control,nativewindow"
+			capname="checkbox"
+			id="1826d0c2-9d1f-4671-8cc2-6b21a295c331"
+			name="CheckBoxFMI"
+			refimgid="7c533133-ba6f-40eb-92cb-49167441d45b"
+			refpath="/form[@controlname='DICOMEditor']/container/container[@controlname='panel2']/container/checkbox[@controlname='checkBoxFMI']"
+			robustPath="/form[@controlname='DICOMEditor']//checkbox[@controlname='checkBoxFMI']"
+			searchtimeout="30000ms">
+				/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']//checkbox[@controlname='checkBoxFMI']
+			</item>
+			<item
+			addcaps="unknown,uiautomation"
+			capname="unknown"
+			id="76f8ff68-5b25-4b7a-ae36-616e6f535803"
+			name="Row7"
+			refimgid="7507a1c9-0c44-48f4-bc61-d900dbd8008e"
+			refpath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/container[@controlname='panel2']/container[@controlname='panelFMIDisplay']/table[@controlname='dataGridFMI']/element[@name='Row 7']"
+			robustPath="/form[@controlname='DICOMEditor']//table[@controlname='dataGridFMI']/element[@name='Row 7']"
+			searchtimeout="30000ms">
+				<image
+				guid="1768b3ad-1b0e-49ae-8fac-a00ced01eca7"
+				name="Screenshot1">
+					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
+PecAAAAASUVORK5CYII=
+				</image>
+				/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']//table[@controlname='dataGridFMI']/element[@name='Row 7']
+			</item>
+			<item
+			addcaps="unknown,uiautomation"
+			capname="unknown"
+			id="1e453249-6de7-4264-9002-b25b83c1bae2"
+			name="Row26"
+			refimgid="abbe0ecb-cdf1-471d-8367-a835355cca07"
+			refpath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/container[@controlname='panel2']/table[@controlname='dataGridAttributes']/element[@name='Row 26']"
+			robustPath="/form[@controlname='DICOMEditor']//element[@name='Row 26']"
+			searchtimeout="30000ms">
+				<image
+				guid="1369bd05-cfb9-4b9c-a6a2-c8539771ec4c"
+				name="Screenshot1">
+					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
+HZdnAAAAAElFTkSuQmCC
+				</image>
+				<image
+				guid="415965b3-253b-403c-8ca8-88a58cd34e79"
+				name="Screenshot2">
+					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
+TkSuQmCC
+				</image>
+				<image
+				guid="a265b0b2-70fd-4d6b-9165-02d2844a53ac"
+				name="Screenshot3">
+					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
+				</image>
+				/form[@controlname='DICOMEditor']//table[@controlname='dataGridAttributes']/element[@name='Row 26']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="ed177900-fefc-4087-9884-47c301addd0a"
+			name="ListItem136141254031641439050901"
+			refimgid="2648f370-f6a5-477b-918e-4f68b1b94c7e"
+			refpath="/form[@controlname='DICOMEditor']/container/container[@controlname='panel1']/list[@controlname='fileListBox']/list/listitem[@accessiblename>'1.3.6.1.4.1.25403.1641439' and @accessiblerole='ListItem' and @text>'1.3.6.1.4.1.25403.1641439' and @index='0']"
+			robustPath="/form[@controlname='DICOMEditor']//listitem[@accessiblerole='ListItem' and @text>'1.3.6.1.4.1.25403.1641439' and @index='0']"
+			searchtimeout="30000ms">
+				/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='fileListBox']/?/?/listitem[@accessiblerole='ListItem' and @text&gt;'1.3.6.1.4.1.25403.1641439' and @index='0']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="c337c69d-d781-45dd-8bd1-e105513cb1f2"
+			name="ListItem13614159621150201111"
+			refimgid="5acdbfcd-0d70-4947-80cd-31380295bbe8"
+			refpath="/form[@controlname='DICOMEditor']/container/container[@controlname='panel1']/list[@controlname='fileListBox']/list/listitem[@accessiblename>'1.3.6.1.4.1.5962.1.1.5020']"
+			robustPath="/form[@controlname='DICOMEditor']//listitem[@accessiblename>'1.3.6.1.4.1.5962.1.1.5020']"
+			searchtimeout="30000ms">
+				/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/?/?/list[@controlname='fileListBox']/?/?/listitem[@accessiblename&gt;'1.3.6.1.4.1.5962.1.1.5020']
+			</item>
+			<item
+			addcaps="unknown,uiautomation"
+			capname="unknown"
+			id="901fcc05-679d-4649-be03-ccbadee957ec"
+			name="Row21"
+			refimgid="6a0be5cc-d564-4c17-a349-d1f8d7c0ec25"
+			refpath="/form[@controlname='DICOMEditor']/container[@controlname='splitContainer1']/container[@controlname='panel2']/table[@controlname='dataGridAttributes']/element[@name='Row 21']"
+			robustPath="/form[@controlname='DICOMEditor']//element[@name='Row 21']"
+			searchtimeout="30000ms">
+				<image
+				guid="b61b03b2-90ba-4c13-a2b5-994572f58c66"
+				name="Screenshot1">
+					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
+				</image>
+				/form[@controlname='DICOMEditor']//table[@controlname='dataGridAttributes']/element[@name='Row 21']
+			</item>
+			<basepath>
+				/form[@controlname='DICOMEditor']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGHSURBVDhPpZFBSwJREMf9Bp269mm0g4GBayfN
+wNzQS4duWxCobJfEDDqEpw4RLntdiM1dLwZKRJcCD9kh7dSmBLshorsTM+Sy66MU+sOD+c+b+c08
+XgD+qYDXBIMh9+TzecqFw2sQCq3CZDIhb1kW3SuKAo7jsIBcLgeCsE8xz+/AYDCgWJIkqkkmt8jX
+ajXyDGB6Icsy+Xa7DZHIOm0xHA4pVyqVoNfr/Q3odDrkNU0D0zR/NuJ9NahfAeXyKXld18lHoxz5
+YrEI3W7X7WEAHBeDWGyD4kKhQJugput7p6N8gHSah3g8AYnEJlQqFajX695raDQavukoFzAej2mC
+96RS2zQZpT8+wVIyDQdXEvRNkwXgP4uiCNlslpoFQQBRPALDMMB2HGpeyexC9bbpNvsAUzWbLeat
+y6kMAbDZtm1f/VzA3sUlNZ9d38DruzFbPh+AQgBugU+Z1UKAt48+QbjjE18taiEA6rAqE0S5f/Dl
+GcBoNAJVVRkA6u75Bc5VDT6tLzf3DcIaU7M8wML0AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="83f1b2d7-4646-412d-a1c8-30e09faf560b"
+		isrooted="True"
+		name="DICOMEditor1"
+		refpath="/form[@controltypename='DICOMEditor']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="13e54ccf-4b82-47cb-bbbf-7395f7171680"
+			name="ListItem136141458459423240219276"
+			refimgid="3cf8bf9d-c09d-42a7-8489-8ab885cb9396"
+			refpath="/form[@controltypename='DICOMEditor']/container/container[@controlname='panel1']/list[@controlname='dirListBox']/list/listitem[@accessiblename>'1.3.6.1.4.1.45845.9423240' and @accessiblerole='ListItem' and @text>'1.3.6.1.4.1.45845.9423240' and @index='6']"
+			robustPath="/form[@controltypename='DICOMEditor']//listitem[7]"
+			searchtimeout="30000ms">
+				/form[@controltypename='DICOMEditor']/?/?/container[1]/list[@controlname='dirListBox']/?/?/listitem[@accessiblerole='ListItem' and @text&gt;'1.3.6.1.4.1.45845.9423240' and @index='6']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="e98eb4d9-9bd3-41c2-a5e5-352eb3c5f7cf"
+			name="ListItem136141596213502011166"
+			refimgid="5b2f6488-99dc-4f37-93c9-1b7120d4ca14"
+			refpath="/form[@controltypename='DICOMEditor']/container/container[@controlname='panel1']/list[@controlname='dirListBox']/list/listitem[@accessiblename>'1.3.6.1.4.1.5962.1.3.5020' and @accessiblerole='ListItem' and @text>'1.3.6.1.4.1.5962.1.3.5020' and @index='4']"
+			robustPath="/form[@controltypename='DICOMEditor']//listitem[5]"
+			searchtimeout="30000ms">
+				/form[@controltypename='DICOMEditor']/?/?/container[1]/list[@controlname='dirListBox']/?/?/listitem[@accessiblerole='ListItem' and @text&gt;'1.3.6.1.4.1.5962.1.3.5020' and @index='4']
+			</item>
+			<basepath>
+				/form[@controltypename='DICOMEditor']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlBJREFUOE+l0+tLk1EcwPHnL+lFREpFZBBE0cXrypkvJKwIe1UQSSBB
+mRFIhRYIWlKQ2kUou1lRQVIvBCsyLznS5py2Oedl023q7nsuZ883tlVeQCP6we/l+Z4PB44k/e80
+tpq4/dJGbcsg1c3fudRk4nRNF8ereiip/Ezx2TaKyl5QWPp4yR449QjD4Qqk+mdWmjsETe2Cm20K
+Na8iVD0NUPlwjopmH2fueCm95eZE3STHapwcqXZw8LKdgnITa9K3I9W1mKh/7efGmzAX7k9z8rqT
+kmt2jl61cejKCEWVVgovDmGssLD//CCGcjN558xklvWwLsOAVNv4HJ8/RjgqCEUFwYhGIKziD6vM
+BVPr8au4ZhWcHgWbS8YyIdNtcbFhyzak2oZWVhtdB1WDiKwzH4kzHRCM+zTMDg9pm7Yi3XvybvmZ
+PyPiIKs6oVic2ZDAPS9welV+uFV6h/8SiOugqHrq5nCcmYBgwqdhn1axTCp0WVYLJNhCJ6LoBKJx
+vEHB1JzA4VGxTqkMjCl8MntI27hCYIGuMxv8TdcYcauYxxX6RmU6+lcIJOlagh5P0f0pui1JV/nm
+UOi2ybSbEoGMpYHkiwuIyjr+xfSZFL3fKdNrl+m0xnjftyygA9ovejCm40u+usZYgu5aoH8ZifHR
+EuVtr4f1icDdRQIByBoEY+ALwdQ8OLw6wy7BwLjg66hG54jKhyElGVibvhmpvuEBefsKyDUYyTEY
+yTYYyTIYycwzsjfXyJ6cfHbn5LMrO5+dWandkZna3IJiln/Of56f/tfmtkrWUvcAAAAASUVORK5C
+YII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

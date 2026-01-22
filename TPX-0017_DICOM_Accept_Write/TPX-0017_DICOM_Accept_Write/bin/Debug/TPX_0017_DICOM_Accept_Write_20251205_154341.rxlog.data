@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.16s"
+		durationms="4162"
+		type="root"
+		rid="37225b945dbc7b0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="t3D"
+		rxversion="12.5.0.0"
+		host="EPX-TEST-5820"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="12/5/2025 3:43:41 PM"
+		timestampiso="2025-12-05T23:43:41"
+		endtime="12/5/2025 3:43:46 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.115"
+			timeRelativeToTestModuleStartTime="00:04.115"
+			timeWallClock="15:43:46"
+			time="00:04.115"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				The report file or directory could not be created. The custom report template directory 'E:\TPX\TPX-0017_DICOM_Accept_Write\TPX-0017_DICOM_Accept_Write\bin\Debug\..\..\..\..\NewCustomTemplate1' does not exist.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Testing.TestSuiteRunner.SetUpReportFromTestSuite(RunParams rp, TestSuite testSuite, ReportLevel reportLevel, String customReportFileLocation)
+   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>
