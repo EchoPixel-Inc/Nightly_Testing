@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7eac05c5-2d60-4401-b28f-d082b2308e35"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="TPX_0009_RemotePACS_Orthanc">
+	</codegen>
+	<variables>
+		<var
+		id="8573b8e4-91a7-4571-8478-cccd8e09cd26"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Windows\System32\mstsc.exe
+			</filename>
+			<args>
+				/v:EPX-PACS
+			</args>
+		</runapprecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="457;1057"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f41b9ce7-b000-4425-8c41-53dee2de55cf"
+		sx="457"
+		sy="1057"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e62bef12-90ec-428e-832f-b267141fdd87"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="0"
+				prefcap="unknown"
+				rect="0,0,1920,1080"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						OPWindowClass
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						5769014
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						14768
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						mstsc
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, ClipChildren, ClipSiblings, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Output Painter DX Child Window
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title&gt;'EPX-PACS - Remote Desktop']/element[@class='TscShellAxHostClass']//element[@class='UIContainerClass']/?/?/element[@class='OPWindowClass']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="9d6ebe03-25b6-44df-b735-221ab68b1e20">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAERAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB9FFGa
+9I8QKKKKACiiigAooooAM0ZpKKAFopKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooGFFFFABRRRQAUUUUAFFFFABRRRQAUUlLQAlFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUALRRRQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooGFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFJQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRSUUDHUUUUEhRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUDCiiigAooooAKKKKACiiigAooooAKKK
+KACiiigBKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApKKKBhRRRQA6iiigkKKKKACii
+igYUUUUAFFFFABRRRQAUUUUAFFFFABRRRQIKKKKACiiigAooooAKKKKACiiigYUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFJS0lABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFJS0
+UAJRRRQMdRRRQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApKWigBKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooGJRRRQA6iiigQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRSUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUlFAxaKSigB1FFFAgooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooASiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiikoAKKKKBhRRRQA6iiigQ
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUlABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+SUAFFFFAwooooAdRRRQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooASiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiikoGFFFFABRRRQAUUUUAOooooEFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRSUAFFFFABRRRQAUUUUAFFFLQ
+AlLSUUAFFFFABRRRQAUUUUAFFFFABRRRQAUlLSUDCiiigAooooAKKKKAHUUUUCCiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACkoooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApKWkoAKKKKBhRRRQAUUUU
+AOooooEFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRSUUALRRSUgCiiimAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+CUUtFAxKKKKACiiigAooooAdRRRQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAoopKAFpKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiikoAWkoooGFFFFABRRRQAUUUUAFFFFADqKKKBBRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRSAKKKSgBaKSloAKSlopgFJRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFJRRQMKKKKACiiigAooooAKKKKACiiigAooooAdRWz9lg/5
+5LR9lg/55LXP7ddjq+qPuY1FbP2WD/nktH2WD/nktHt12D6o+5jUVs/ZYP8AnktH2WD/AJ5LR7dd
+g+qPuY1FbP2WD/nktH2WD/nktHt12D6o+5jUVs/ZYP8AnktH2WD/AJ5LR7ddg+qPuY1FbP2WD/nk
+tH2WD/nktHt12D6pLuY1FbP2WD/nktH2WD/nktHt12D6o+5jUVs/ZYP+eS0fZYO0S0e3XYPqj7mL
+RWfcySLdShXYAOQAD05qPzpf+er/APfRp+2XYX1Z9zUorL86X/nq/wD30aPOl/56v/30aPbLsH1Z
+9zUorL82X/nq/wD30aPOl/56v/30aPbLsH1Z9zUorL82X/no/wD30aPNk/56P/30aPbLsH1Z9zUo
+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
+DpRRQAtJ3oooAP4qWiigBP4qWiigAooooA//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="ab792616-74f1-4a77-80e0-1a93fba1c1a5"
+	name="TPX_0009_RemotePACS_OrthancRepository"
+	relativepath="TPX_0009_RemotePACS_OrthancRepository.rxrep">
+		<codegen
+		classname="TPX_0009_RemotePACS_OrthancRepository"
+		namespace="TPX_0009_RemotePACS_Orthanc">
+		</codegen>
+		<rootfolder
+		id="189860ae-3f3d-45e8-ac8e-c91cc64fd89a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
