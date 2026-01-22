@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="45fa0d05-463e-43b4-bace-06a9b1b682c6"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseStent16"
+	namespace="TPX_0005_SurfaceTestFiles">
+	</codegen>
+	<variables>
+		<var
+		id="b6052e7b-f208-461e-8a0a-4e6a4abc30de"
+		name="Stent16ProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="32a591fa-86c7-4e88-807d-a765fffc6c4e">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="Stent16ProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="abf9fc95-8b60-490f-b5ff-7f6ead44d31e"
+	name="TPX_0005_SurfaceTestFilesRepository"
+	relativepath="TPX_0005_SurfaceTestFilesRepository.rxrep">
+		<codegen
+		classname="TPX_0005_SurfaceTestFilesRepository"
+		namespace="TPX_0005_SurfaceTestFiles">
+		</codegen>
+		<rootfolder
+		id="45ee1632-282e-4aa9-8d54-70b97dd394f7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseStent16.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

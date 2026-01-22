@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d4e7b0e0-7131-4a7d-ac50-825b6a08d7ac"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseCenterline2"
+	namespace="TPX_0005_SurfaceTestFiles">
+	</codegen>
+	<variables>
+		<var
+		id="6174aa64-d35c-4dbf-80ba-82fafa979e46"
+		name="Centerline2ProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="2c173770-6656-43e1-8321-a65397b01972">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="Centerline2ProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="abf9fc95-8b60-490f-b5ff-7f6ead44d31e"
+	name="TPX_0005_SurfaceTestFilesRepository"
+	relativepath="TPX_0005_SurfaceTestFilesRepository.rxrep">
+		<codegen
+		classname="TPX_0005_SurfaceTestFilesRepository"
+		namespace="TPX_0005_SurfaceTestFiles">
+		</codegen>
+		<rootfolder
+		id="45ee1632-282e-4aa9-8d54-70b97dd394f7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseCenterline2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

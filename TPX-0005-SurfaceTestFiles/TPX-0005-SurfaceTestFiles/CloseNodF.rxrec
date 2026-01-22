@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="49f67da5-640c-42ca-899f-11897fc0ea50"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseNodF"
+	namespace="TPX_0005_SurfaceTestFiles">
+	</codegen>
+	<variables>
+		<var
+		id="e9b49f0a-bf09-41b7-a23f-c9fd30283e1c"
+		name="NodFProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="115e6ea5-5ee3-4178-bfd9-d496b3ce59a1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="NodFProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="abf9fc95-8b60-490f-b5ff-7f6ead44d31e"
+	name="TPX_0005_SurfaceTestFilesRepository"
+	relativepath="TPX_0005_SurfaceTestFilesRepository.rxrep">
+		<codegen
+		classname="TPX_0005_SurfaceTestFilesRepository"
+		namespace="TPX_0005_SurfaceTestFiles">
+		</codegen>
+		<rootfolder
+		id="45ee1632-282e-4aa9-8d54-70b97dd394f7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseNodF.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f30348f3-60db-4718-9a7f-78689c147795"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseStent45"
+	namespace="TPX_0005_SurfaceTestFiles">
+	</codegen>
+	<variables>
+		<var
+		id="98ea692a-f00d-47f5-95d2-855ac82327d4"
+		name="Stent45ProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="3ca17c72-291d-4ef3-837e-e3cd77e08b08">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="Stent45ProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="abf9fc95-8b60-490f-b5ff-7f6ead44d31e"
+	name="TPX_0005_SurfaceTestFilesRepository"
+	relativepath="TPX_0005_SurfaceTestFilesRepository.rxrep">
+		<codegen
+		classname="TPX_0005_SurfaceTestFilesRepository"
+		namespace="TPX_0005_SurfaceTestFiles">
+		</codegen>
+		<rootfolder
+		id="45ee1632-282e-4aa9-8d54-70b97dd394f7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseStent45.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

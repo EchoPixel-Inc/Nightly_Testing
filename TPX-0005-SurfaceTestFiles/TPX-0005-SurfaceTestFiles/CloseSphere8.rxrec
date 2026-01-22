@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c942fafc-38bf-4d68-9046-b29247e3785d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseSphere8"
+	namespace="TPX_0005_SurfaceTestFiles">
+	</codegen>
+	<variables>
+		<var
+		id="5e8fcacd-aed1-45a8-993a-c957e7fded66"
+		name="Sphere8ProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="a96f36f5-9958-4883-b2ca-519cae1d1cf1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="Sphere8ProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="abf9fc95-8b60-490f-b5ff-7f6ead44d31e"
+	name="TPX_0005_SurfaceTestFilesRepository"
+	relativepath="TPX_0005_SurfaceTestFilesRepository.rxrep">
+		<codegen
+		classname="TPX_0005_SurfaceTestFilesRepository"
+		namespace="TPX_0005_SurfaceTestFiles">
+		</codegen>
+		<rootfolder
+		id="45ee1632-282e-4aa9-8d54-70b97dd394f7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseSphere8.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

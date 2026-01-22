@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="616519c6-3e02-423d-8540-38b189619657"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartSphere40"
+	namespace="TPX_0005_SurfaceTestFiles">
+	</codegen>
+	<variables>
+		<var
+		id="50fa3392-5ffc-4495-933c-519194964116"
+		name="Sphere40ProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="Sphere40ProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				&quot;C:\Program Files\Autodesk\Meshmixer\meshmixer.exe&quot;
+			</filename>
+			<workingdir>
+				C:\Program Files\Autodesk\Meshmixer
+			</workingdir>
+			<args>
+				&quot;C:\epxData\devImages\Shapes_STL\Sphere_40mm.stl&quot;
+			</args>
+		</runapprecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
+		message="Start meshmixer.exe"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="26323cba-56d1-4ee0-88b7-143c26845e5f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		imageoptions="1;None;0,0,0,0;True;10000000;0ms"
+		message="Open VTP_Reference_Data_STL_Shapes_Sphere40"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="c3376a30-624f-42df-9329-3d3e301266e9">
+			<comment>
+				Open VTP_Reference_Data_STL_Shapes_Sphere40
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="abf9fc95-8b60-490f-b5ff-7f6ead44d31e"
+	name="TPX_0005_SurfaceTestFilesRepository"
+	relativepath="TPX_0005_SurfaceTestFilesRepository.rxrep">
+		<codegen
+		classname="TPX_0005_SurfaceTestFilesRepository"
+		namespace="TPX_0005_SurfaceTestFiles">
+		</codegen>
+		<rootfolder
+		id="45ee1632-282e-4aa9-8d54-70b97dd394f7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartSphere40.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
