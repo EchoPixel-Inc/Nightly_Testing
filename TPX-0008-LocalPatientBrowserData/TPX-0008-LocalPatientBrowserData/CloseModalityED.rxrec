@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="adb25137-1632-427e-b1d5-85565ac2383f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseModalityED"
+	namespace="TPX_0008_LocalPatientBrowserData">
+	</codegen>
+	<variables>
+		<var
+		id="9c752951-5c1e-46ec-8e20-9661d0fb4b56"
+		name="ModalityEDProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="326b085d-e123-4184-ab16-3b598de53008">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="ModalityEDProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="aa744fde-e6b4-4eab-8ca6-48291394d227"
+	name="TPX_0008_LocalPatientBrowserDataRepository"
+	relativepath="TPX_0008_LocalPatientBrowserDataRepository.rxrep">
+		<codegen
+		classname="TPX_0008_LocalPatientBrowserDataRepository"
+		namespace="TPX_0008_LocalPatientBrowserData">
+		</codegen>
+		<rootfolder
+		id="765a7886-fa6c-46a1-9e29-5808ab1c791f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseModalityED.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

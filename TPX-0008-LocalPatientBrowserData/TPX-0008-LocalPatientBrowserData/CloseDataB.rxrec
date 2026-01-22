@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="33fe7a19-e946-4f86-a4d7-cf20d7dd9bed"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseDataB"
+	namespace="TPX_0008_LocalPatientBrowserData">
+	</codegen>
+	<variables>
+		<var
+		id="ff716c15-82e5-4f2e-93fc-353775911bdb"
+		name="DataBProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="886ba856-5935-450d-a640-5cc889ca624d">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="DataBProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="aa744fde-e6b4-4eab-8ca6-48291394d227"
+	name="TPX_0008_LocalPatientBrowserDataRepository"
+	relativepath="TPX_0008_LocalPatientBrowserDataRepository.rxrep">
+		<codegen
+		classname="TPX_0008_LocalPatientBrowserDataRepository"
+		namespace="TPX_0008_LocalPatientBrowserData">
+		</codegen>
+		<rootfolder
+		id="765a7886-fa6c-46a1-9e29-5808ab1c791f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseDataB.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

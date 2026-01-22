@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ranorex Automation Helpers</name>
+    </assembly>
+    <members>
+        <member name="T:Ranorex.AutomationHelpers.Modules.CollectRetryErrorMessagesModule">
+            <summary>
+            When placed in a test container with a retry count >= 1, collects all error messages even if one of the retries
+            was successful and adds them to the report.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.Modules.CollectRetryErrorMessagesModule.GetErrorMessages(Ranorex.Core.Reporting.ITestContainerActivity)">
+            <summary>
+            Recursively collects all error messages from given test container
+            </summary>
+            <param name="container"></param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.Modules.CollectRetryErrorMessagesModule.LogErrorMessages(System.Object,System.EventArgs)">
+            <summary>
+            Logs all collected error messages to the "After Test Suite" section of the Ranorex report
+            </summary>
+        </member>
+        <member name="T:Ranorex.AutomationHelpers.Modules.EmailModule">
+            <summary>
+            Used to send emails from a testsuite.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.Modules.EmailModule.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.Subject">
+            <summary>
+            Gets or sets the value of the email subject.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.Body">
+            <summary>
+            Gets or sets the value of the email body.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.To">
+            <summary>
+            Gets or sets the value of the email recipients. Separate recipients by comma or semicolon.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.From">
+            <summary>
+            Gets or sets the value of the email sender.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.ServerHostname">
+            <summary>
+            Gets or sets the value of the email server hostname.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.ServerPort">
+            <summary>
+            Gets or sets the value of the email server port.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.UseSSL">
+            <summary>
+            Gets or sets whether SSL is used or not (true or false) to connect to the email server.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.Username">
+            <summary>
+            Gets or sets the value of the user name to use when connecting to the email server.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.Password">
+            <summary>
+            Gets or sets the value of the user password when connecting to the email server.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.SendEmailOnFailure">
+            <summary>
+            Gets or sets the value to send the mail when the test suite completes with a failure (<c>true</c> or <c>false</c>).
+            </summary>
+            <remarks>If <c>true</c> Sends an email when the test suite finishes with a failure.</remarks>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.SendEmailOnSuccess">
+            <summary>
+            Gets or sets the value to send the mail when the test suite completes successfully (<c>true</c> or <c>false</c>).
+            </summary>
+            <remarks>If <c>true</c> Sends an email when the test suite finishes with a success.</remarks>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.SendZippedReportOnComplete">
+            <summary>
+            Gets or sets whether the email should send the report as an attachement when the test suite finishes.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.SendPdfReportOnComplete">
+            <summary>
+            Gets or sets whether the email should send the pdf version of the report as an attachement when the test suite finishes.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.Modules.EmailModule.PdfReportCustomStylesheet">
+            <summary>
+            If <see cref="P:Ranorex.AutomationHelpers.Modules.EmailModule.SendPdfReportOnComplete"/> is set to true, this can be used to set a custom stylesheet.
+            Don't set or set to an empty string to use the default stylesheet.
+            See https://www.ranorex.com/blog/ranorex-report-to-pdf-conversion#stylesheet
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.Modules.EmailModule.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Sends the report via email after the test run has completed. Use this module in
+            the TearDown of your test case to ensure that it is executed even on failing test runs.
+            </summary>
+            <remarks>You should not call this method directly. Instead, pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Ranorex.AutomationHelpers.Modules.ReportToPDFModule">
+            <summary>
+            Allows conversion of the default Ranorex report to PDF.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.Modules.ReportToPDFModule.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.Modules.ReportToPDFModule.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Converts the Ranorex Report into PDF after the test run completed. Use this module in
+            the TearDown of your TestCase to ensure that it is executed even on failing test runs.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.Modules.CleanupRanorexReport.Cleanup">
+            <summary>
+            Used to cleanup and delete all Ranorex report related files from current testrun
+            </summary>
+        </member>
+        <member name="T:Ranorex.AutomationHelpers.UserCodeCollections.DragNDropLibrary">
+            <summary>
+            A collection providing an advanced DragAndDrop method.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.DragNDropLibrary.DragAndDrop(Ranorex.Adapter,Ranorex.Adapter)">
+            <summary>
+            Picks the source element, drags it to the target element and drops it there.
+            <param name="source">The element which should be dragged.</param>
+            <param name="target">The element where the source element will be dropped.</param>
+            </summary>
+        </member>
+        <member name="T:Ranorex.AutomationHelpers.UserCodeCollections.EmailLibrary">
+            <summary>
+            Used to send emails from a recording or module.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.EmailLibrary.SendEmail(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.String,System.String)">
+            <summary>
+            Sends an email.
+            </summary>
+            <param name="subject">Email subject</param>
+            <param name="to">Email recipients, separated by comma or semicolon</param>
+            <param name="from">Email sender</param>
+            <param name="body">Email message</param>
+            <param name="attachment">Path of a file to attach</param>
+            <param name="serverHostname">Server hostname</param>
+            <param name="serverPort">Server port</param>
+            <param name="useSSL">Defines whether SSL is used or not (true or false)</param>
+            <param name="username">Username</param>
+            <param name="password">Password</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.EmailLibrary.SendEmail(System.String,System.String,System.String,System.String,System.String[],System.String,System.Int32,System.Boolean,System.String,System.String)">
+            <summary>
+            Sends an email.
+            </summary>
+            <param name="subject">Email subject</param>
+            <param name="to">Email recipients, separated by comma or semicolon</param>
+            <param name="from">Email sender</param>
+            <param name="body">Email message</param>
+            <param name="attachments">Paths of files to attach</param>
+            <param name="serverHostname">Server hostname</param>
+            <param name="serverPort">Server port</param>
+            <param name="useSSL">Defines whether SSL is used or not (true or false)</param>
+            <param name="username">Username</param>
+            <param name="password">Password</param>
+        </member>
+        <member name="T:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary">
+            <summary>
+            A collection of useful file methods.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.WriteToFile(System.String,System.String,System.String)">
+            <summary>
+            Creates a log file containing a custom text in the output folder.
+            </summary>
+            <param name="text">Text that the log file should contain</param>
+            <param name="filenamePrefix">Prefix used for the log filename</param>
+            <param name="fileExtension">Extension of the log file</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.AppendStringToExistingFile(System.String,System.String,System.Boolean)">
+            <summary>
+            Opens an existing file and adds a new line of text at the end of it.
+            </summary>
+            <param name="text">The text to add to the file.</param>
+            <param name="path">The Full qualified path to load the file including filename and extension.</param>
+            <param name="addNewLine">If true, adds the text on a newline. Otherwise, adds it without a line break.</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.CheckFilesExist(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Checks if files in a directory exist.
+            </summary>
+            <param name="path">The relative or absolute path to search for the files</param>
+            <param name="pattern">The pattern to search for in the filename</param>
+            <param name="expectedCount">Number of expected files to be found</param>
+            <param name="timeout">Defines the search timeout in seconds</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.DeleteFiles(System.String,System.String)">
+            <summary>
+            Deletes files.
+            </summary>
+            <param name="path">The relative or absolute path to search for the files</param>
+            <param name="pattern">The pattern to search for in the filename</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.WaitForFile(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Repeatedly checks if files in a directory exist.
+            </summary>
+            <param name="path">The relative or absolute path to search for the files</param>
+            <param name="pattern">The pattern to search for in the filename</param>
+            <param name="duration">Defines the search timeout in milliseconds</param>
+            <param name="interval">Sets the interval in milliseconds at which the files are checked for the pattern</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.ValidateFilesBinaryEqual(System.String,System.String)">
+            <summary>
+            Compares content of two binary files.
+            </summary>
+            <param name="filePath1">The relative or absolute path of the first file</param>
+            <param name="filePath2">The relative or absolute path of the second file</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.ValidateFilesTextEqual(System.String,System.String)">
+            <summary>
+            Compares content of two text files.
+            </summary>
+            <param name="filePath1">The relative or absolute path of the first file</param>
+            <param name="filePath2">The relative or absolute path of the second file</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.ValidateFilesTextEqual(System.String,System.String,System.Boolean)">
+            <summary>
+            Compares content of two text files.
+            </summary>
+            <param name="filePath1">The relative or absolute path of the first file</param>
+            <param name="filePath2">The relative or absolute path of the second file</param>
+            <param name="normalizeLineEndings">If true, line endings will be normalized before comparison.
+            Original files will not be changed.</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.ValidateFileContainsText(System.String,System.String)">
+            <summary>
+            Checks if file contains text specified.
+            </summary>
+            <param name="filePath">The relative or absolute path to the file</param>
+            <param name="text">The text to search for</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.ValidateFileContainsText(System.String,System.String,System.String)">
+            <summary>
+            Checks if file contains text specified.
+            </summary>
+            <param name="filePath">The relative or absolute path to the file</param>
+            <param name="text">The text to search for</param>
+            <param name="fileEncoding">Encoding of a file</param>
+        </member>
+        <member name="T:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary">
+            <summary>
+            A collection of popup watcher helper methods.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.Watchers">
+            <summary>
+            Gets the currently active watchers which were started using the <see cref="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StartPopupWatcher(Ranorex.Core.Repository.RepoItemInfo,Ranorex.Core.Repository.RepoItemInfo)"/>
+            method and have not been stopped using the <see cref="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StopPopupWatcher(Ranorex.Core.Repository.RepoItemInfo,Ranorex.Core.Repository.RepoItemInfo)"/> method, yet.
+            </summary>
+            <value>
+            The currently active watchers created using the <see cref="T:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary"/> class.
+            </value>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StartPopupWatcher(Ranorex.Core.Repository.RepoItemInfo,Ranorex.Core.Repository.RepoItemInfo)">
+            <summary>
+            Waits for a popup window to appear and clicks an element to close the window.
+            </summary>
+            <param name="findElement">Element to wait for</param>
+            <param name="clickElement">Element to click after the popup appears</param>
+            <returns>Reference to a newly created <see cref="T:Ranorex.PopupWatcher"/></returns>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.PauseWhileExists(Ranorex.Core.Repository.RepoItemInfo)">
+            <summary>
+            Waits for a popup window to appear and pauses test run until it disappears.
+            </summary>
+            <param name="findElement">Element to wait for</param>
+            <returns>Reference to a newly created <see cref="T:Ranorex.PopupWatcher"/></returns>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StopPopupWatcher(Ranorex.Core.Repository.RepoItemInfo,Ranorex.Core.Repository.RepoItemInfo)">
+            <summary>
+            Stops and removes an active popup watcher.
+            </summary>
+            <param name="findElement">Element to wait for</param>
+            <param name="clickElement">Element to click after the popup appears</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.PopupWatcherLibrary.StopAllPopupWatchers">
+            <summary>
+            Stops all active popup watchers.
+            </summary>
+        </member>
+        <member name="T:Ranorex.AutomationHelpers.UserCodeCollections.StringLibrary">
+            <summary>
+            A collection of string helper methods.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.StringLibrary.ConcatStrings(System.String,System.String)">
+            <summary>
+            Concatenates two strings and returns the new string.
+            </summary>
+            <param name="value1">First string</param>
+            <param name="value2">Second string</param>
+            <returns>Concatenated string</returns>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.StringLibrary.GetRandomString(System.String)">
+            <summary>
+            Creates and returns a random string.
+            </summary>
+            <param name="length">Length of the returned string in characters. Default = 35. Lower values increase
+            chance of duplicate strings.</param>
+            <returns>Random string</returns>
+        </member>
+        <member name="T:Ranorex.AutomationHelpers.UserCodeCollections.SystemLibrary">
+            <summary>
+            A collection of useful general helper methods.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.SystemLibrary.KillProcess(System.String)">
+            <summary>
+            Kills a process.
+            </summary>
+            <param name="processname">Name of the process to kill</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.SystemLibrary.StartTimer(System.String)">
+            <summary>
+            Starts a new timer.
+            </summary>
+            <param name="timerName">Name of the timer</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.SystemLibrary.StopTimer(System.String)">
+            <summary>
+            Stops a timer.
+            </summary>
+            <param name="timerName">Name of the timer to stop</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.SystemLibrary.GetDateTimeAsString(System.String)">
+            <summary>
+            Returns the current time and date as a string in the specified format.
+            </summary>
+            <param name="expectedFormat">The format the time and date are returned in. Default = dd.MM.yyyy</param>
+            <returns>The current time and date as a string.</returns>
+        </member>
+        <member name="T:Ranorex.AutomationHelpers.UserCodeCollections.ValidationLibrary">
+            <summary>
+            A collection of useful validation helper methods.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.ValidationLibrary.CompareValues(System.String,System.String)">
+            <summary>
+            Compares two values.
+            </summary>
+            <param name="value1">First value to compare</param>
+            <param name="value2">Second value to compare</param>
+        </member>
+        <member name="T:Ranorex.AutomationHelpers.UserCodeCollections.WebLibrary">
+            <summary>
+            A collection of methods to help automate web and network-based tasks.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.WebLibrary.DownloadFile(System.String,System.String,System.Boolean)">
+            <summary>
+            Downloads a file and stores it locally.
+            </summary>
+            <param name="uri">The uri of the file to download</param>
+            <param name="localPath">Local location where the file should be stored</param>
+            <param name="overwriteExisting">true / false if existing file should be overwritten</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.WebLibrary.GetHttpStatusCode(System.String)">
+            <summary>
+            Returns the HTTP status code from a URL.
+            </summary>
+            <param name="url">The URL to query for the status code.</param>
+        </member>
+        <member name="M:Ranorex.AutomationHelpers.UserCodeCollections.WebLibrary.ReportFullPageScreenshot(Ranorex.Core.Repository.RepoItemInfo)">
+            <summary>
+            Takes screenshot of entire web page and reports it.
+            </summary>
+            <param name="repoItemInfo">Repository item</param>
+        </member>
+    </members>
+</doc>
