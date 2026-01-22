@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="064fb27c-4564-40d6-b8e2-f9a91daf2d4a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartExport"
+	namespace="TPX_0020_Import_Export">
+	</codegen>
+	<variables>
+		<var
+		id="2f401bc9-25a6-4391-94c1-174cb8a4c410"
+		name="ExportProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="ExportProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files\Echopixel\True 3D Viewer - Develop\bin\epxMain.exe
+			</filename>
+			<workingdir>
+				C:\Program Files\Echopixel\True 3D Viewer - Develop\bin
+			</workingdir>
+			<args>
+				-i -login admin -password admin
+			</args>
+		</runapprecorditem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="6d9dd2a5-01b7-49bf-b42f-5d52a7843512"
+	name="TPX_0020_Import_ExportRepository"
+	relativepath="TPX_0020_Import_ExportRepository.rxrep">
+		<codegen
+		classname="TPX_0020_Import_ExportRepository"
+		namespace="TPX_0020_Import_Export">
+		</codegen>
+		<rootfolder
+		id="31e8bcaa-a0ba-48f1-b840-ae2b996140ce"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartExport.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

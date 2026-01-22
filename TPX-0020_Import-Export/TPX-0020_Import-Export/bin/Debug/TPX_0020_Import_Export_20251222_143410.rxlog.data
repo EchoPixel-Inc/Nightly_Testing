@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.43s"
+		durationms="4432"
+		type="root"
+		rid="131601dda4e852ea"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="t3D"
+		rxversion="12.6.0.0"
+		host="EPX-TEST-5820"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="12/22/2025 2:34:10 PM"
+		timestampiso="2025-12-22T22:34:10"
+		endtime="12/22/2025 2:34:14 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.397"
+			timeRelativeToTestModuleStartTime="00:04.397"
+			timeWallClock="14:34:14"
+			time="00:04.397"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.SafeWatch.Start()
+   at Ranorex.Core.SafeWatch.StartNew()
+   at Ranorex.Core.Reporting.TestReport.EndTimer(Boolean trigerNow)
+   at Ranorex.Core.Reporting.TestReport.Setup(ReportLevel minLevel, String fileName, Boolean logToConsole, Boolean enableTracingScreenshots, Duration writeInterval, String customReportFileLocation, Boolean saveImmediately)
+   at Ranorex.Core.Testing.TestSuiteRunner.SetUpReportFromTestSuite(RunParams rp, TestSuite testSuite, ReportLevel reportLevel, String customReportFileLocation)
+   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

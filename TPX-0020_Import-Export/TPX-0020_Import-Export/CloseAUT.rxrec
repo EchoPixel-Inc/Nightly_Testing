@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="13ab303e-64e2-4940-bc40-037ed65f9a7f"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TPX_0020_Import_Export">
+	</codegen>
+	<variables>
+		<var
+		id="9e855825-fed0-40c1-afcd-54bf67d8cda3"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="748ebd15-b9a8-4f5a-a6d3-e80daa09fc6e">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="6d9dd2a5-01b7-49bf-b42f-5d52a7843512"
+	name="TPX_0020_Import_ExportRepository"
+	relativepath="TPX_0020_Import_ExportRepository.rxrep">
+		<codegen
+		classname="TPX_0020_Import_ExportRepository"
+		namespace="TPX_0020_Import_Export">
+		</codegen>
+		<rootfolder
+		id="31e8bcaa-a0ba-48f1-b840-ae2b996140ce"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
