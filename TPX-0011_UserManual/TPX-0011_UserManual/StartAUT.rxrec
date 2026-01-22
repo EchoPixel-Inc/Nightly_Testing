@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f6b5bd91-a38e-4d2f-a6a6-5a232172a663"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="TPX_0011_UserManual">
+	</codegen>
+	<variables>
+		<var
+		id="d1d83879-dc1d-429c-a25d-899778ac9905"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="d73c516d-53ec-4e25-9516-c599e2fee7c2"
+	name="TPX_0011_UserManualRepository"
+	relativepath="TPX_0011_UserManualRepository.rxrep">
+		<codegen
+		classname="TPX_0011_UserManualRepository"
+		namespace="TPX_0011_UserManual">
+		</codegen>
+		<rootfolder
+		id="02097dec-757e-4c24-af1f-03473cdf6114"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
