@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3aaf8eb2-6bd5-4117-b877-2b4fee2ada63"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TPX_0013_UserManual_JP">
+	</codegen>
+	<variables>
+		<var
+		id="12540eff-ea9e-4638-bd01-9a010f508451"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="7ec0d220-0444-4683-bf92-9f6e973cf611">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="8fab8c73-fce0-4b12-a69c-d3415623eb6c"
+	name="TPX_0013_UserManual_JPRepository"
+	relativepath="TPX_0013_UserManual_JPRepository.rxrep">
+		<codegen
+		classname="TPX_0013_UserManual_JPRepository"
+		namespace="TPX_0013_UserManual_JP">
+		</codegen>
+		<rootfolder
+		id="42dd6446-8566-4bf8-a9c9-9adb7bfda6df"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
