@@ -1,0 +1,791 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TPX-0021_DICOM_AuditLog</name>
+    </assembly>
+    <members>
+        <member name="T:TPX_0021_DICOM_AuditLog.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0021_DICOM_AuditLog.CloseAUT.repo">
+            <summary>
+            Holds an instance of the TPX_0021_DICOM_AuditLogRepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0021_DICOM_AuditLog.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.Delete">
+             <summary>
+            The Delete recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0021_DICOM_AuditLog.Delete.repo">
+            <summary>
+            Holds an instance of the TPX_0021_DICOM_AuditLogRepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Delete.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.Delete.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Delete.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0021_DICOM_AuditLog.Delete.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Delete.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Delete.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.DicomService">
+             <summary>
+            The DicomService recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0021_DICOM_AuditLog.DicomService.repo">
+            <summary>
+            Holds an instance of the TPX_0021_DICOM_AuditLogRepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.DicomService.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.DicomService.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.DicomService.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0021_DICOM_AuditLog.DicomService.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.DicomService.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.DicomService.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.Export">
+             <summary>
+            The Export recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0021_DICOM_AuditLog.Export.repo">
+            <summary>
+            Holds an instance of the TPX_0021_DICOM_AuditLogRepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Export.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.Export.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Export.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0021_DICOM_AuditLog.Export.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Export.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Export.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.Import">
+             <summary>
+            The Import recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0021_DICOM_AuditLog.Import.repo">
+            <summary>
+            Holds an instance of the TPX_0021_DICOM_AuditLogRepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Import.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.Import.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Import.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0021_DICOM_AuditLog.Import.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Import.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Import.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0021_DICOM_AuditLog.Login.repo">
+            <summary>
+            Holds an instance of the TPX_0021_DICOM_AuditLogRepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0021_DICOM_AuditLog.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.Retrieve">
+             <summary>
+            The Retrieve recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0021_DICOM_AuditLog.Retrieve.repo">
+            <summary>
+            Holds an instance of the TPX_0021_DICOM_AuditLogRepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Retrieve.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.Retrieve.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Retrieve.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0021_DICOM_AuditLog.Retrieve.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Retrieve.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Retrieve.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.Send">
+             <summary>
+            The Send recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0021_DICOM_AuditLog.Send.repo">
+            <summary>
+            Holds an instance of the TPX_0021_DICOM_AuditLogRepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Send.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.Send.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Send.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0021_DICOM_AuditLog.Send.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Send.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.Send.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:TPX_0021_DICOM_AuditLog.StartAUT.repo">
+            <summary>
+            Holds an instance of the TPX_0021_DICOM_AuditLogRepository repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TPX_0021_DICOM_AuditLog.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository">
+            <summary>
+            The class representing the TPX_0021_DICOM_AuditLogRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TPX_0021_DICOM_AuditLogRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.PatientBrowser">
+            <summary>
+            The PatientBrowser folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.True3DViewer">
+            <summary>
+            The True3DViewer folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.EpxMain">
+            <summary>
+            The EpxMain folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.SystemAdministration">
+            <summary>
+            The SystemAdministration folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.AuditLogCsvNotepad">
+            <summary>
+            The AuditLogCsvNotepad folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.PopupHost">
+            <summary>
+            The PopupHost folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.TransferStatusWindow">
+            <summary>
+            The TransferStatusWindow folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepository.EpxDicomServiceLogTxtNotepad">
+            <summary>
+            The EpxDicomServiceLogTxtNotepad folder.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PatientBrowserAppFolder">
+            <summary>
+            The PatientBrowserAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PatientBrowserAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PatientBrowser  folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PatientBrowserAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PatientBrowserAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PatientBrowserAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PatientBrowserAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PatientBrowserAppFolder.Status">
+            <summary>
+            The Status item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PatientBrowserAppFolder.StatusInfo">
+            <summary>
+            The Status item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.True3DViewerAppFolder">
+            <summary>
+            The True3DViewerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.True3DViewerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new True3DViewer  folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.True3DViewerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.True3DViewerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.True3DViewerAppFolder.Settings">
+            <summary>
+            The Settings item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.True3DViewerAppFolder.SettingsInfo">
+            <summary>
+            The Settings item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.True3DViewerAppFolder.File">
+            <summary>
+            The File item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.True3DViewerAppFolder.FileInfo">
+            <summary>
+            The File item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxMainAppFolder">
+            <summary>
+            The EpxMainAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxMainAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EpxMain  folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxMainAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxMainAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxMainAppFolder.EpxMainWindowUIActionSystemAdministrati">
+            <summary>
+            The EpxMainWindowUIActionSystemAdministrati item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxMainAppFolder.EpxMainWindowUIActionSystemAdministratiInfo">
+            <summary>
+            The EpxMainWindowUIActionSystemAdministrati item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxMainAppFolder.EpxMainWindowUIActionOpenDicom">
+            <summary>
+            The EpxMainWindowUIActionOpenDicom item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxMainAppFolder.EpxMainWindowUIActionOpenDicomInfo">
+            <summary>
+            The EpxMainWindowUIActionOpenDicom item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.SystemAdministrationAppFolder">
+            <summary>
+            The SystemAdministrationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.SystemAdministrationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SystemAdministration  folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.SystemAdministrationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.SystemAdministrationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.SystemAdministrationAppFolder.TextSystemAdministration">
+            <summary>
+            The TextSystemAdministration item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.SystemAdministrationAppFolder.TextSystemAdministrationInfo">
+            <summary>
+            The TextSystemAdministration item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.SystemAdministrationAppFolder.EpxSystemAdminUITabWidgetQtTabwidget">
+            <summary>
+            The EpxSystemAdminUITabWidgetQtTabwidget item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.SystemAdministrationAppFolder.EpxSystemAdminUITabWidgetQtTabwidgetInfo">
+            <summary>
+            The EpxSystemAdminUITabWidgetQtTabwidget item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.SystemAdministrationAppFolder.EpxSystemAdminUICancelButton">
+            <summary>
+            The EpxSystemAdminUICancelButton item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.SystemAdministrationAppFolder.EpxSystemAdminUICancelButtonInfo">
+            <summary>
+            The EpxSystemAdminUICancelButton item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder">
+            <summary>
+            The AuditLogCsvNotepadAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AuditLogCsvNotepad  folder.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.TextInfoClass">
+            <summary>
+            The TextInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.TextInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            TextInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.TextInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.TextInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.MicrosoftUIContentDesktopChildSiteBri">
+            <summary>
+            The MicrosoftUIContentDesktopChildSiteBri item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.MicrosoftUIContentDesktopChildSiteBriInfo">
+            <summary>
+            The MicrosoftUIContentDesktopChildSiteBri item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.MicrosoftUIContentDesktopChildSiteBri1">
+            <summary>
+            The MicrosoftUIContentDesktopChildSiteBri1 item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.AuditLogCsvNotepadAppFolder.MicrosoftUIContentDesktopChildSiteBri1Info">
+            <summary>
+            The MicrosoftUIContentDesktopChildSiteBri1 item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PopupHostAppFolder">
+            <summary>
+            The PopupHostAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PopupHostAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PopupHost  folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PopupHostAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.PopupHostAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.TransferStatusWindowAppFolder">
+            <summary>
+            The TransferStatusWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.TransferStatusWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TransferStatusWindow  folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.TransferStatusWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.TransferStatusWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.TransferStatusWindowAppFolder.OpenLog">
+            <summary>
+            The OpenLog item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.TransferStatusWindowAppFolder.OpenLogInfo">
+            <summary>
+            The OpenLog item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.TransferStatusWindowAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.TransferStatusWindowAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxDicomServiceLogTxtNotepadAppFolder">
+            <summary>
+            The EpxDicomServiceLogTxtNotepadAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxDicomServiceLogTxtNotepadAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EpxDicomServiceLogTxtNotepad  folder.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxDicomServiceLogTxtNotepadAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxDicomServiceLogTxtNotepadAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxDicomServiceLogTxtNotepadAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxDicomServiceLogTxtNotepadAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxDicomServiceLogTxtNotepadAppFolder.MicrosoftUIContentDesktopChildSiteBri">
+            <summary>
+            The MicrosoftUIContentDesktopChildSiteBri item.
+            </summary>
+        </member>
+        <member name="P:TPX_0021_DICOM_AuditLog.TPX_0021_DICOM_AuditLogRepositoryFolders.EpxDicomServiceLogTxtNotepadAppFolder.MicrosoftUIContentDesktopChildSiteBriInfo">
+            <summary>
+            The MicrosoftUIContentDesktopChildSiteBri item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

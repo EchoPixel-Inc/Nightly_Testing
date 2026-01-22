@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2940c909-06b6-44f9-b24e-8009e53f223d"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TPX_0021_DICOM_AuditLog">
+	</codegen>
+	<variables>
+		<var
+		id="494e6373-cdc5-46b8-a06e-3740ac2b64c3"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="ed950aa9-57a3-455b-a9d8-9b57f982cb2c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="26be3522-0e1b-4ddb-8e74-c97c053ab6ee"
+	name="TPX_0021_DICOM_AuditLogRepository"
+	relativepath="TPX_0021_DICOM_AuditLogRepository.rxrep">
+		<codegen
+		classname="TPX_0021_DICOM_AuditLogRepository"
+		namespace="TPX_0021_DICOM_AuditLog">
+		</codegen>
+		<rootfolder
+		id="dc9d5a8d-9baf-45d3-9bc5-ae83c6466b2e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

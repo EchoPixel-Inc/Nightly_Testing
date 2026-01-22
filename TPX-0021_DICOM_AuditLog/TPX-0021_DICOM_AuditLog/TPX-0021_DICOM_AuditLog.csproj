@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{78F871E5-C46B-4561-BF34-CA88EC1B44ED}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TPX_0021_DICOM_AuditLog</RootNamespace>
+    <AssemblyName>TPX-0021_DICOM_AuditLog</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>44e15c9c-b45e-4484-ae8e-e78794ef8336</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>56714d4a-138b-4ecf-a686-ddaa7770d8bc</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>b2bb1057-aadf-42eb-85b3-b902398f90b4</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e5e04d9f-8414-4674-95f3-1b2cbccf10b4</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>b2bb1057-aadf-42eb-85b3-b902398f90b4</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c2f1683f-4361-498e-a35b-ec52b41b92ae</id>
+    </Compile>
+    <Compile Include="Delete.cs">
+      <BoundTo>4b57f593-9b56-4b45-a617-c23c468e990f</BoundTo>
+      <DependentUpon>Delete.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d2e43e96-e0f7-4d07-b355-db94b4829ab9</id>
+    </Compile>
+    <Compile Include="Delete.UserCode.cs">
+      <BoundTo>4b57f593-9b56-4b45-a617-c23c468e990f</BoundTo>
+      <DependentUpon>Delete.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>569aa00d-1dc5-4276-a7db-be8ded97e050</id>
+    </Compile>
+    <Compile Include="DicomService.cs">
+      <BoundTo>09aedfd3-3762-42cb-8635-a136c6343e2e</BoundTo>
+      <DependentUpon>DicomService.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>00dd5994-e361-4133-b659-1583e0bf0eb3</id>
+    </Compile>
+    <Compile Include="DicomService.UserCode.cs">
+      <BoundTo>09aedfd3-3762-42cb-8635-a136c6343e2e</BoundTo>
+      <DependentUpon>DicomService.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aa08409b-f66c-4958-9371-9b3593dbe949</id>
+    </Compile>
+    <Compile Include="Export.cs">
+      <BoundTo>2878aacd-5030-429f-add2-5e7cae1cae97</BoundTo>
+      <DependentUpon>Export.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>39c68a5d-613d-4e7f-8416-1e51f76f3ba4</id>
+    </Compile>
+    <Compile Include="Export.UserCode.cs">
+      <BoundTo>2878aacd-5030-429f-add2-5e7cae1cae97</BoundTo>
+      <DependentUpon>Export.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>656fdb8a-fe22-415d-89ce-d208cc82408d</id>
+    </Compile>
+    <Compile Include="Import.cs">
+      <BoundTo>ba166d6a-e400-4e93-a0c6-ec674b58f560</BoundTo>
+      <DependentUpon>Import.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>82fbe920-e776-4d59-b6d2-68f6f2f7b243</id>
+    </Compile>
+    <Compile Include="Import.UserCode.cs">
+      <BoundTo>ba166d6a-e400-4e93-a0c6-ec674b58f560</BoundTo>
+      <DependentUpon>Import.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>db675d19-ea8c-4e48-b135-6c8f9920b4ec</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>81220b3f-3840-428a-8c46-046de61e776f</id>
+    </Compile>
+    <Compile Include="Login.cs">
+      <BoundTo>f65a8c86-b2df-47bd-bbcd-e2ad24c85afb</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>440759f3-151a-492a-936d-c1ad9a9dd7ae</id>
+    </Compile>
+    <Compile Include="Login.UserCode.cs">
+      <BoundTo>f65a8c86-b2df-47bd-bbcd-e2ad24c85afb</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b10272c1-8f64-4dde-a679-d96ba03207dc</id>
+    </Compile>
+    <Compile Include="Retrieve.cs">
+      <BoundTo>bdaf2ced-a2dc-48de-a5ac-7f6eefb04130</BoundTo>
+      <DependentUpon>Retrieve.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3b373b1f-f18d-41c9-a936-a69b540ef129</id>
+    </Compile>
+    <Compile Include="Retrieve.UserCode.cs">
+      <BoundTo>bdaf2ced-a2dc-48de-a5ac-7f6eefb04130</BoundTo>
+      <DependentUpon>Retrieve.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ba818a4a-f18e-49d8-93ba-a47accbaf301</id>
+    </Compile>
+    <Compile Include="Send.cs">
+      <BoundTo>06efe016-96bb-4bbb-a7f6-62005d2faa5a</BoundTo>
+      <DependentUpon>Send.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>508c6c8a-ad75-4ce0-bc5f-7d806f6e99f6</id>
+    </Compile>
+    <Compile Include="Send.UserCode.cs">
+      <BoundTo>06efe016-96bb-4bbb-a7f6-62005d2faa5a</BoundTo>
+      <DependentUpon>Send.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>128c073d-b69b-47e0-9650-897be3ab5538</id>
+    </Compile>
+    <Compile Include="StartAUT.cs">
+      <BoundTo>ba723170-c469-4379-9d7e-960c09c67a1b</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3312fd21-878d-47a6-8288-823f0a6ab9e9</id>
+    </Compile>
+    <Compile Include="StartAUT.UserCode.cs">
+      <BoundTo>ba723170-c469-4379-9d7e-960c09c67a1b</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>64ecfb94-b3a0-4f07-a5e7-074d3a997069</id>
+    </Compile>
+    <Compile Include="TPX_0021_DICOM_AuditLogRepository.cs">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <DependentUpon>TPX_0021_DICOM_AuditLogRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>0cc98134-4bd4-4f92-bcb6-e8e908349766</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>acecc3fc-df0f-4ce0-a581-d10355f243b9</id>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <id>b2bb1057-aadf-42eb-85b3-b902398f90b4</id>
+      <recordtableid>2940c909-06b6-44f9-b24e-8009e53f223d</recordtableid>
+    </None>
+    <None Include="Delete.rxrec">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <id>4b57f593-9b56-4b45-a617-c23c468e990f</id>
+      <recordtableid>9a7eca4b-239d-4bfa-83bc-cdadce97ef34</recordtableid>
+    </None>
+    <None Include="DicomService.rxrec">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <id>09aedfd3-3762-42cb-8635-a136c6343e2e</id>
+      <recordtableid>44232a00-4140-4897-ad9d-85f5fc4d6258</recordtableid>
+    </None>
+    <None Include="Export.rxrec">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <id>2878aacd-5030-429f-add2-5e7cae1cae97</id>
+      <recordtableid>a8a9b5d5-1789-4379-b606-6def701a1e4f</recordtableid>
+    </None>
+    <None Include="Import.rxrec">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <id>ba166d6a-e400-4e93-a0c6-ec674b58f560</id>
+      <recordtableid>2e61a4fe-ffeb-4f4a-9f2e-03ad84f807a2</recordtableid>
+    </None>
+    <None Include="Login.rxrec">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <id>f65a8c86-b2df-47bd-bbcd-e2ad24c85afb</id>
+      <recordtableid>e9940aac-b19f-430a-bf71-bc85106f3131</recordtableid>
+    </None>
+    <None Include="Retrieve.rxrec">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <id>bdaf2ced-a2dc-48de-a5ac-7f6eefb04130</id>
+      <recordtableid>323f099e-b045-499b-bf5e-a762406fb1ed</recordtableid>
+    </None>
+    <None Include="Send.rxrec">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <id>06efe016-96bb-4bbb-a7f6-62005d2faa5a</id>
+      <recordtableid>93d9c299-5c81-4e82-a227-29fe1e56ab18</recordtableid>
+    </None>
+    <None Include="StartAUT.rxrec">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <id>ba723170-c469-4379-9d7e-960c09c67a1b</id>
+      <recordtableid>a20b231b-554f-45b7-ba0d-647b012499eb</recordtableid>
+    </None>
+    <None Include="TPX-TRX_files\epx_logo.png">
+      <id>c3c0c34b-5d37-40db-b5c5-229c0dead224</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TPX_0021_DICOM_AuditLogRepository.rximg">
+      <BoundTo>44e15c9c-b45e-4484-ae8e-e78794ef8336</BoundTo>
+      <DependentUpon>TPX_0021_DICOM_AuditLogRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>2a1c5b4a-895e-434a-b19d-b0fe3a7aff7b</id>
+    </None>
+    <None Include="TPX_0021_DICOM_AuditLogRepository.rxrep">
+      <id>44e15c9c-b45e-4484-ae8e-e78794ef8336</id>
+      <repoid>26be3522-0e1b-4ddb-8e74-c97c053ab6ee</repoid>
+      <reporootid>dc9d5a8d-9baf-45d3-9bc5-ae83c6466b2e</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TPX-TRX_files\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3922d064-41d4-413f-a168-902db2612a8f</id>
+    </Content>
+    <Content Include="TPX-TRX_files\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>00db6417-b146-49dd-a589-3811b600b335</id>
+    </Content>
+    <Content Include="TPX-TRX_files\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>70a6c22b-2ae6-44c5-9efd-6d4c9883d241</id>
+    </Content>
+    <Content Include="TPX-TRX_files\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>2ef396ef-822b-465a-ab37-0430e255f0eb</id>
+    </Content>
+    <Content Include="TPX-TRX_files\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b2f72766-51f1-451a-9fc1-6d51bef302fb</id>
+    </Content>
+    <Content Include="TPX_0021_DICOM_AuditLog.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>76deed80-ed6c-4ded-acff-6802465f92a5</id>
+    </Content>
+    <Content Include="TPX_0021_DICOM_AuditLog.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>03d9f803-0143-4902-ab79-cb775a90258d</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TPX-TRX_files">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>69d06c65-acec-4f59-956b-463d4db19aba</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>
