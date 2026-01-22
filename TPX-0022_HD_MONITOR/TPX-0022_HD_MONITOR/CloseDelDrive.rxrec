@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1aabe123-34ac-4e56-85fe-23ed221e12cf"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseDelDrive"
+	namespace="TPX_0022_HD_MONITOR">
+	</codegen>
+	<variables>
+		<var
+		id="a932f377-d449-47a9-b7a5-01c7efc2ae1e"
+		name="DelDriveProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="3dcede37-c1fc-4119-98d5-e75b3a949492">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="DelDriveProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="c8d1a430-2206-4321-a0a8-6daa081f8351"
+	name="TPX_0022_HD_MONITORRepository"
+	relativepath="TPX_0022_HD_MONITORRepository.rxrep">
+		<codegen
+		classname="TPX_0022_HD_MONITORRepository"
+		namespace="TPX_0022_HD_MONITOR">
+		</codegen>
+		<rootfolder
+		id="234a75c7-e2f5-4042-aef4-d26f154666c6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseDelDrive.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

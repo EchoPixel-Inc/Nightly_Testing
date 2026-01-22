@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{5432DB3E-D520-40A1-BD9A-1844FB2A94A4}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TPX_0022_HD_MONITOR</RootNamespace>
+    <AssemblyName>TPX-0022_HD_MONITOR</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>a926a718-6e45-498e-a4af-0e742abb01ba</projectdefaultrepository>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDriveAgain.cs">
+      <BoundTo>7d97de63-5476-447a-acea-35d52b62f625</BoundTo>
+      <DependentUpon>AddDriveAgain.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9507ddaa-06be-4227-b44b-065efa269fbb</id>
+    </Compile>
+    <Compile Include="AddDriveAgain.UserCode.cs">
+      <BoundTo>7d97de63-5476-447a-acea-35d52b62f625</BoundTo>
+      <DependentUpon>AddDriveAgain.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f66c4a24-df1f-4b47-91d0-7b9d71407baa</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>f3022289-207a-4031-9b4e-18bba9debbcb</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>988513e4-b84b-4c1e-8df3-16f8849b8b07</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aec617a8-6e93-433a-9b66-3fcfd3f5d8b5</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>988513e4-b84b-4c1e-8df3-16f8849b8b07</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a8885fdb-b1d2-421d-a5f3-004b0d540d8b</id>
+    </Compile>
+    <Compile Include="CloseLowDisk.cs">
+      <BoundTo>1bc3257c-4cc4-46ba-b489-9ebafa39ea7b</BoundTo>
+      <DependentUpon>CloseLowDisk.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>55784deb-0f9d-49a0-9419-4dbd8c4f6eba</id>
+    </Compile>
+    <Compile Include="CloseLowDisk.UserCode.cs">
+      <BoundTo>1bc3257c-4cc4-46ba-b489-9ebafa39ea7b</BoundTo>
+      <DependentUpon>CloseLowDisk.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5fbb110a-0dee-4eaa-8885-26f75d9a1646</id>
+    </Compile>
+    <Compile Include="DeleteDrive.cs">
+      <BoundTo>cce0836e-95a1-485c-b06c-d837378f5591</BoundTo>
+      <DependentUpon>DeleteDrive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6504847b-83d3-4bbd-b97c-51736bc746d2</id>
+    </Compile>
+    <Compile Include="DeleteDrive.UserCode.cs">
+      <BoundTo>cce0836e-95a1-485c-b06c-d837378f5591</BoundTo>
+      <DependentUpon>DeleteDrive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>db683c00-7edc-4e11-8a4d-0e943ef56a93</id>
+    </Compile>
+    <Compile Include="LowDisk.cs">
+      <BoundTo>34b485d7-e675-44bf-8b69-dac1518a1cf7</BoundTo>
+      <DependentUpon>LowDisk.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b4743f3d-24e7-4092-ad71-a35cf957721b</id>
+    </Compile>
+    <Compile Include="LowDisk.UserCode.cs">
+      <BoundTo>34b485d7-e675-44bf-8b69-dac1518a1cf7</BoundTo>
+      <DependentUpon>LowDisk.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b80eef2d-51ea-4053-9b78-c17b4d954d0d</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>414f60a1-848b-4655-9859-ab159de0ee59</id>
+    </Compile>
+    <Compile Include="AddDrive.cs">
+      <BoundTo>42efc0e4-aa50-4461-82ad-53c5f460ca7d</BoundTo>
+      <DependentUpon>AddDrive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>da688d02-864d-4588-a66c-d0521816c192</id>
+    </Compile>
+    <Compile Include="AddDrive.UserCode.cs">
+      <BoundTo>42efc0e4-aa50-4461-82ad-53c5f460ca7d</BoundTo>
+      <DependentUpon>AddDrive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8036fb03-216d-48b4-aecb-3406bb04e371</id>
+    </Compile>
+    <Compile Include="CloseDelDrive.cs">
+      <BoundTo>3d933198-5043-4505-8a25-ce0b27f6d31f</BoundTo>
+      <DependentUpon>CloseDelDrive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c321d8cc-2301-49b8-847a-c9797ebb22d2</id>
+    </Compile>
+    <Compile Include="CloseDelDrive.UserCode.cs">
+      <BoundTo>3d933198-5043-4505-8a25-ce0b27f6d31f</BoundTo>
+      <DependentUpon>CloseDelDrive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7a72b1b5-99d5-46df-9d11-0aeffb710635</id>
+    </Compile>
+    <Compile Include="StartAUT.cs">
+      <BoundTo>1e1bbab6-c75d-4ad5-8a18-1f4f89c74882</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>afa933ea-afbd-4274-af9b-a69379afabef</id>
+    </Compile>
+    <Compile Include="StartAUT.UserCode.cs">
+      <BoundTo>1e1bbab6-c75d-4ad5-8a18-1f4f89c74882</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6050f2b0-e406-4f7b-9a11-42fb86b74024</id>
+    </Compile>
+    <Compile Include="StartDelDrive.cs">
+      <BoundTo>434304b5-6c63-4066-b25b-f73ddabca115</BoundTo>
+      <DependentUpon>StartDelDrive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>12407f22-a8e9-436d-8c46-f270f4632597</id>
+    </Compile>
+    <Compile Include="StartDelDrive.UserCode.cs">
+      <BoundTo>434304b5-6c63-4066-b25b-f73ddabca115</BoundTo>
+      <DependentUpon>StartDelDrive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>04614901-5f88-42e1-91f5-8e01ac6e57b5</id>
+    </Compile>
+    <Compile Include="StartLowDisk.cs">
+      <BoundTo>7504f3ff-ad95-436f-a78d-9857fd029e4e</BoundTo>
+      <DependentUpon>StartLowDisk.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>595506be-adc6-4dfb-8f71-e6fd5f6c7ca1</id>
+    </Compile>
+    <Compile Include="StartLowDisk.UserCode.cs">
+      <BoundTo>7504f3ff-ad95-436f-a78d-9857fd029e4e</BoundTo>
+      <DependentUpon>StartLowDisk.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d5c16aac-dbc4-48e2-b9bb-5402c78bfe21</id>
+    </Compile>
+    <Compile Include="TPX_0022_HD_MONITORRepository.cs">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <DependentUpon>TPX_0022_HD_MONITORRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>05cbb8de-58f6-4ada-b3a6-ac533ab9c812</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AddDriveAgain.rxrec">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <id>7d97de63-5476-447a-acea-35d52b62f625</id>
+      <recordtableid>7a61a9c4-49d2-48d6-a5b8-3ad6b3f6f35a</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>95ed03be-4f5e-4e47-860f-b89573afd01c</id>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <id>988513e4-b84b-4c1e-8df3-16f8849b8b07</id>
+      <recordtableid>3f76dd36-51a2-43a2-8e30-e8794e4cfbed</recordtableid>
+    </None>
+    <None Include="AddDrive.rxrec">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <id>42efc0e4-aa50-4461-82ad-53c5f460ca7d</id>
+      <recordtableid>42c30593-56d9-4120-a4c3-25cbcf943188</recordtableid>
+    </None>
+    <None Include="CloseLowDisk.rxrec">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <id>1bc3257c-4cc4-46ba-b489-9ebafa39ea7b</id>
+      <recordtableid>25938433-4bde-46ac-bf3d-ce126a232de9</recordtableid>
+    </None>
+    <None Include="DeleteDrive.rxrec">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <id>cce0836e-95a1-485c-b06c-d837378f5591</id>
+      <recordtableid>4ee73e31-cb73-44cb-a6d8-f4b5b8e6e3fc</recordtableid>
+    </None>
+    <None Include="CloseDelDrive.rxrec">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <id>3d933198-5043-4505-8a25-ce0b27f6d31f</id>
+      <recordtableid>1aabe123-34ac-4e56-85fe-23ed221e12cf</recordtableid>
+    </None>
+    <None Include="LowDisk.rxrec">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <id>34b485d7-e675-44bf-8b69-dac1518a1cf7</id>
+      <recordtableid>7a3e9b94-71ae-4b47-8759-a5c73d22cee2</recordtableid>
+    </None>
+    <None Include="StartAUT.rxrec">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <id>1e1bbab6-c75d-4ad5-8a18-1f4f89c74882</id>
+      <recordtableid>7516c32c-025f-4a9d-9668-5c0e145715fb</recordtableid>
+    </None>
+    <None Include="StartDelDrive.rxrec">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <id>434304b5-6c63-4066-b25b-f73ddabca115</id>
+      <recordtableid>62eabf00-6c2c-4afd-8e98-7f881e843804</recordtableid>
+    </None>
+    <None Include="StartLowDisk.rxrec">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <id>7504f3ff-ad95-436f-a78d-9857fd029e4e</id>
+      <recordtableid>6a92e674-0346-4afd-aa2d-2efbc8385132</recordtableid>
+    </None>
+    <None Include="TPX-TRX_files\epx_logo.png">
+      <id>18b19920-6953-4b78-9e71-61829b66e183</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TPX_0022_HD_MONITORRepository.rximg">
+      <BoundTo>a926a718-6e45-498e-a4af-0e742abb01ba</BoundTo>
+      <DependentUpon>TPX_0022_HD_MONITORRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>e8530c04-01f6-4bf8-8f89-af5aac923401</id>
+    </None>
+    <None Include="TPX_0022_HD_MONITORRepository.rxrep">
+      <id>a926a718-6e45-498e-a4af-0e742abb01ba</id>
+      <repoid>c8d1a430-2206-4321-a0a8-6daa081f8351</repoid>
+      <reporootid>234a75c7-e2f5-4042-aef4-d26f154666c6</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TPX-TRX_files\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7cb7b59c-759b-4828-9c38-4bec9e17e6f8</id>
+    </Content>
+    <Content Include="TPX-TRX_files\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e4317579-2b27-4721-bfa1-0d470b25880e</id>
+    </Content>
+    <Content Include="TPX-TRX_files\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>85cc293c-358b-4e0a-9987-96d81b159dbe</id>
+    </Content>
+    <Content Include="TPX-TRX_files\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>cfefad04-9089-43fd-b90d-afe511cace29</id>
+    </Content>
+    <Content Include="TPX-TRX_files\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>473ad096-9198-4646-afa0-35bc58e350cc</id>
+    </Content>
+    <Content Include="TPX_0022_HD_MONITOR.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f56a97ac-01ec-4501-b183-8d99fd475982</id>
+    </Content>
+    <Content Include="TPX_0022_HD_MONITOR.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>d3636e37-083b-4530-83ba-aa60882062a5</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TPX-TRX_files">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>ce7655ee-2132-4d53-a893-aae062e769df</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

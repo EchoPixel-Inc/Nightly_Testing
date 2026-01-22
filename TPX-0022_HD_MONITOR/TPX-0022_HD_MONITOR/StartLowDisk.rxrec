@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6a92e674-0346-4afd-aa2d-2efbc8385132"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartLowDisk"
+	namespace="TPX_0022_HD_MONITOR">
+	</codegen>
+	<variables>
+		<var
+		id="c8184f61-b9e3-41b5-b241-5f6d487a73ed"
+		name="LowDiskProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="LowDiskProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				&quot;C:\Program Files\Echopixel\True 3D Viewer - Develop\bin\epxMain.exe&quot;
+			</filename>
+			<workingdir>
+				C:\Program Files\Echopixel\True 3D Viewer - Develop\bin
+			</workingdir>
+			<args>
+				-i -login admin -password admin
+			</args>
+		</runapprecorditem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="c8d1a430-2206-4321-a0a8-6daa081f8351"
+	name="TPX_0022_HD_MONITORRepository"
+	relativepath="TPX_0022_HD_MONITORRepository.rxrep">
+		<codegen
+		classname="TPX_0022_HD_MONITORRepository"
+		namespace="TPX_0022_HD_MONITOR">
+		</codegen>
+		<rootfolder
+		id="234a75c7-e2f5-4042-aef4-d26f154666c6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartLowDisk.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="25938433-4bde-46ac-bf3d-ce126a232de9"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseLowDisk"
+	namespace="TPX_0022_HD_MONITOR">
+	</codegen>
+	<variables>
+		<var
+		id="27e2e05e-9a25-4807-b525-5cf46e82b8fc"
+		name="LowDiskProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="5f08e3e3-86c3-4ea1-9379-57e4e2f339fe">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="LowDiskProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="c8d1a430-2206-4321-a0a8-6daa081f8351"
+	name="TPX_0022_HD_MONITORRepository"
+	relativepath="TPX_0022_HD_MONITORRepository.rxrep">
+		<codegen
+		classname="TPX_0022_HD_MONITORRepository"
+		namespace="TPX_0022_HD_MONITOR">
+		</codegen>
+		<rootfolder
+		id="234a75c7-e2f5-4042-aef4-d26f154666c6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseLowDisk.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

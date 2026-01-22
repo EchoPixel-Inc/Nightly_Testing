@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3f76dd36-51a2-43a2-8e30-e8794e4cfbed"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TPX_0022_HD_MONITOR">
+	</codegen>
+	<variables>
+		<var
+		id="ec933837-0197-4b90-ba1a-36b6846f8e2a"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="4a209abe-1412-49f7-a00d-5e69a93c7417">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="c8d1a430-2206-4321-a0a8-6daa081f8351"
+	name="TPX_0022_HD_MONITORRepository"
+	relativepath="TPX_0022_HD_MONITORRepository.rxrep">
+		<codegen
+		classname="TPX_0022_HD_MONITORRepository"
+		namespace="TPX_0022_HD_MONITOR">
+		</codegen>
+		<rootfolder
+		id="234a75c7-e2f5-4042-aef4-d26f154666c6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
