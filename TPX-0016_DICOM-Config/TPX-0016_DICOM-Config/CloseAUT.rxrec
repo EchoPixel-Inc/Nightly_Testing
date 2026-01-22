@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c9c08aaf-a679-4503-b238-cce1a641317c"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TPX_0016_DICOM_Config">
+	</codegen>
+	<variables>
+		<var
+		id="097e287b-7315-451c-85ab-4fb0c63b938b"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="4c4663bf-6629-4a63-8635-78170c4cfd43">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="c5ffb08f-154d-4034-9443-9d5831ede0ac"
+	name="TPX_0016_DICOM_ConfigRepository"
+	relativepath="TPX_0016_DICOM_ConfigRepository.rxrep">
+		<codegen
+		classname="TPX_0016_DICOM_ConfigRepository"
+		namespace="TPX_0016_DICOM_Config">
+		</codegen>
+		<rootfolder
+		id="69c1c99f-58b1-4388-b94b-24d31512fe26"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
