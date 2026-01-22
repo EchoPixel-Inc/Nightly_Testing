@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{C388B87C-8576-42A6-B45D-666B34200147}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TPX_0023_HD_MONITOR_MISSING</RootNamespace>
+    <AssemblyName>TPX-0023_HD_MONITOR_MISSING</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>631ec9fc-73e7-4694-9bee-e30cd418ee3b</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>1450dd9e-fbd1-41f1-bc53-68375198deeb</id>
+    </Compile>
+    <Compile Include="CleanUp.cs">
+      <BoundTo>ede746ec-837d-4af0-ba17-74ec156d9d9d</BoundTo>
+      <DependentUpon>CleanUp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>623af32d-62f1-4135-ac1e-681530584d6b</id>
+    </Compile>
+    <Compile Include="CleanUp.UserCode.cs">
+      <BoundTo>ede746ec-837d-4af0-ba17-74ec156d9d9d</BoundTo>
+      <DependentUpon>CleanUp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>de1a90b7-3e54-4f72-b653-7468179dd273</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>2d45ac27-87a6-4126-86f8-7f8d9cfcf343</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c46a0d9b-a9c5-4c8f-8bd3-10f88df7cff6</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>2d45ac27-87a6-4126-86f8-7f8d9cfcf343</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>85c4186f-bec9-42b1-ae9f-31134f6db54e</id>
+    </Compile>
+    <Compile Include="CloseCleanUp.cs">
+      <BoundTo>32ffeedd-cbe2-4547-a3cf-36ebc885289b</BoundTo>
+      <DependentUpon>CloseCleanUp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>87398b3e-7ab1-454f-8620-b890d57dc94a</id>
+    </Compile>
+    <Compile Include="CloseCleanUp.UserCode.cs">
+      <BoundTo>32ffeedd-cbe2-4547-a3cf-36ebc885289b</BoundTo>
+      <DependentUpon>CloseCleanUp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a904624b-fa90-4140-b0f8-03a337aa47b2</id>
+    </Compile>
+    <Compile Include="NoDiskDiagnostic.cs">
+      <BoundTo>1d742516-00b4-4642-8810-3acc9306a04e</BoundTo>
+      <DependentUpon>NoDiskDiagnostic.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3a67a3f-75a1-4804-9fb8-66f6116a2b52</id>
+    </Compile>
+    <Compile Include="NoDiskDiagnostic.UserCode.cs">
+      <BoundTo>1d742516-00b4-4642-8810-3acc9306a04e</BoundTo>
+      <DependentUpon>NoDiskDiagnostic.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e62f15c1-de03-44b4-9916-d19cda5289e6</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>045ceffe-0fb4-44ff-bb18-56de1a359e7c</id>
+    </Compile>
+    <Compile Include="NoDisk.cs">
+      <BoundTo>37f747fe-5702-4d39-9ba8-10c839259d4d</BoundTo>
+      <DependentUpon>NoDisk.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3746939-1a75-466a-bb75-7d2673a5a34b</id>
+    </Compile>
+    <Compile Include="NoDisk.UserCode.cs">
+      <BoundTo>37f747fe-5702-4d39-9ba8-10c839259d4d</BoundTo>
+      <DependentUpon>NoDisk.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>766e60bc-935f-42a0-8d05-dbb98b010108</id>
+    </Compile>
+    <Compile Include="StartAUT.cs">
+      <BoundTo>ef62f50a-5a94-4967-a857-ea5a9e99bccd</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>80d716f9-c5bf-4de1-9676-32ee7c3ebf4a</id>
+    </Compile>
+    <Compile Include="StartAUT.UserCode.cs">
+      <BoundTo>ef62f50a-5a94-4967-a857-ea5a9e99bccd</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>00511d7f-27e9-457a-9134-cdb322fb37d5</id>
+    </Compile>
+    <Compile Include="StartCleanUp.cs">
+      <BoundTo>28aa7cfb-3b02-4f13-ab4a-ce57061acfd5</BoundTo>
+      <DependentUpon>StartCleanUp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6604ff24-3905-4e9d-a3c6-d40cbd6c2983</id>
+    </Compile>
+    <Compile Include="StartCleanUp.UserCode.cs">
+      <BoundTo>28aa7cfb-3b02-4f13-ab4a-ce57061acfd5</BoundTo>
+      <DependentUpon>StartCleanUp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>70501968-8563-4561-8734-141a7df2a4a6</id>
+    </Compile>
+    <Compile Include="TPX_0023_HD_MONITOR_MISSINGRepository.cs">
+      <BoundTo>631ec9fc-73e7-4694-9bee-e30cd418ee3b</BoundTo>
+      <DependentUpon>TPX_0023_HD_MONITOR_MISSINGRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>9cf72f6e-049d-4173-b887-f5029e26895b</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>b9e7cbe5-8409-4453-ae25-80876836108b</id>
+    </None>
+    <None Include="CleanUp.rxrec">
+      <BoundTo>631ec9fc-73e7-4694-9bee-e30cd418ee3b</BoundTo>
+      <id>ede746ec-837d-4af0-ba17-74ec156d9d9d</id>
+      <recordtableid>2be69b6a-47f8-49cb-bc7f-d4b7c470ebdf</recordtableid>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>631ec9fc-73e7-4694-9bee-e30cd418ee3b</BoundTo>
+      <id>2d45ac27-87a6-4126-86f8-7f8d9cfcf343</id>
+      <recordtableid>f363386a-f53f-4997-bf88-ddbe6f11ec58</recordtableid>
+    </None>
+    <None Include="CloseCleanUp.rxrec">
+      <BoundTo>631ec9fc-73e7-4694-9bee-e30cd418ee3b</BoundTo>
+      <id>32ffeedd-cbe2-4547-a3cf-36ebc885289b</id>
+      <recordtableid>39bb6466-bec9-499f-8259-db7865de9119</recordtableid>
+    </None>
+    <None Include="NoDisk.rxrec">
+      <BoundTo>631ec9fc-73e7-4694-9bee-e30cd418ee3b</BoundTo>
+      <id>37f747fe-5702-4d39-9ba8-10c839259d4d</id>
+      <recordtableid>845606f6-c388-4188-adc1-859cff483a89</recordtableid>
+    </None>
+    <None Include="NoDiskDiagnostic.rxrec">
+      <BoundTo>631ec9fc-73e7-4694-9bee-e30cd418ee3b</BoundTo>
+      <id>1d742516-00b4-4642-8810-3acc9306a04e</id>
+      <recordtableid>1bb67aaf-296e-46a8-aa29-fea58ebeaf4b</recordtableid>
+    </None>
+    <None Include="StartAUT.rxrec">
+      <BoundTo>631ec9fc-73e7-4694-9bee-e30cd418ee3b</BoundTo>
+      <id>ef62f50a-5a94-4967-a857-ea5a9e99bccd</id>
+      <recordtableid>8ad23b03-dada-4a02-9b74-637564359a76</recordtableid>
+    </None>
+    <None Include="StartCleanUp.rxrec">
+      <BoundTo>631ec9fc-73e7-4694-9bee-e30cd418ee3b</BoundTo>
+      <id>28aa7cfb-3b02-4f13-ab4a-ce57061acfd5</id>
+      <recordtableid>f95755b7-fa83-48c5-8605-f7418969d16b</recordtableid>
+    </None>
+    <None Include="TPX-TRX_files\epx_logo.png">
+      <id>0211ac35-1268-4d02-994d-28befd33adae</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TPX_0023_HD_MONITOR_MISSINGRepository.rximg">
+      <BoundTo>631ec9fc-73e7-4694-9bee-e30cd418ee3b</BoundTo>
+      <DependentUpon>TPX_0023_HD_MONITOR_MISSINGRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>cb02e4bf-b142-4bf5-bf7f-aba3ee746625</id>
+    </None>
+    <None Include="TPX_0023_HD_MONITOR_MISSINGRepository.rxrep">
+      <id>631ec9fc-73e7-4694-9bee-e30cd418ee3b</id>
+      <repoid>b5935894-5206-4809-9db9-b5202c92583f</repoid>
+      <reporootid>e5a67653-6d78-4f6a-85ea-b36d621a45d7</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TPX-TRX_files\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>12f3c263-3022-43ff-92c3-963fa5d5cec6</id>
+    </Content>
+    <Content Include="TPX-TRX_files\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0508e822-4f79-4710-b977-c6e17c3fbcc6</id>
+    </Content>
+    <Content Include="TPX-TRX_files\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>2739a9d9-ef2c-45a3-961d-7552ea1b09be</id>
+    </Content>
+    <Content Include="TPX-TRX_files\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>42007ffc-453a-45c9-937f-ba167f8b9079</id>
+    </Content>
+    <Content Include="TPX-TRX_files\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>4658f681-f759-4f90-983a-6129afc57544</id>
+    </Content>
+    <Content Include="TPX_0023_HD_MONITOR_MISSING.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>d8bd281e-b542-4ccf-84d3-2dde657584ac</id>
+    </Content>
+    <Content Include="TPX_0023_HD_MONITOR_MISSING.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>5c31ea5a-0344-4522-89b3-6b23a71c36f6</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TPX-TRX_files">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>36f32bf0-1857-4628-9902-42b07aaadd8a</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

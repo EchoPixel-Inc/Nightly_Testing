@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f363386a-f53f-4997-bf88-ddbe6f11ec58"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TPX_0023_HD_MONITOR_MISSING">
+	</codegen>
+	<variables>
+		<var
+		id="c2ab9779-c5fd-4fda-976b-463496550cbb"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="3a250ab9-3360-4fcb-856e-87d9da478cd2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="b5935894-5206-4809-9db9-b5202c92583f"
+	name="TPX_0023_HD_MONITOR_MISSINGRepository"
+	relativepath="TPX_0023_HD_MONITOR_MISSINGRepository.rxrep">
+		<codegen
+		classname="TPX_0023_HD_MONITOR_MISSINGRepository"
+		namespace="TPX_0023_HD_MONITOR_MISSING">
+		</codegen>
+		<rootfolder
+		id="e5a67653-6d78-4f6a-85ea-b36d621a45d7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

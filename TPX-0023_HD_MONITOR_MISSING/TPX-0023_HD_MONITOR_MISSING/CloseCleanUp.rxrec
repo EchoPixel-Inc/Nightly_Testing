@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="39bb6466-bec9-499f-8259-db7865de9119"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseCleanUp"
+	namespace="TPX_0023_HD_MONITOR_MISSING">
+	</codegen>
+	<variables>
+		<var
+		id="e924ff32-8b6f-4893-af5d-d6b842114c6a"
+		name="CleanUpProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="755e995a-6d8e-4d24-ba55-52d4b202084a">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CleanUpProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="b5935894-5206-4809-9db9-b5202c92583f"
+	name="TPX_0023_HD_MONITOR_MISSINGRepository"
+	relativepath="TPX_0023_HD_MONITOR_MISSINGRepository.rxrep">
+		<codegen
+		classname="TPX_0023_HD_MONITOR_MISSINGRepository"
+		namespace="TPX_0023_HD_MONITOR_MISSING">
+		</codegen>
+		<rootfolder
+		id="e5a67653-6d78-4f6a-85ea-b36d621a45d7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseCleanUp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
