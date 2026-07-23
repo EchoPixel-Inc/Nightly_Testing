@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightly Test Summary</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
+        header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #333; padding-bottom: 10px; margin-bottom: 20px; }
+        .title-block { display: flex; flex-direction: column; }
+        h1 { margin: 0; color: #333; }
+        .date { color: #666; font-style: italic; margin-top: 5px; }
+        img.logo { max-height: 60px; }
+        
+        table { width: 100%; border-collapse: collapse; background-color: white; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #333; color: white; }
+        tr:hover { background-color: #f1f1f1; }
+        
+        .summary-table { width: 50%; }
+        .summary-table th { background-color: #0056b3; }
+        
+        .fail-text { color: red; }
+        .fail-text-bold { color: red; font-weight: bold; }
+        .success-text-bold { color: green; font-weight: bold; }
+        
+        a { text-decoration: none; color: #007bff; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="title-block">
+            <h1>Nightly Test Summary</h1>
+            <span class="date">2026-07-22 16:18:04</span>
+        </div>
+        <img src="epx_logo.png" alt="Logo" class="logo">
+    </header>
+
+    <table class="summary-table">
+        <thead>
+            <tr>
+                <th>Total PASS</th>
+                <th>Total FAIL</th>
+                <th>Success Rate (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>31</td>
+                <td>0</td>
+                <td class="success-text-bold">100.00%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ccc;">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Test</th>
+                <th>Name</th>
+                <th>Fail</th>
+                <th>Pass</th>
+                <th>Duration</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td><a href="TPX-0022_HD_MONITOR\TRX_0022_HD_MONITOR_RevA_20260722.html">TPX - 0022</a></td>
+                <td>DICOM HD Monitor</td>
+                <td >0</td>
+                <td>3</td>
+                <td>1.8m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0023_HD_MONITOR_MISSING\TRX_0023_HD_MONITOR_MISSING_RevA_20260722.html">TPX - 0023</a></td>
+                <td>DICOM HD MONITOR MISSING</td>
+                <td >0</td>
+                <td>3</td>
+                <td>2.4m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0026_System\TRX_0026_SYSTEM_RevA_20260722.html">TPX - 0026</a></td>
+                <td>System</td>
+                <td >0</td>
+                <td>25</td>
+                <td>9.3m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+        </tbody>
+    </table>
+
+</body>
+</html>
+    
