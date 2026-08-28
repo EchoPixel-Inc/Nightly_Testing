@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightly Test Summary</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
+        header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #333; padding-bottom: 10px; margin-bottom: 20px; }
+        .title-block { display: flex; flex-direction: column; }
+        h1 { margin: 0; color: #333; }
+        .date { color: #666; font-style: italic; margin-top: 5px; }
+        img.logo { max-height: 60px; }
+        
+        table { width: 100%; border-collapse: collapse; background-color: white; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #333; color: white; }
+        tr:hover { background-color: #f1f1f1; }
+        
+        .summary-table { width: 50%; }
+        .summary-table th { background-color: #0056b3; }
+        
+        .fail-text { color: red; }
+        .fail-text-bold { color: red; font-weight: bold; }
+        .success-text-bold { color: green; font-weight: bold; }
+        
+        a { text-decoration: none; color: #007bff; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="title-block">
+            <h1>Nightly Test Summary</h1>
+            <span class="date">2026-08-27 19:14:18</span>
+        </div>
+        <img src="epx_logo.png" alt="Logo" class="logo">
+    </header>
+
+    <table class="summary-table">
+        <thead>
+            <tr>
+                <th>Total PASS</th>
+                <th>Total FAIL</th>
+                <th>Success Rate (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>684</td>
+                <td>0</td>
+                <td class="success-text-bold">100.00%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ccc;">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Test</th>
+                <th>Name</th>
+                <th>Fail</th>
+                <th>Pass</th>
+                <th>Duration</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td><a href="epxSCH-001_DICOM_PUSH\TestRun_20260824.html">Unknown</a></td>
+                <td>Unknown</td>
+                <td >0</td>
+                <td>1</td>
+                <td>4.6m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="epxSCH-001_DICOM_PUSH\TestRun_20260827.html">Unknown</a></td>
+                <td>Unknown</td>
+                <td >0</td>
+                <td>1</td>
+                <td>4.6m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0002-HW_Reqs\TRX_0002_HW_Reqs_RevA_20260824.html">TPX - 0002</a></td>
+                <td>Test System Hardware Requirements</td>
+                <td >0</td>
+                <td>21</td>
+                <td>1.5m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0002-HW_Reqs\TRX_0002_HW_Reqs_RevA_20260827.html">TPX - 0002</a></td>
+                <td>Test System Hardware Requirements</td>
+                <td >0</td>
+                <td>21</td>
+                <td>1.4m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0003-zSpaceTracker\TRX_0003_RevA_zSpaceTracker_20260824.html">TPX - 0003</a></td>
+                <td>zSpace Tracker</td>
+                <td >0</td>
+                <td>5</td>
+                <td>11.75s</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0003-zSpaceTracker\TRX_0003_RevA_zSpaceTracker_20260827.html">TPX - 0003</a></td>
+                <td>zSpace Tracker</td>
+                <td >0</td>
+                <td>5</td>
+                <td>11.77s</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0004_TestData\TRX_0004_RevA_TestData_20260824.html">TPX - 0004</a></td>
+                <td>Local HD Test Data (DICOM)</td>
+                <td >0</td>
+                <td>63</td>
+                <td>54.4m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0004_TestData\TRX_0004_RevA_TestData_20260827.html">TPX - 0004</a></td>
+                <td>Local HD Test Data (DICOM)</td>
+                <td >0</td>
+                <td>63</td>
+                <td>54.5m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0005-SurfaceTestFiles\TRX_0005_SurfaceFiles_RevA_20260824.html">TPX - 0005</a></td>
+                <td>Surface Test Files(DICOM)</td>
+                <td >0</td>
+                <td>29</td>
+                <td>9.7m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0005-SurfaceTestFiles\TRX_0005_SurfaceFiles_RevA_20260827.html">TPX - 0005</a></td>
+                <td>Surface Test Files(DICOM)</td>
+                <td >0</td>
+                <td>29</td>
+                <td>9.6m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0006-XML_Test_Files\TRX_0006_XMLTestData_RevA_20260824.html">TPX - 0006</a></td>
+                <td>XML Test Data (DICOM)</td>
+                <td >0</td>
+                <td>23</td>
+                <td>1.9m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0006-XML_Test_Files\TRX_0006_XMLTestData_RevA_20260827.html">TPX - 0006</a></td>
+                <td>XML Test Data (DICOM)</td>
+                <td >0</td>
+                <td>23</td>
+                <td>1.9m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0007-LocalClientPACSData\TRX_0007_LocalClientPACSData_RevA_20260824.html">TPX - 0007</a></td>
+                <td>Local Client PACS Test Data (DICOM)</td>
+                <td >0</td>
+                <td>25</td>
+                <td>6.6m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0007-LocalClientPACSData\TRX_0007_LocalClientPACSData_RevA_20260827.html">TPX - 0007</a></td>
+                <td>Local Client PACS Test Data (DICOM)</td>
+                <td >0</td>
+                <td>25</td>
+                <td>6.6m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0008-LocalPatienBrowserData\TRX_0008_LocalPatientBrowserData_RevA_20260824.html">TPX - 0008</a></td>
+                <td>Local Patient Browser Data (DICOM)</td>
+                <td >0</td>
+                <td>19</td>
+                <td>4.8m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0008-LocalPatienBrowserData\TRX_0008_LocalPatientBrowserData_RevA_20260827.html">TPX - 0008</a></td>
+                <td>Local Patient Browser Data (DICOM)</td>
+                <td >0</td>
+                <td>19</td>
+                <td>4.7m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0009-RemotePACS_Orthanc\TRX_0009_RemotePACS_Orthanc_RevA_20260824.html">TPX - 0009</a></td>
+                <td>Remote PACS Orthanc Test Data (DICOM)</td>
+                <td >0</td>
+                <td>16</td>
+                <td>6.1m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0009-RemotePACS_Orthanc\TRX_0009_RemotePACS_Orthanc_RevA_20260827.html">TPX - 0009</a></td>
+                <td>Remote PACS Orthanc Test Data (DICOM)</td>
+                <td >0</td>
+                <td>16</td>
+                <td>6.1m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0010-RemotePACS_DVTK\TRX_0010_RemotePACS_DVTK_RevA_20260824.html">TPX - 0010</a></td>
+                <td>Remote PACS DVTK Test Data (DICOM)</td>
+                <td >0</td>
+                <td>8</td>
+                <td>1.3m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0010-RemotePACS_DVTK\TRX_0010_RemotePACS_DVTK_RevA_20260827.html">TPX - 0010</a></td>
+                <td>Remote PACS DVTK Test Data (DICOM)</td>
+                <td >0</td>
+                <td>8</td>
+                <td>1.3m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0012_LBL_0004\TRX_0012_LBL_0004_RevA_20260824.html">TPX - 0012</a></td>
+                <td>LBL - 0004</td>
+                <td >0</td>
+                <td>5</td>
+                <td>56.57s</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0012_LBL_0004\TRX_0012_LBL_0004_RevA_20260827.html">TPX - 0012</a></td>
+                <td>LBL - 0004</td>
+                <td >0</td>
+                <td>5</td>
+                <td>57.31s</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0015-BackgroundServices\TRX_0015_BackgroundServices_RevA_20260824.html">TPX - 0015</a></td>
+                <td>Background Services - DICOM</td>
+                <td >0</td>
+                <td>5</td>
+                <td>5.6m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0015-BackgroundServices\TRX_0015_BackgroundServices_RevA_20260827.html">TPX - 0015</a></td>
+                <td>Background Services - DICOM</td>
+                <td >0</td>
+                <td>5</td>
+                <td>5.5m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0016_DICOM-Config\TRX_0016_DICOM_Config_RevA_20260824.html">TPX - 0016</a></td>
+                <td>DICOM/PACS Configuration (ECHOPIXEL)</td>
+                <td >0</td>
+                <td>15</td>
+                <td>3.1m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0016_DICOM-Config\TRX_0016_DICOM_Config_RevA_20260827.html">TPX - 0016</a></td>
+                <td>DICOM/PACS Configuration (ECHOPIXEL)</td>
+                <td >0</td>
+                <td>15</td>
+                <td>3.1m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0017_DICOM_Accept_Write\TRX_0017_DICOM_Accept_Write_RevA_20260824.html">TPX - 0017</a></td>
+                <td>DICOM Accept / Write</td>
+                <td >0</td>
+                <td>9</td>
+                <td>1.3m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0017_DICOM_Accept_Write\TRX_0017_DICOM_Accept_Write_RevA_20260827.html">TPX - 0017</a></td>
+                <td>DICOM Accept / Write</td>
+                <td >0</td>
+                <td>9</td>
+                <td>1.3m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0018_DICOM-STORE_RECEIVE\TRX_0018_DICOM_STORE_RECEIVE_RevA_20260824.html">TPX - 0018</a></td>
+                <td>DICOM STORE RECEIVE / Patient Browser</td>
+                <td >0</td>
+                <td>8</td>
+                <td>1.4m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0018_DICOM-STORE_RECEIVE\TRX_0018_DICOM_STORE_RECEIVE_RevA_20260827.html">TPX - 0018</a></td>
+                <td>DICOM STORE RECEIVE / Patient Browser</td>
+                <td >0</td>
+                <td>8</td>
+                <td>1.5m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0019_DCM_QR\TRX_0019_DICOM_QR_RevA_20260824.html">TPX - 0019</a></td>
+                <td>DICOM Query/Retrieve</td>
+                <td >0</td>
+                <td>14</td>
+                <td>7.2m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0019_DCM_QR\TRX_0019_DICOM_QR_RevA_20260827.html">TPX - 0019</a></td>
+                <td>DICOM Query/Retrieve</td>
+                <td >0</td>
+                <td>14</td>
+                <td>7.2m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0020_Import-Export\TRX_0020_Import_Export_RevA_20260824.html">TPX - 0020</a></td>
+                <td>Import / Export DICOM data to Patient Browser</td>
+                <td >0</td>
+                <td>37</td>
+                <td>17.7m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0020_Import-Export\TRX_0020_Import_Export_RevA_20260827.html">TPX - 0020</a></td>
+                <td>Import / Export DICOM data to Patient Browser</td>
+                <td >0</td>
+                <td>37</td>
+                <td>17.6m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0021_DICOM_AuditLog\TRX_0021_DICOM_AuditLog_RevA_20260824.html">TPX - 0021</a></td>
+                <td>DICOM Audit Log</td>
+                <td >0</td>
+                <td>9</td>
+                <td>51.19s</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0021_DICOM_AuditLog\TRX_0021_DICOM_AuditLog_RevA_20260827.html">TPX - 0021</a></td>
+                <td>DICOM Audit Log</td>
+                <td >0</td>
+                <td>9</td>
+                <td>50.99s</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0022_HD_MONITOR\TRX_0022_HD_MONITOR_RevA_20260824.html">TPX - 0022</a></td>
+                <td>DICOM HD Monitor</td>
+                <td >0</td>
+                <td>2</td>
+                <td>2.7m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0022_HD_MONITOR\TRX_0022_HD_MONITOR_RevA_20260827.html">TPX - 0022</a></td>
+                <td>DICOM HD Monitor</td>
+                <td >0</td>
+                <td>2</td>
+                <td>2.8m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0023_HD_MONITOR_MISSING\TRX_0023_HD_MONITOR_MISSING_RevA_20260824.html">TPX - 0023</a></td>
+                <td>DICOM HD MONITOR MISSING</td>
+                <td >0</td>
+                <td>3</td>
+                <td>2.6m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0023_HD_MONITOR_MISSING\TRX_0023_HD_MONITOR_MISSING_RevA_20260827.html">TPX - 0023</a></td>
+                <td>DICOM HD MONITOR MISSING</td>
+                <td >0</td>
+                <td>3</td>
+                <td>2.6m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0026_System\TRX_0026_SYSTEM_RevA_20260824.html">TPX - 0026</a></td>
+                <td>System</td>
+                <td >0</td>
+                <td>25</td>
+                <td>9.2m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+            <tr>
+                <td><a href="TPX-0026_System\TRX_0026_SYSTEM_RevA_20260827.html">TPX - 0026</a></td>
+                <td>System</td>
+                <td >0</td>
+                <td>25</td>
+                <td>9.4m</td>
+                <td class="success-text-bold">Success</td>
+            </tr>
+        
+        </tbody>
+    </table>
+
+</body>
+</html>
+    
